@@ -1,3 +1,5 @@
+// MAIN
+
 - HelmetWelcome
 +Day 1
 
@@ -870,6 +872,10 @@
 - Emote_ThumbsUp_Text
 +Ancient gestures 3
 
+
+
+// METACOINS RELATED
+
 - Unlock
 +UNLOCK FOR
 
@@ -963,6 +969,10 @@
 - WitchHat
 +Witch hat
 
+
+
+// SPONSORSHIP
+
 - NetworkBingoBongo_0_EmailTitle
 +Norf sponsorship opportunity!
 
@@ -978,19 +988,19 @@
 - NetworkBingoBongo_0_FailedEmailBody
 +Can you not read??! You uploaded a video with  a dead body!?\n\nWe told you <b>NOT to film any dead bodies</b> and you do just that?\n\nThe kids will never be the same, you know?
 
-- NetworkHoldTheBombo_9_EmailTitle
-+IMPORTANT! Try our award winning helmet!
+- NetworkWalletMoney_1_EmailTitle
++We're looking for someone rich..
 
-- NetworkHoldTheBombo_9_DealName
-+HoldTheBombo
+- NetworkWalletMoney_1_DealName
++MoneyMoney Net
 
-- NetworkHoldTheBombo_9_Description
-+Upload a video of someone holding a bomb to prove how safe our helmet is!
+- NetworkWalletMoney_1_Description
++We have some wealth to share. \nHowever we only want to give it to someone we KNOW is rich.\nHave a total of <b>{Amount}</b> to claim your reward
 
-- NetworkHoldTheBombo_9_SuccessEmailBody
-+You showed them the power of the bomb!
+- NetworkWalletMoney_1_SuccessEmailBody
++Your wealth has been noted and your reward is on the way!
 
-- NetworkHoldTheBombo_9_FailedEmailBody
+- NetworkWalletMoney_1_FailedEmailBody
 +LOCALIZATION ERROR
 
 - NetworkInterviewer_2_EmailTitle
@@ -1006,6 +1016,21 @@
 +Thank you for interviewing the creatures of the old world!
 
 - NetworkInterviewer_2_FailedEmailBody
++LOCALIZATION ERROR
+
+- NetworkTaunting_3_EmailTitle
++DANCE VIDEO SPONSORSHIP?!
+
+- NetworkTaunting_3_DealName
++Brave Net
+
+- NetworkTaunting_3_Description
++Perform our new dance in front of {Amount} monsters with our hit song playing!
+
+- NetworkTaunting_3_SuccessEmailBody
++Thank you for showing your bravery!
+
+- NetworkTaunting_3_FailedEmailBody
 +LOCALIZATION ERROR
 
 - NetworkJackass_4_EmailTitle
@@ -1038,33 +1063,20 @@
 - NetworkMultiMonsterInFrameAtOnce_5_FailedEmailBody
 +LOCALIZATION ERROR
 
-- NetworkTaunting_3_EmailTitle
-+DANCE VIDEO SPONSORSHIP?!
+- NetworkHoldTheBombo_9_EmailTitle
++IMPORTANT! Try our award winning helmet!
 
-- NetworkTaunting_3_DealName
-+Brave Net
+- NetworkHoldTheBombo_9_DealName
++HoldTheBombo
 
-- NetworkTaunting_3_Description
-+Perform our new dance in front of {Amount} monsters with our hit song playing!
+- NetworkHoldTheBombo_9_Description
++Upload a video of someone holding a bomb to prove how safe our helmet is!
 
-- NetworkTaunting_3_SuccessEmailBody
-+Thank you for showing your bravery!
+- NetworkHoldTheBombo_9_SuccessEmailBody
++You showed them the power of the bomb!
 
-- NetworkTaunting_3_FailedEmailBody
+- NetworkHoldTheBombo_9_FailedEmailBody
 +LOCALIZATION ERROR
 
-- NetworkWalletMoney_1_EmailTitle
-+We're looking for someone rich..
 
-- NetworkWalletMoney_1_DealName
-+MoneyMoney Net
-
-- NetworkWalletMoney_1_Description
-+We have some wealth to share. \nHowever we only want to give it to someone we KNOW is rich.\nHave a total of <b>{Amount}</b> to claim your reward
-
-- NetworkWalletMoney_1_SuccessEmailBody
-+Your wealth has been noted and your reward is on the way!
-
-- NetworkWalletMoney_1_FailedEmailBody
-+LOCALIZATION ERROR
-
+// COMMENTS
