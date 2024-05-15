@@ -1,6 +1,9 @@
 using BepInEx;
 using BepInEx.Logging;
 using MonoMod.RuntimeDetour.HookGen;
+using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Reflection;
 using TranslatedWarning.Patches;
 
@@ -13,6 +16,13 @@ namespace TranslatedWarning
         public static TranslatedWarning Instance { get; private set; } = null!;
         internal new static ManualLogSource Logger { get; private set; } = null!;
 
+
+
+        public List<string> commentList = new List<string>();
+
+        string[] values = new string[50];
+
+
         private void Awake()
         {
             Logger = base.Logger;
@@ -21,8 +31,10 @@ namespace TranslatedWarning
             HookAll();
 
             Logger.LogInfo($"{MyPluginInfo.PLUGIN_GUID} v{MyPluginInfo.PLUGIN_VERSION} has loaded!");
+
         }
 
+        
         internal static void HookAll()
         {
             Logger.LogDebug("Hooking...");
@@ -30,6 +42,8 @@ namespace TranslatedWarning
             DialogRipper.Init();
 
             Logger.LogDebug("Finished Hooking!");
+
+
         }
 
         internal static void UnhookAll()
