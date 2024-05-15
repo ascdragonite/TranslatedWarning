@@ -2331,97 +2331,97 @@
 +Ancient gestures 3
 
 - Unlock
-+UNLOCK FOR
++WORK
 
 - BalaclavaHat
-+Balaclava
++Father
 
 - BeanieHat
-+Beanie
++Cover
 
 - BucketHatHat
-+Bucket hat
++Cover
 
 - CatEarsHat
-+Cat ears
++About cats boring relationship
 
 - ChefHat
-+Chefs hat
++Burn the lid
 
 - FloppyHat
-+Floppy hat
++Adjustable hood chain
 
 - HomburgHat
-+Homburg
++Meat sandwich
 
 - Hair1Hat
-+Curly hair
++Lily
 
 - Hat_BowlerHat
-+Bowler hat
++That bad guy
 
 - Hat_CapHat
-+Cap
++Address list
 
 - Hat_ChildHat
-+Propeller hat
++Where is the teacher?
 
 - Hat_ClownHat
-+Clown hair
++Cute head
 
 - Hat_CowboyHat
-+Cowboy hat
++Request permission
 
 - Hat_CrownHat
-+Crown
++The right to profit
 
 - Hat_HaloHat
-+Halo
++Many years
 
 - Hat_HornsHat
-+Horns
++Old years
 
 - Hat_HotdogHat
-+Hotdog hat
++Sausage mixed with salad
 
 - Hat_JesterHat
-+Jesters hat
++Six hats
 
 - Hat_KnifoHat
-+Ghost hat
++Breath
 
 - Hat_MilkHat
-+Milk hat
++Cover your chest
 
 - Hat_NewsHat
-+Newsboy cap
++Newspaper front page
 
 - Hat_PirateHat
-+Pirate hat
++Sailor hat
 
 - Hat_RugbyHat
-+Sports helmet
++You play with a hat
 
 - Hat_SavannahHat
-+Savannah hair
++Princess Diana's hairstyle
 
 - Hat_TooopHat
-+Tooop hat
++Cover
 
 - Hat_TopHat
-+Top hat
++State of emergency
 
 - PartyHat
-+Party hat
++High
 
 - ShroomHat
-+Shroom hat
++Belly hat
 
 - UshankaHat
-+Ushanka
++Russian hat
 
 - WitchHat
-+Witch hat
++Magic hat
 
 - NetworkBingoBongo_0_EmailTitle
 +Norf sponsorship opportunity!
