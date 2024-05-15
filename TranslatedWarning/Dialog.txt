@@ -919,7 +919,7 @@
 +Request permission
 
 - Hat_CrownHat
-+CrownThe right to profit
++The right to profit
 
 - Hat_HaloHat
 +Many years
