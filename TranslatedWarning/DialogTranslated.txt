@@ -1,876 +1,877 @@
 // MAIN
 
 - HelmetWelcome
-+Day 1
++First day
 
 - HelmetFailed
-+You Failed To Become Succesful!
++I do not know what you are talking about!
 
 - Sleep
-+Sleep
++It happens often
 
 - Day
-+Day {0}
++By noon {0}
 
 - Views
-+Views
++holiday
 
 - Quota
-+Quota
++Hyde continued.
 
 - Money
-+Money
++Wealth
 
 - Empty
-+Empty
++What do you mean, what do you mean?
 
 - Save
-+Save
++I called you
 
 - DivingBellNotReadyMissingPlayersState
-+Not all suits are inside
++Price does not include all clothes.
 
 - DivingBellNotReadyDoorOpenState
-+Close the door!
++Go to the door!
 
 - DivingBellReady
-+Ready to submerge!
++Ready to fly!
 
 - DivingBellReadySurface
-+Ready to return
++I am ready to retire.
 
 - DivingBellRechargingState
-+Recharging...
++confirm...
 
 - JoinRandom
-+JOINING RANDOM GAME...
++JOIN ABULAK...
 
 - EnterDiveBellDay2Objective
-+ENTER THE DIVE BELL AND SUBMERGE
++PRESS THE JUMP BUTTON TO JUMP OVER OBSTACLES
 
 - EnterDiveBellObjective
-+ENTER THE DIVE BELL AND SUBMERGE
++PRESS THE JUMP BUTTON TO JUMP OVER OBSTACLES
 
 - BuyEquipmentObjective
-+BUY EQUIPMENT
++PREPARE THE FOOD
 
 - ExtractVideoObjective
-+Throw the camera into the video extraction machine
++Add a camera to record video
 
 - FilmSomethingScaryObjective
-+FILM SOMETHING SCARY
++ON HEAR
 
 - GoToBedFailedObjective
-+GO TO BED
++GO TO THHE EXCEPTIONS PAGE
 
 - GoToBedSuccessObjective
-+GO TO BED
++GO TO THHE EXCEPTIONS PAGE
 
 - InviteFriendsObjective
-+INVITE YOUR FRIENDS
++WE ARE TALKING ABOUT FRIENDS
 
 - LeaveHouseObjective
-+LEAVE THE HOUSE
++THIN
 
 - PickupDiscObjective
-+PICK UP THE DISC
++SELECT HOUSE
 
 - PickupTheCameraObjective
-+PICK UP THE CAMERA
++CHOOSE A LOT
 
 - ReturnToTheDiveBellObjective
-+RETURN TO THE DIVE BELL AND ASCEND
++GO BACK TO THE TEXT AND START AGAIN
 
 - UploadVideoObjective
-+Upload the video to Spöök Tube
++Pipes are used to transfer videö
 
 - WakeUpObjective
-+WAKE UP
++I GET UP
 
 - CelebrateObjective
-+CELEBRATE YOUR NEWFOUND FAME!
++WELCOME TO THE NEW SEASON!
 
 - DaysLeft
-+{0} DAYS LEFT
++{0} TODAY
 
 - LastDay
-+LAST DAY
++YESTERDAY
 
 - Buy
-+Buy  
++Cooking is delicious
 
 - Left
-+Left
++Links
 
 - Right
-+Right
++He didn't think ahead
 
 - NotSleepy
-+Not Sleepy
++I can't sleep
 
 - StartGame
-+Start Game
++Start playing
 
 - Submerge
-+SUBMERGE
++DANCE
 
 - ReturnToSurface
-+RETURN TO THE SURFACE
++REDUCE
 
 - TerminalBusy
-+Terminal Busy
++The station is full.
 
 - Help
 +Help
 
 - InviteFriends
-+Invite Friends
++He invited his friends
 
 - Open
 +Open
 
 - Close
-+Close
++Next page
 
 - GameFull
-+Can't Invite Friends: Game is full
++You can't invite your friends. Many games
 
 - GameStarted
-+Can't Invite Friends: Game has started
++You can't invite your friends. Let's start the game
 
 - Offline
-+Offline
++Not fresh
 
 - StartGameTitle
-+Are you sure you want to start?
++Do you really want to start?
 
 - StartGameBody
-+You can not invite friends after the game has started.
++You cannot invite friends once the game has started.
 
 - StartGameConfirm
-+Start Game
++Start playing
 
 - Cancel
-+Cancel
++Sad
 
 - PickUp
-+PICKUP
++EVERYTHING WILL BE FINE
 
 - SwitchCategory
-+Switch To {category} Category
++{category}to class
 
 - AddToCart
-+Add {item} To Cart
++Basketball {item}
 
 - SoldOut
-+SOLD OUT
++SALE
 
 - Clear
-+Clear
++Tell
 
 - Order
-+Order
++Great
 
 - DeleteSave
-+Delete Save
++Clean office interior.
 
 - DeleteSaveConfirm
-+Are you sure you want to delete this save?
++Are you sure you want to delete this message?
 
 - Yes
-+Yes
++Under
 
 - No
-+No
++Normal
 
 - Interact
-+Interact
++First
 
 - HelmetDaysLeft
-+{0} Days Left!
++Have a great {0} weekend!
 
 - HelmetLastDay
-+This Is The Last Day!
++Today is the last day!
 
 - HelmetForgetCamera
-+Don´t Forget The Camera!
++Do not forget your wardrobe!
 
 - Oxygen
-+Oxygen
++Bad weather
 
 - Distance
-+Distance
++Far
 
 - Items
-+ITEMS
++OKAY
 
 - CloseVideo
-+Close Video
++I saw the light
 
 - ReplayVideo
-+Replay Video
++Play video
 
 - SaveVideo
-+Save Video to Desktop
++Save the video to your desktop
 
 - UploadToSpookTube
-+Upload the video to Spöök Tube
++Pipes are used to transfer video
 
 - ShopClosed
-+Shop Closed!
++Shop closed!
 
 - Lights
-+Lights
++nice
 
 - Medical
-+Medical
++Doctor
 
 - Gadgets
-+Gadgets
++Crime
 
 - Emotes
-+Emote
++When you move.
 
 - Emotes2
-+Emote2
++Another time
 
 - Upgrades
-+Upgrades
++Rescue operation
 
 - Misc
-+Misc
++Mix together.
 
 - SpookTubeViews
-+Spöök Tube views
++Explore the metro area.
 
 - AdRevenue
-+Ad Revenue
++Reduce
 
 - HospitalBill
-+Hospital Bill For {InsertName}
++"Enter the server {InsertName}
 
 - CalibrationUseVoice
-+This game uses voice chat
++This game uses voice search
 
 - CalibrationUseHeadphones
-+Please use headphones
++Use headphones
 
 - CalibrationSelectMic
-+SELECT MICROPHONE
++CHOOSE YOUR BREAKFAST
 
 - CalibrationSelectVoice
-+SELECT VOICE MODE
++SELECT AUDIO MODE
 
 - CalibrationBrightness
-+ADJUST BRIGHTNESS
++BONE
 
 - CalibrationMonster
-+Please adjust until you don't see the TEXT behind the monster
++Hide text behind the page
 
 - Brightness
-+Brightness
++bone
 
 - Continue
-+CONTINUE
++Against
 
 - OldVersion
-+Old Game Version
++Older version of the game
 
 - PleaseUpdate
-+Please update your game to continue playing!
++Update the game to continue!
 
 - CloseGame
-+Close Game
++Game
 
 - CrouchKeybindSetting
-+Crouch
++Oppression
 
 - DropKeybindSetting
-+Drop
++Lack of steel
 
 - EmoteKeybindSetting
-+Emote
++When you move.
 
 - InteractKeybindSetting
-+Interact
++First
 
 - JumpKeybindSetting
-+Jump
++Dance
 
 - ToggleSelfieModeKeybindSetting
-+Toggle Selfie Mode
++Change the location of your profile picture.
 
 - WalkBackwardKeybindSetting
-+Walk Backward
++They are back
 
 - WalkForwardKeybindSetting
-+Walk Forward
++like
 
 - WalkLeftKeybindSetting
-+Walk Left
++Three left Three left
 
 - WalkRightKeybindSetting
-+Walk Right
++Joey
 
 - AmbientOcclusionSetting
-+Ambient Occlusion
++Magic circle
 
 - BrightnessSetting
-+Brightness
++bone
 
 - ChromaticAberrationSetting
-+Chromatic Aberration
++I am interested in your colors.
 
 - FullscreenSetting
-+Window mode
++Street window
 
 - VoiceVolumeSetting
-+Voice Volume
++It is a friend
 
 - VoiceSetting
-+Microphone
++microphone
 
 - VoiceChatModeSetting
-+Voice Chat Mode
++Voice chat function
 
 - VSyncSetting
-+VSync
++Adjust vertically
 
 - ShadowQualitySetting
-+Shadow Quality
++Like a shadow
 
 - ScreenResolutionSetting
-+Resolution
++Hide
 
 - SFXVolumeSetting
-+SFX Volume
++Strong health effects
 
 - MouseSensitivitySetting
-+Mouse Sensitivity
++Feelings about mice
 
 - MaxFramerateSetting
-+Max Framerate
++Maximum frame rate
 
 - MasterVolumeSetting
-+Master Volume
++"Okay
 
 - SprintKeybindSetting
-+Sprint
++Work
 
 - JoinError
-+Join Error
++Money is not good.
 
 - JoinErrorMismatch
-+Trying To Join A Lobby With Mismatched Game Version
++You are trying to access a group that has an incompatible version of the game.
 
 - Ok
-+Ok
++Everything will be fine.
 
 - VideoSaved
-+Video saved to desktop!
++The video will be saved on the desktop.
 
 - VideoSavedAs
-+Saved as
++How is that?
 
 - VideoFailedSave
-+Failed to save video to desktop!
++Videos are not saved on the computer!
 
 - ServerIssues
-+MEDIUM SERVER LOAD!
++Average office prices!
 
 - DropItem
-+Drop Item
++Idle thing
 
 - Battery
-+BATTERY
++across the country
 
 - FilmLeft
-+% FILM LEFT
++% Current frame rate
 
 - ToggleLight
-+Toggle Light
++Replace the lamp
 
 - ZoomKey
-+[SCROLL] ZOOM
++[IT IS A FRIEND] Take it with you
 
 - SelfieMode
-+[R] SELFIE MODE
++[R] PRIVATE ROOM
 
 - Aim
-+[RMB] AIM
++[FIRST] A REAL GOAL
 
 - HostingGame
-+HOSTING GAME...
++CHOOSE...
 
 - Connecting
-+Connecting
++Things
 
 - BoomMic
-+Boom Mic
++Microphone is turned off.
 
 - Camera
-+Camera
++in the cell
 
 - CameraBroken
-+Broken Camera
++The camera is broken.
 
 - Clapper
-+Clapper
++Patience
 
 - Defibrilator
-+Defibrilator
++Construction
 
 - Disc
-+Disc
++Receipt
 
 - Flare
-+Flare
++They forgive me
 
 - GooBall
-+Goo Ball
++I eat flowers.
 
 - Hugger
-+Hugger
++Hard
 
 - LongFlashlightPro
-+Long Flashlight Pro
++I have been working professionally for a long time.
 
 - LongFlashlight
-+Long Flashlight
++But now it's time for a personal campaign.
 
 - ModernFlashlightPro
-+Modern Flashlight Pro
++Modern professional theater
 
 - ModernFlashlight
-+Modern Flashlight
++Final game
 
 - OldFlashlight
-+Old Flashlight
++Old wallet
 
 - PartyPopper
-+Party Popper
++Let's do an analysis.
 
 - ShockStick
-+Shock Stick
++He met his friends
 
 - SoundPlayer
-+Sound Player
++Musician
 
 - WalkieTalkie
-+Walkie-tal
-+- WideFlashlight2
-+Wide Flashlight 2
++Portable radio transmitter
+
+- WideFlashlight2
++2 inch quality battery
 
 - WideFlashlight3
-+Wide Flashlight 3
++Large 3 inch battery
 
 - Winch
-+Winch
++Note
 
 - Aminalstateu
-+Aminal stateu
++Motherhood
 
 - Animalstatue
-+Animal statue
++Animal pictures
 
 - Bone
-+Bone
++Feet
 
 - Brainonastick
-+Brain on a stick
++My heart is dead
 
 - Chorby
-+Chorby
++Pearl
 
 - Container
-+Container
++Let's cook.
 
 - OldPainting
-+Old Painting
++Old photo
 
 - Radio
-+Radio
++Cordless phone
 
 - Ribcage
-+Ribcage
++and feet
 
 - Skull
-+Skull
++Capital ship
 
 - Spine
-+Spine
++Area
 
 - ReporterMic
-+Reporter Mic
++A reporter holds a microphone
 
 - RescueHook
-+Rescue Hook
++Protector of life
 
 - Emote_Applause
-+Applause
++Help
 
 - Emote_Dance1
-+Dance 101
++Dancing 101
 
 - Emote_Dance2
-+Dance 102
++Dancing 102
 
 - Emote_Dance3
 +Dance 103
 
 - Emote_FingerScratch
-+Confused
++Mix together.
 
 - Emote_HalfBackflip
-+Backflip p1
++Return to page 1
 
 - Emote_Handstand
-+Gymnastics
++Fact
 
 - Emote_HuggerHeal
-+LOCALIZATION ERROR
++Bad place
 
 - Emote_JumpJack
-+Workout 1
++Die
 
 - Emote_MiddleFings
-+Ancient Gestures 1
++Download old emails 1
 
 - Emote_Peace
-+Ancient gestures 2
++First post on FB2
 
 - Emote_PushUp
-+Workout 2
++2 exercises.
 
 - Emote_Shrug
-+Caring
++Far
 
 - Emote_Stretch
-+Yoga
++Grace
 
 - Emote_Thumbnail1
-+Thumbnail 1
++Figure 1
 
 - Emote_Thumbnail2
-+Thumbnail 2
++2nd index image
 
 - Emote_ThumbsUp
-+Ancient gestures 3
++3. Standard gear
 
 - BoomMic_ToolTips
-+Make things louder
++Normal
 
 - Camera_ToolTips
-+[LMB] Record;[RMB] Aim;[R] Selfie Mode;[Scroll] Zoom
++[ROY] I send;[FIRST] A real goal;[R] Quality;[It is a friend] Great
 
 - Clapper_ToolTips
-+[LMB] Clamp;[RMB] Hold further away
++[ROY] What are you doing;[FIRST] Please wait
 
 - Defibrilator_ToolTips
-+[LMB] Revive
++[ROY] Before the Renaissance
 
 - Disc_ToolTips
-+Upload to spöökktube
++Download Spocktube.mq4.
 
 - FakeOldFlashlight
-+FakeOldFlashlight
++Escape
 
 - FakeOldFlashlight_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 - Flare_ToolTips
-+[LMB] Light Flare
++[ROY] Bright flowers
 
 - GooBall_ToolTips
-+[LMB] Activate
++[ROY] ""leave""
 
 - GrabberArm
-+Grabber Arm
++Understood
 
 - GrabberArm_ToolTips
-+LOCALIZATION ERROR
++Bad place
 
 - Hugger_ToolTips
-+[LMB] Hug;[RMB] Read Instructions
++[ROY] Hard;[FIRST] Read the instructions for use
 
 - LongFlashlightPro_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 - LongFlashlight_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 - LostDisc
-+Lost Disc
++Data will be deleted
 
 - LostDisc_ToolTips
-+Upload to spööktube
++Talking tube controller
 
 - ModernFlashlightPro_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 - ModernFlashlight_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 - OldFlashlight_ToolTips
-+[LMB] Toggle OldLight
++[ROY] I replaced the old light bulb.
 
 - PartyPopper_ToolTips
-+[LMB] Confetti time
++[ROY] It's time to enjoy sweets.
 
 - ReporterMic_ToolTips
-+Makes things louder;[RMB] Reach out
++Normal;[FIRST] Great
 
 - ShockStick_ToolTips
-+[LMB] Turn on
++[ROY] Uncle Shanti Shanti
 
 - SoundPlayer_ToolTips
-+[Scroll] Select sound;[LMB] Play Sound
++[It is a friend] Choose your voice;[ROY] Player
 
 - WalkieTalkie_ToolTips
-+[LMB] Hold to talk
++[ROY] Whatever happens
 
 - WideFlashlight2_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 - WideFlashlight3_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 - Radio_ToolTips
-+[LMB] Toggle on/off
++[ROY] holiday
 
 - Emote_Applause_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_Dance1_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_Dance2_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_Dance3_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_FingerScratch_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_HalfBackflip_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_Handstand_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_HuggerHeal_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_JumpJack_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_MiddleFings_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_Peace_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_PushUp_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_Shrug_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_Stretch_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_Thumbnail1_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_Thumbnail2_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - Emote_ThumbsUp_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 - ThrowItemToolTip
-+Hold [{key}] Throw Item
++Another version [{key}] Put it in the box
 
 - Endscreen1_1
-+You failed to gain popularity as a content creator
++I can't say anything about the design.
 
 - Endscreen1_2
-+Your channel never took off
++Your channel never disappoints.
 
 - Endscreen1_3
-+The algorithm figured out that your content was uninteresting
++According to the algorithm, the content is not interesting.
 
 - Endscreen1_4
-+You did not have what it takes to become famous
++He did not say his name.
 
 - Endscreen1_5
-+Very few people ever subscribed to your channel
++How many people subscribe to your channel?
 
 - Endscreen2_1
-+Your dreams were crushed
++Your dreams are broken.
 
 - Endscreen2_2
-+Your content was not engaging enough
++Content is not helpful.
 
 - Endscreen2_3
-+No one liked your videos
++Nobody will like your videos.
 
 - Endscreen2_4
-+None of your videos ever went viral
++It is not only this video that has gone viral.
 
 - Endscreen2_5
-+Eventually you stopped making videos
++Finally I stopped making videos.
 
 - Endscreen3_1
-+You died of sadness
++Painful death
 
 - Endscreen3_2
-+You never got over it
++Negative
 
 - Endscreen3_3
-+You lived out your days in shame
++Even on bad days
 
 - Endscreen3_4
-+You never found anything else you wanted to do with your life
++You can't help yourself.
 
 - Endscreen3_5
-+The world forgot about you
++The world has forgotten you.
 
 - Endscreen3_6
-+The rest of your life was mid
++He was among them all his life.
 
 - EndscreenDream
-+But then you realised it was only a bad dream
++skill issue
 
 - Bomb
-+Bomb
++Ball
 
 - Apple
-+Apple
++Beauty
 
 - Sit
-+Sit
++Just say that
 
 - Error_Steam_Title
-+Failed to authenticate with steam
++The security panel can be divided into two parts.
 
 - Error_Steam_Body
-+Make sure steam is online
++Make sure Steam is connected to the Internet.
 
 - Error_Auth_Failed
-+Failed to authenticate with servers
++The server could not be authenticated
 
 - Error_File_Not_Found
-+File not found
++No information found
 
 - Error_Save
-+Save Error!
++Beware of mistakes!
 
 - Error_RecordingsFolder
-+Failed To Create Recordingsfolder!
++Error creating file!
 
 - Error_NoSave
-+No Save Found!
++I didn't know that!
 
 - Error_HostLeft
-+Host Left the game
++Throw the stick quickly
 
 - Error_Disconnected
-+You've been disconnected
++People with disabilities
 
 - Error_Join
-+Failed to join lobby
++You cannot enter the room.
 
 - Error_Delete_TempFolder
-+Failed To Delete Temp Folder
++Delete temporary file.
 
 - Error_CreateRoom
-+Failed to create room
++Cannot create an object
 
 - Error_VideoPath
-+Failed To Get Video Path
++I can't find a video to watch.
 
 - AddedToCart
-+Added to cart!
++Basketball
 
 - PushToTalk
-+Push To Talk
++Click here to start a conversation.
 
 - VoiceDetection
-+Voice Detection
++Thank you for your choice.
 
 - FullScreenMode
-+Fullscreen
++Couple
 
 - WindowedMode
-+Windowed
++Through the window
 
 - HighSetting
-+High
++you know
 
 - LowSetting
-+Low
++Hole
 
 - OnSetting
-+On
++Wealth
 
 - OffSetting
-+Off
++Paint
 
 - PressAnyKeySetting
-+Press any key
++Press the button
 
 - Emote_Applause_Text
-+How to Applaude
++That's how you decide.
 
 - Emote_Dance1_Text
-+How to Dance 101
++101 ways to play
 
 - Emote_Dance2_Text
-+How to Dance 102
++This is how you play 102.
 
 - Emote_Dance3_Text
-+How to Dance 103
++103 such plays
 
 - Emote_FingerScratch_Text
-+How to look confused
++The worst
 
 - Emote_HalfBackflip_Text
-+How to Backflip (part 1)
++How to Translate (Part 1)
 
 - Emote_Handstand_Text
-+Gymnastics for beginners
++lobby group
 
 - Emote_HuggerHeal_Text
-+How to make a good thumbnail 1
++1. How to take beautiful photos?
 
 - Emote_JumpJack_Text
-+Workout book 1
++Chapter 1
 
 - Emote_MiddleFings_Text
-+Ancient gestures 1
++Download old emails 1
 
 - Emote_Peace_Text
-+Ancient gestures 2
++First post on FB2
 
 - Emote_PushUp_Text
-+Workout book 2
++Type 2
 
 - Emote_Shrug_Text
-+How to care less
++How do you get so much attention?
 
 - Emote_Stretch_Text
-+How to yoga
++How do you practice yoga?
 
 - Emote_Thumbnail1_Text
-+How to make a good thumbnail 1
++1. How to take beautiful photos?
 
 - Emote_Thumbnail2_Text
-+How to make a good thumbnail 2
++Instead of creating a FB2 project
 
 - Emote_ThumbsUp_Text
-+Ancient gestures 3
++3. Standard gear
 
 
 
@@ -1080,3 +1081,1458 @@
 
 
 // COMMENTS
+
+-7048
++My favorite part of this video is when you see the shop.
+
+-3541
++What about snow?
+
+-964
++Weak
+
+-994
++This is not finished
+
+-10672
++I do not want to hunt monsters, but I know.
+
+-7503
++Who is the neighbor of the censor?
+
+-6546
++Make more videos like this, I want to try.
+
+-4719
++Watch the video below. Where are the fish?
+
+-6013
++Yes, I want to be better.
+
+-7670
++They saw how many terrible sea creatures were coming.
+
+-6060
++It's still very exciting and scary.
+
+-5691
++I WENT TO LAW SCOOL WITHOUT WASTING ANY TIME
+
+-7488
++Unfortunately, I often throw rocks at my laptop when I'm stressed.
+
+-5624
++Who knows if they will attack or not?
+
+-5494
++This is not the truth. But you can't buy it in the store.
+
+-15808
++I saw it last night and it was scary!
+
+-9805
++Sorry, but I'm not afraid of anything.
+
+-4037
++Don't worry, I really enjoyed the film.
+
+-594
++!!!!!!!!!!!!!!!!!!
+
+-5415
++bruh really has to put those creepy monstersin the video
+
+-14916
++I have watched them so much and I’m happy that they finally saw a tentacle
+
+-6677
++Love watching you pals hope that you can make more videos. You are great
+
+-6743
++I would literally never ever ever ever dare to touch a tentacle monster
+
+-2431
++Fish from the sea monster?
+
+-3736
++Would buy merch of the tentacle monster
+
+-5229
++ACTUALLY got so freaked out at when the tentacler came out
+
+-4190
++RUNN! RUUN! I could see that it wanted to get you!
+
+-6752
++Imagine actually seeing a monster from the sea with tentacles like that
+
+-4721
++Love this video! Favorit part was the worm monster
+
+-3961
++Are you sure its dangourous? Maybe its not
+
+-2353
++He's soo fast when he's mad
+
+-2604
++YOU MADE HIM MAD! YOU SHOULD BE ASHAMED!
+
+-1164
++OMG SO SCAARRYYY
+
+-2571
++I would not want to meet him
+
+-3033
++HE IS SO ANGRY! What made him so angry
+
+-2750
++I hope he doesn't come after me
+
+-1708
++He sounds so angry
+
+-1713
++he screams so loud
+
+-2960
++When the monster got angry omgg
+
+-5314
++That was such a scary moment when you made the big guy mad
+
+-6134
++You should not get so close to those. Some other spooktubers died
+
+-15765
++My head hurts so bad rn- but instead of sleeping I’m watching videos in the evening
+
+-7464
++My chills went down my spine when I saw that scary guy. Why was his face like that
+
+-7051
++God I get more scared of the big monster than anything ive ever seen. Just me?
+
+-4333
++Finally a channel with brave people. Need part 2
+
+-5031
++Finally a channel that hunt ghost. WTf was the huge guy
+
+-5387
++Oh man you dont even know how fast I would run if I saw that
+
+-7130
++Is it just me that gets more scared of the huge monster than everything else
+
+-5678
++The fact that I would probably die if I met a monster like that
+
+-7394
++Believe me or not.. these people.. are actually.. THE BRAVEST SPOOKTUBERS I HAVE EVER WATCHED!
+
+-5322
++I SCREAMED when the monster with the creepy hands showed up
+
+-2197
++Whtf is up with its face
+
+-3301
++Who else lost it at the big monster?
+
+-1076
++Subscribed.
+
+-6284
++Great video!, they just get better and better. Big monster was scary!
+
+-4072
++BIG monster! Loved it as always x thanks pals
+
+-3773
++Great monster hunt as usual! Terrifying!
+
+-1930
++That monster is HUGGEE
+
+-2297
++That monster is so scary
+
+-3742
++I wonder if that big guy is just lonely...
+
+-1061
++He's so big...
+
+-2731
++I wonder if he's still there???
+
+-1798
++You invaded his HOME!
+
+-1602
++It's disgusting...
+
+-1435
++Leave him alone!
+
+-4063
++I love how you terrying that monster looks
+
+-5448
++Greetings from the sky island next to yours. nice monster
+
+-5772
++Awesome work and scary monsters! You're so authentic and real.
+
+-6368
++You have the most real footage... It's far superior than many others...
+
+-3104
++This was an AMAZING investigation!!!
+
+-5667
++Pals , everytime i see a new video of yours , im like YESSSS  ....!!  :)
+
+-7097
++Incredible! I watch a lot of paranormal monster channels but you are special
+
+-6204
++Totally agree with the other comments, fantastic monster channel
+
+-4815
++Your way of dealing with big monsters, excellent...!!!
+
+-3569
++WOW What a BIG monster! Please be careful!
+
+-5904
++Thankyou SO much for recording this!! To scary for me to go there!
+
+-6108
++Omg I never had that many chills watching other spooktube videos!
+
+-5138
++Holy cow. Why do you do these FOR REAL?! That thing was huge!
+
+-4901
++I thought it looked at you!! It looked very dangerous!
+
+-4226
++Lol, I like the faces on the little drone thing
+
+-5012
++The drone looks like it wants to be close to them! Cute!
+
+-4509
++Love the little flying robot lamaou great video
+
+-9517
++Thank for the video! I think I wanna start making videos. I hope I also run into the flying robot you saw!
+
+-3406
++omg <playername> is holding the bomb!
+
+-6990
++As an extremely anxious person I dont think I would like to meet that thing
+
+-2539
++Why does it move like that??
+
+-6187
++Please make this a series! That thing with the bombs was very scary
+
+-8611
++A spooktuber is never truly a real spooktuber until they've seen a monster with bombs on it
+
+-4584
++Kind of messed up that it throws explosive bombs
+
+-4664
++I don't believe in bomb monsters, but I do right now
+
+-5101
++It sounds like you barked but it was just an explosion
+
+-10997
++I have actually lived next to a bomb factory my whole life, its always given me shivers, i have alot of respect for you!
+
+-5619
++What an emotional rollercoaster. It started throwing bombs
+
+-10717
++This is probably my fav video of yours ever. PLEASE do more. Especially love that you saw that bomb monster. Rad video
+
+-9394
++What the hell. Bombs are really dangerous. This video geninely gave me chills so hard i had to sit down
+
+-8969
++ive never seen a monster hunting video with actual evidence. this is great, love ur videos. Boom!
+
+-7324
++How the hell do they dare get so close to that thing. Did they not see the bombs??
+
+-15654
++we need this as a series omg best video you’ve ever made. Bomb guy was my favorite
+
+-7180
++This video is amazing, Def my favorite from you now, I hope it gets more views!!
+
+-3025
++Weirdo things = amazing bomb guy!
+
+-9907
++Honestly, just the bomb monster being kind of annoyed at you was the most convincing part. Realistically.
+
+-9057
++The thing that scared me the most was the fact that there were multiple bombs on a single monster
+
+-532
++Bombs!
+
+-562
++Bombs?
+
+-5480
++if you dont make this a series i will genuinely explode. jk
+
+-5467
++please show the explosive monster again. I liked seeing it
+
+-3801
++For sure need more of this bomb monster <3
+
+-4533
++First spooktube video that made me laugh so much
+
+-15425
++pal PLEASE do more stuff like this I’ll give you a high five. This video was bomb...
+
+-2049
++DID PEOPLE SEE THAT CREEPY GUY
+
+-1458
++Can you pet it???
+
+-6287
++Ahhhhh YAAAAAY!! I cant wait to watch this!  MACHINE DOG?? You're spoiling us!
+
+-7059
++This channel deserve so much more views!!! Well done on a another great video.
+
+-3652
++No freaking way! Is that a dog with a gun?
+
+-5968
++I get so WORRIED for you because you always run into scary things!
+
+-8170
++Damn mate! this was absolutely fascinating! so happy you uploaded this video! Thank you!
+
+-6138
++Glad you finally uploaded keep the videos coming. LOVED the gun dog.
+
+-4623
++Great job pal.... I went to school with these people
+
+-6630
++I've been following you for some time now and I really love your videos!
+
+-929
++DOG WITH A GUN
+
+-6855
++Amazing video as usual. Especially metal dog. One of my favorite channels. 
+
+-6058
++Whoa this episode had me jumping lol. Please pet the dog next time
+
+-5952
++I was screaming at home watching this!! Please give the dog a bone!
+
+-1848
++It has such a big ear!
+
+-1756
++It has so many ears!
+
+-2398
++HAHA it doesnt like sounds!
+
+-2773
++It soooo weird looking hahaha
+
+-5913
++Ive watched that video so many timesand it still give me chills
+
+-4234
++Great video. Just one thing, that ear creature
+
+-8614
++gotta have some respect to the camera men/woman, literally standing in the most open places
+
+-6671
++YOOOO I HADE TO TURN MY QUALITY ALL THE WAY DOWN TO SEE BUT THEIRS AT LEAST 4 BIG EARS ON THAT THING
+
+-9102
++This is one of the only paranormal things ive watched that had me hiding in my covers. So many ears
+
+-4690
++Here comes a thing with many ears on it everywhere
+
+-689
++Ear dog?
+
+-2379
++I wish I had that many ears
+
+-2761
++You know it hears really well
+
+-7212
++I have seen this one in another video! I think it gets scared if you shout at it
+
+-2839
++Big ear... MAYBE ITS SENSITIVE TO SOUND?
+
+-962
++I got mad???
+
+-2952
++seriously be careful out there
+
+-27866
++his was genuinely one of the most terrifying encounters I’ve ever had filming with you. I’m so glad we all made it out safely
+
+-5710
++This was truly scary, what was that creature with the big eye
+
+-4778
++That bird looking this does not like bright lights!
+
+-7271
++Wow that was absolutely mortifying scary AF. Those big eyes give me the creeps
+
+-4461
++Holy hell, what a banger. Love the weird creatues
+
+-7788
++Now THAT was scary!! Hope your all dealing with this, reach out if needed and stay safe.
+
+-4799
++Does anyone know what the bird looking monster is??
+
+-3417
++I dont think it likes the flashlight!
+
+-4389
++I believe being this close to fire is dangerous
+
+-3460
++Me when I find hairspray and a lighter
+
+-4702
++When you find that bigassed spider in your house...
+
+-4988
++What a beautiful destructive power. Good video for me
+
+-5313
++This looks like an easy way to start a forest fire. OR WORSE
+
+-1976
++Wow! Did he dissapear!?
+
+-2325
++OMG! Did he just teleport??
+
+-2086
++DID you see it flicker??
+
+-3870
++Surely the flickering thing was not real!
+
+-10909
++Crazy strong nerve’s friends
+
+-4353
++WHAT WAS THAT! you deserve billion of subscribers
+
+-4691
++Nr 1 spooktuber ! Never seen a monster like this one
+
+-4159
++Favorite part was def the invisible monster
+
+-4099
++I am impressed. Easily best video I have seen.
+
+-2327
++I would cry if I saw a that
+
+-6301
++That was brilliant , super scary. I don't know how you do it honestly
+
+-3811
++Amazing amazing amazing amazing amazing
+
+-7003
++Can someone please comment and tell me the name of the flickering creature?
+
+-5534
++Keep it up! Great content actually. Loved the flickering one
+
+-7826
++New subscriber here and just want to say that you deserve so many more subscribers
+
+-3455
++Spooky guy!! Love your style of video!
+
+-5683
++It is incredible what you are able to capture! Even invisible!
+
+-2016
++Excellant footage.... :)
+
+-4911
++That was exciting! Nice monster! Be well and stay safe!
+
+-3975
++Fickering creature! brilliant video again!
+
+-6870
++Just found your channel just like that monster just found you well okay!
+
+-3222
++Smashed my notifications too hard
+
+-5341
++love your videos....always waiting on your new posting....
+
+-4621
++You are the best, cant believe that thing was real!
+
+-1087
++WHERE DID IT GO!?
+
+-3345
++Please tell me that one was not real!
+
+-2197
++Good catch <playername>!
+
+-2187
++Nice catch <playername>!
+
+-1574
++Wow <playername>!
+
+-2303
++Great catch <playername>!
+
+-1994
++Nice one <playername>!
+
+-7152
++Fishing enthusiast here. The guy in the rain coat should be more responsible
+
+-5749
++W T F ! ! ! Ive seen those glowing eyes before! Dont let it get yyou!
+
+-6038
++Thank you for the contents. You really risked it all for this one
+
+-7722
++Yessssssss, i love this series, all of you make this so insanely funny. DONT DIE THOUGH
+
+-6133
++Probably stay away from the creature with the harpoon... trouble..
+
+-5770
++Legiemtly got scared from the part with the raincoat monster
+
+-6783
++Watching this in the dark is another vibe. I think its not safe down there
+
+-7930
++I am currently sick and your video. Cheered me thanks. Glowing eyes are not a good sign
+
+-4043
++KEEP DOING THIS PLEASE I LOVE IT. WHAT WAS THAT HARPOON TING
+
+-5867
++Like this comment if you also want to see more of the fisherman
+
+-3382
++New favorite channel for me to watch
+
+-3450
++they really interview that monster!
+
+-2322
++That blob looks so cosyy!
+
+-1815
++I want to jump in it!
+
+-2189
++I wonder if it's edible...
+
+-1671
++I want to touch it!
+
+-1024
++BLOB! BLOB! BLOB!
+
+-2433
++The blob looks so squishy!
+
+-2098
++I wan to poke that blob!
+
+-3144
++I think the blob is kinda innocent
+
+-2891
++Was that an animal of some kind?
+
+-6057
++I'm a new scriber.. i clicked just as the video started. Jello jello
+
+-4844
++Yes yes yes pal. You are a legend. As always gr8 vid.......
+
+-6170
++I have seen a photo of that one before! They call it flicker monster
+
+-13859
++Love your episodes. I can’t wait until your new ones come out!
+
+-5653
++Love it! Invisible monster is so cool! Your videos are great!!!!
+
+-5140
++This genuinely scared me..I was literally looking away!
+
+-3709
++Great capture!! Even filmed an invisible!
+
+-3394
++Thats just a person in a white sheet.
+
+-7685
++That figure in the white sheet needs to audition for the next horror blockbuster.
+
+-5157
++KNIFE! Seriously, though, stay safe out there, explorers!
+
+-6645
++Ghost or not, that figure in the white sheet is the stuff of nightmares!
+
+-6238
++Do you think it's a local legend or just a creepy coincidence?. Knife
+
+-932
++Knife guy!!
+
+-3284
++Stab ghost is so by far my favorute!
+
+-5192
++Cant you just talk to it! It looks like a person in there!
+
+-7227
++Nope, nope, nope! That figure in the white sheet is haunting my dreams tonight.
+
+-4161
++How do you stay so calm in these situations?!
+
+-6913
++Forget haunted, that person in the white sheet needs to join a comedy club!
+
+-7872
++It's like they're trying to be spooky but ended up being unintentionally hilarious.
+
+-6306
++Anyway thanks for reading my comment, I am just here for knife ghost
+
+-6161
++Extremely unsetteling that someone would have that as their job.
+
+-7094
++These videos are so awesome. Does anyone know whats up with the sheet ghost?
+
+-2398
++Holy sheet! Knife try! HAHAHA
+
+-3459
++Id be scared of my pants if I was there!
+
+-1889
++Dont let IT stab you!!!
+
+-6686
++They probably regretted going down there when they saw the knife thing
+
+-5954
++I cant believe you arent more scared of the knife ghost! KNIFE GHOST
+
+-2222
++Nice try guy in a sheet...
+
+-6181
++Did you hire a person to run around in a sheet? WE KNOW ITS NOT A REAL GHOST
+
+-4038
++Ghost with a knife is different. Subscribet
+
+-5486
++I bet its not a real knife. still pretty scary still though
+
+-3879
++I LOVE THIS CHANNEL! Really really nice footage
+
+-6269
++That this is not even scary. This is funnier than a try not to laugh.
+
+-4256
++nice cinematography, loved knife ghost scene
+
+-2928
++knife ghost............... really SCARY!
+
+-5052
++literally so brave to go down there! I liked fake ghost
+
+-2092
++Freaky freaky monster
+
+-608
++BIG HANDS
+
+-5806
++I want to never be close to that thing. It looks really grabby...
+
+-4249
++Looks scary but I low key think I could take it
+
+-2158
++What is that!? Snake man?
+
+-3491
++Alien looking monster! Like the video!
+
+-5452
++Lets be real, we all love it when you show weird creatures..
+
+-1989
++I feel so bad for them!!
+
+-3152
++Why does it have such large hands?!
+
+-2813
++Love it! It has so many eyes omg
+
+-6145
++Chills all around my spine when thew larva looking thing came out
+
+-6598
++Please tell me those are not real. Or at least that they stay down there
+
+-5101
++The fact that they get so close to the monsters is wild
+
+-3158
++Show more of the centipede please!
+
+-6819
++Did people see the choppy guy? Maybe it was just me anyway liked the video
+
+-0
++
+
+-3122
++That thing has a really big mouth!!
+
+-1388
++HAHAHA! WHAT WAS THAT
+
+-2813
++Kinda think that thing is cute
+
+-739
++LITTLE GUY
+
+-6189
++Please make a part two! I loved the little thing with the nice smile
+
+-3857
++What was the little thing with the mouth?
+
+-7964
++Top 2 content creators I have evert watched. Lil guy with the mouth made the video good
+
+-12423
++You know it’s real when it has such a big mouth
+
+-4050
++That thing definitely does not look normal
+
+-7697
++We have those where I live. Actually pretty common. Just dont let it sneak up on you
+
+-520
++First
+
+-2603
++Hahahahaha weird little guy
+
+-4384
++I wonder what it even needs such a big mouth for
+
+-7795
++Love your content, let me know when the next video comes out please! Mouth guy = nice
+
+-4035
++I wanna know more about the little monster!
+
+-5350
++Is it bad that I dont like the little thing with the mouth?
+
+-3047
++lol that thing is not very scary
+
+-5371
++I saw a bunch of monsters in this video! It was really cool!
+
+-1940
++Is that <playername>?
+
+-2366
++I wish I also had friends...
+
+-3505
++I wonder if <playername> is having fun
+
+-3656
++I think <playername> has a great outfit.
+
+-3771
++I wonder if <playername> is a good friend.
+
+-1911
++YOO it's <playername>!
+
+-2498
++I think <playername> died???
+
+-1693
++<playername> died?
+
+-1790
++is <playername> ok!?
+
+-1291
++<playername>!!!
+
+-2575
++<playername> looks dead wtf
+
+-3903
++My soul left my body and it never came back
+
+-3763
++Cant believe that <playername> survived
+
+-4329
++How many of u had chills by just watching this!!
+
+-4046
++knee destruction tutorial by <playername>
+
+-3752
++There gonna feel it when they are about 50
+
+-1756
++that looks so high!
+
+-3737
++I wouldn't even jump to water from there
+
+-4672
++Imagine falling from that height without rolling
+
+-3799
++<playername> is such a good interviewer!!
+
+-3712
++I think <playername> has fallen over lol
+
+-3078
++Wow <playername> is very clumbsy
+
+-2044
++OUCH! <playername> fell!
+
+-1701
++HAHAHA! <playername>!
+
+-1738
++oh that gotta hurt
+
+-1688
++ouch <playername>!
+
+-1886
++that looked painful
+
+-10023
++I find the puffy creature to be cute because their mouth sometimes makes them look like they're smiling UwU
+
+-4548
++Well made video and I love your channel! Keep it up
+
+-9131
++did you know, the puffy thing love carrots and if you feed them one they make a noise of happiness?
+
+-8915
++I'm surprised at the clever design of this puffy monster. The defense mechanism is very unique. 
+
+-6761
++Ummmm.. prtty sure its not a good idea to get so close to a puffy creature
+
+-1026
++DONT PRESS IT!!!
+
+-685
++PRESS IT!!!
+
+-775
++PRESS IT???
+
+-1116
++DONT PRESS IT???
+
+-2649
++I would never press that lol
+
+-1026
++Good video!!
+
+-5245
++Omg, I would be so tempted to press a red button like that
+
+-1904
++Little button robot
+
+-1217
++What is that!?
+
+-1536
++Shroom monster!?
+
+-6029
++This is fantastic. I cant even imagine a shroom monster like that
+
+-2705
++IVE BEEN WAITING FOR THIS! MUCHROOM GUY!
+
+-12347
++and i was hoping for another vid of this literally just watch through all the others!! What was even that mushroom looking creature
+
+-3637
++Love the content , keep up the good work
+
+-8682
++Thank you for these posts they make me happy. Thank you for bringing mushroom to my timeline
+
+-3449
++That weird roof monster was so scary
+
+-2648
++Dont touch the roof monster!
+
+-5936
++I had a dream that one time I met a roof creature. Dont recomend it
+
+-5713
++THe part with the roof creature with the string! Terrrifying!
+
+-4806
++I skipped the part with the star monster, not for me
+
+-6491
++I subscribed after watching this video! Monster in the roof was great!
+
+-4493
++Got kinda scared seeing the thing in the ceiling!
+
+-3450
++ohmygod! Cool and scary! Roof monster!
+
+-5541
++Its so dark down there. Thanks for recording the roof start!
+
+-5957
++This might sound unhinged but this is my current comfort video
+
+-3836
++Chills all around... Loooooove this video!
+
+-10569
++I absolutely love this. One can truly see the production and effort that went into into this and it is unmatched. 
+
+-2637
++WATCH OUT! That thing eats PEOPLE
+
+-16006
++This is the BEST video you’ve ever made (if you ask me). Did anyone see the roof monster?
+
+-2087
++How is it upside down??
+
+-5807
++am i the only one that thinks the slug is actually really cute
+
+-5588
++Oh look it's me. Sluggish, defenseless, vegetarian, and alone.
+
+-4818
++OH MY GOSH LOOK AT THE SIZE OF THAT THING. IVE NEVER SEEN SUCH A BIG SLUG
+
+-7424
++Literally best channel on spööktube. Thank you for bringing me slug content
+
+-2979
++That weird monster was so scary
+
+-3153
++Long arms and legs, also very fast!
+
+-5222
++So happy to see one of those! I think its quite dangerous
+
+-4544
++This came at the perfect time. Loved the monsters
+
+-2911
++Did that thing just dissapear!!?
+
+-4419
++Spookyest creature I have ever seen. WHERE DID IT GO
+
+-1814
++Dont let it get you!!
+
+-4560
++I think it went away when they shone a light on it
+
+-7952
++Please like this comment if you also liked the creepy crawly creature from the video
+
+-4629
++Is it just me or like was this kind of a good video?
+
+-5691
++Imagine being alone in the dark and seeing stuff like this!! No!
+
+-4748
++This will always be the best content on spooktube! 
+
+-3090
++Top teir content! Shadow monster!
+
+-5789
++Please be respectful around the long monster. Dont disturb it
+
+-5929
++Never stop the videos! Literally my favorite content creators!
+
+-2944
++Loved seing the shadow monster!
+
+-3476
++My favorite footage of anything ever
+
+-1112
++Greatttttt!
+
+-4535
++It crawls on all fours! Really scary if you ask me
+
+-4584
++Can we talk about the quick monster on the ground
+
+-2716
++Please explain what that was!
+
+-7089
++Loved this video greetings from a viewer! Really scary monsters in this vid
+
+-1835
++Hahaha WHAT was that!?
+
+-7926
++Really cool to see some new monsters. I couldn't really tell what it was but I liked it
+
+-4950
++I know this one! It goes away if you shine a light on it
+
+-4297
++Dont get snatched! It doesnt like flash lights!
+
+-4031
++Someone said that thing is afraid if lights
+
+-2030
++I am afraid of spiders!
+
+-1391
++It shoots webs!
+
+-3619
++Of course they would run into a spider!
+
+-4593
++I bet I really dont want to meet a spider like that
+
+-1272
++LESS SPIDER PLEASE
+
+-4792
++Easily the most scary video all day! What the spider
+
+-5733
++Just wanna mention that there is no need for a spider that big
+
+-6195
++Exactly what I wanted to see today! Spider monster is really scary!
+
+-7072
++This right here is professionals, facing a big spider like this with no fear
+
+-2609
++Bet it has a poisionous bite
+
+-3714
++I dont like how that spider moves at all!
+
+-455
++SPIDER
+
+-7471
++I really like how you balance your humor with spooky things like the big spider
+
+-5943
++I could watch that spider forever. Creeps me the hell out though
+
+-4517
++Are you gonna do a colab with any other creators?
+
+-5266
++Literally never seen a bug animal this large even before
+
+-4222
++Wait a second.... That really large for a spider
+
+-7558
++When you enter a having many eyes competition and your opponent is that spider..
+
+-4414
++Honestly love these videos, wish you made more!
+
+-6714
++That guy is filming! I think he is too mean for spööktubes guidelines!
+
+-10442
++Seems like that guy is murder streaming. kind of fucked up if you ask me. I wouldnt not watch something like that
+
+-4226
++RUN! Thats a kill streamer!! Dont let it get you!!
+
+-1930
++That monster is HUGGEE
+
+-2297
++That monster is so scary
+
+-3742
++I wonder if that big guy is just lonely...
+
+-1061
++He's so big...
+
+-2731
++I wonder if he's still there???
+
+-1798
++You invaded his HOME!
+
+-1602
++It's disgusting...
+
+-1435
++Leave him alone!
+
+-4063
++I love how you terrying that monster looks
+
+-5448
++Greetings from the sky island next to yours. nice monster
+
+-5772
++Awesome work and scary monsters! You're so authentic and real.
+
+-6368
++You have the most real footage... It's far superior than many others...
+
+-3104
++This was an AMAZING investigation!!!
+
+-5667
++Pals , everytime i see a new video of yours , im like YESSSS  ....!!  :)
+
+-7097
++Incredible! I watch a lot of paranormal monster channels but you are special
+
+-6204
++Totally agree with the other comments, fantastic monster channel
+
+-4815
++Your way of dealing with big monsters, excellent...!!!
+
+-3569
++WOW What a BIG monster! Please be careful!
+
+-5904
++Thankyou SO much for recording this!! To scary for me to go there!
+
+-6108
++Omg I never had that many chills watching other spooktube videos!
+
+-5138
++Holy cow. Why do you do these FOR REAL?! That thing was huge!
+
+-4901
++I thought it looked at you!! It looked very dangerous!
+
+-4727
++wow they are so brave, just taunting that monster!
+
+-3823
++Hahaha put that thing back in the toolbox
+
+-1571
++I think it FELL OVER
+
+-3404
++Laughing so hard at the wisk monster
+
+-5224
++Only my first video I see but I liked the machine monster
+
+-2794
++Never change lol. Good footage!
+
+-4739
++That thing was probably used to make things before
+
+-5567
++I swear this is my favorite creature. Its such a weird shape!
+
+-6803
++I rarely get scared and I guess I didn't really get scared this time either
+
+-5975
++You already know they are gonna run into some freaky creatures!
+
+-1486
++MORE VIDEOS! WISK HEAD
+
+-2978
++Its the wisk head monster for me
+
+-1570
++Not the wisk head
+
+-5683
++Do people realise its actually dangerous!? My uncles all died
+
+-5258
++Can we all agree that we want to see more of the wisk head?
+
+-3814
++Never in a million years would that be me!
+
+-4309
++You know its serious when its wisker monster
+
+-2320
++Favorite so far! Wisk guy!
+
+-7655
++Maybe the real content was the friends we made along the way. Like the wall monster
+
+-3179
++Wall thing! Lovely video everyone!
+
+-6625
++As someone who owns multiple walls, I find this video quite concerning
+
+-5098
++Not good at all that the monsters come out of the walls
+
+-2469
++OMG the big robot is crying!
+
+-2826
++That big cage guy is real scary
+
+-2516
++I think the big robot is sad
+
+-2178
++The big robot is crying!
+
+-2513
++The big robot is crying! Aww
+
+-3196
++The big robot is crying! Poor thing
+
+-4093
++That big robot cage want's to kidnap someone
+
+-1984
++OMG they got captured!
+
+-3350
++Did you manage to sovle the Capthca??
+
+-4908
++Omg I cant believe you didnt stay away from the robot
+
+-13458
++Seriously, who designed that captcha? I've struggled with some tough ones, but this is on another level. Poor crew, hope they find a way out soon. 
+
+-9260
++My cats wouldn't stand for this! Hoping the kids find a way to outsmart that robot and get to safety.
+
+-10705
++Sending virtual hugs to the pals. Stay strong, and I hope there's a positive resolution to this strange situation.
+
+-10909
++Captchas are meant to annoy, not terrify! Hope this is just a strange online challenge and not a dangerous situation.
+
+-3262
++YOU MADE IT! The big robot is happy now!
+
+-5209
++Awh the robot just wanted to watch you all on spooktube
+
+-7625
++Can we talk about the irony of a robot needing help with a captcha? Humans: 1, Robot: 0
+
+-9504
++Imagine getting kidnapped and the only way out is solving captchas! Next-level trolling by the robot.
+
+-13393
++Forget horror movies, this is the content I signed up for on SpookTube! Kids, you're legends for turning a scary situation into a captcha comedy!
+
+-4628
++Thank you all for helping me out! Love your videos
+
+-1925
++EWWW!! THAT WORM THING SUCKS
+
+-5822
++Respect for these people for donating blood to the worm leech.
+
+-3805
++How are you not more scared?? DISGUSTING WORM
+
+-9855
++The only youtube channel that doesn't clickbait... They actually show cool stuff like that leech creature
+
+-11602
++The reason I love these video is because it makes me feel so safe when I'm worried about what's going to happen to someone else
+
+-3193
++Cool video dont get eaten by worms
+
+-7369
++Can we appreciate that they sacrifice themselves so we can watch these videos?
+
+-5887
++leeches are one of my biggest fears.. nmad respect for doin this
+
+-5512
++you are legend for getting so close to worm hats off to you
+
+-1412
++Is that a snail?
+
+-1106
++A snail man??
+
+-2183
++Snail zombie! A Snailbie!
+
+-2149
++Snail with legs zombie!
+
+-1715
++Hahaha its so slow!
+
+-2337
++Ive heard they eat people
+
+-7150
++You are really good at finding interesting things to show in videos! Love it!
+
+-4246
++Not scariest I have seen but definitely snail
+
+-1670
++Snail snail snail!
+
+-1751
++Hahaha juicy snail!
+
+-4070
++Dont want to meet one of those at night! OR DAY
+
+-6092
++I cant top laughing at the snail why does it have legs like a human
+
+-5200
++I can genuinely feel how yucky it would be to touch that
+
+-3284
++Why am I watching this I have snails!
+
+-3496
++Snails are friends! Love these videos!
+
+-3944
++Yo snail creature is actually really rare
+
+-3889
++Bet it would feel cold and sticky to touch
+
+-3295
++Please do more of this kind of video
+
+-4118
++Havent watched a video on years, great video!
+
+-1670
++Snail snail snail!
+
+-1667
++Zombie like snail!
+
+-3914
++Dont get caught by the snail. I bet it bites
