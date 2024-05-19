@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using static Unity.Collections.LowLevel.Unsafe.BurstRuntime;
 using static UnityEngine.UIElements.StylePropertyAnimationSystem;
 
 namespace TranslatedWarning.Patches
@@ -9,12 +10,11 @@ namespace TranslatedWarning.Patches
     public class DialogRipper
     {
         private static bool isWritten = false;
-
+        private static bool isAlsoWritten = false;
 
         public static List<string> commentList = new List<string>();
 
         static string[] values = new string[50];
-
 
         internal static void Init()
         {
@@ -27,10 +27,11 @@ namespace TranslatedWarning.Patches
 
 
             On.LocalizationKeys.GetLocalizedString += LocalizationKeys_GetLocalizedString;
-
-
+            On.PlayerEmoteContentEvent.GenerateComment += PlayerEmoteContentEvent_GenerateComment;
 
             DataCollection();
+
+
 
             using (StreamWriter writetext = new StreamWriter("D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt"))
             {
@@ -49,7 +50,51 @@ namespace TranslatedWarning.Patches
                 Debug.Log("Key: " + hashCode);
                 Debug.Log("Value: " + comment);
             }
+        }
 
+        private static Comment PlayerEmoteContentEvent_GenerateComment(On.PlayerEmoteContentEvent.orig_GenerateComment orig, PlayerEmoteContentEvent self)
+        {
+            orig(self);
+
+            PlayerEmoteContentEvent playerEmoteContentEvent = self;
+            if (!isAlsoWritten)
+            {
+                foreach (string comment in playerEmoteContentEvent.item.emoteInfo.comments)
+                {
+                    Debug.Log(comment);
+                }
+                
+                using (StreamWriter writetext = new StreamWriter("D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt", true))
+                {
+                    Debug.Log("//EMOTES");
+                    writetext.WriteLine("//EMOTES\n");
+                }
+                if(playerEmoteContentEvent.item.emoteInfo.comments != null)
+                {
+                    int i = 1;
+                    Debug.Log("nigers !!!!!!!!");
+                    string emoteName = playerEmoteContentEvent.item.emoteInfo.displayName;
+                    foreach (string comment in playerEmoteContentEvent.item.emoteInfo.comments)
+                    {
+                        Debug.Log("nigers !!!!!!!!");
+                        using (StreamWriter writetext = new StreamWriter("D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt", true))
+                        {
+                            writetext.WriteLine($"-{emoteName + i}\n+{comment}\n");
+                        }
+                        i++;
+                    }
+                }
+                else
+                {
+                    Debug.Log("emote comments does not EXIST!!!!!!!!");
+                }
+
+                isAlsoWritten = true;
+            }
+
+            List<string> list = new List<string>();
+            list.AddRange(playerEmoteContentEvent.item.emoteInfo.comments);
+            return new Comment(playerEmoteContentEvent.item.emoteInfo.comments![0]);
         }
 
         static int HashFunction(string s, string[] array)
@@ -67,6 +112,7 @@ namespace TranslatedWarning.Patches
 
         private static void DataCollection()
         {
+
             foreach (var comment in BarnacleBallContentEvent.NORMAL_COMMENTS)
             {
                 commentList.Add(comment);
