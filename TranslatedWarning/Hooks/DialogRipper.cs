@@ -72,13 +72,15 @@ namespace TranslatedWarning.Patches
                 if(playerEmoteContentEvent.item.emoteInfo.comments != null)
                 {
                     int i = 1;
-                    Debug.Log("nigers !!!!!!!!");
                     string emoteName = playerEmoteContentEvent.item.emoteInfo.displayName;
+                    Debug.Log($"emote comments found for {emoteName} !!!!!!!!");
                     foreach (string comment in playerEmoteContentEvent.item.emoteInfo.comments)
                     {
-                        Debug.Log("nigers !!!!!!!!");
                         using (StreamWriter writetext = new StreamWriter("D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt", true))
                         {
+
+                            Debug.Log("Key: " + emoteName + i);
+                            Debug.Log("Value: " + comment);
                             writetext.WriteLine($"-{emoteName + i}\n+{comment}\n");
                         }
                         i++;
