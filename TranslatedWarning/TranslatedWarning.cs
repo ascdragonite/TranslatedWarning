@@ -39,7 +39,7 @@ namespace TranslatedWarning
         {
             Logger.LogDebug("Hooking...");
 
-            DialogRipper.Init();    
+            DialogRipper.Init();
 
             Logger.LogDebug("Finished Hooking!");
 

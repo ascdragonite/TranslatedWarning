@@ -1,21 +1,25 @@
+using BepInEx;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using static Unity.Collections.LowLevel.Unsafe.BurstRuntime;
 using static UnityEngine.UIElements.StylePropertyAnimationSystem;
+using UnityEngine;
+using Zorro.Core;
 
 namespace TranslatedWarning.Patches
 {
     public class DialogRipper
     {
         private static bool isWritten = false;
-        private static bool isAlsoWritten = false;
+        private static bool isWrittenItem = false;
 
         public static List<string> commentList = new List<string>();
 
         static string[] values = new string[50];
 
+        public static string prevName = "";
         internal static void Init()
         {
             /*
@@ -28,70 +32,143 @@ namespace TranslatedWarning.Patches
 
             On.LocalizationKeys.GetLocalizedString += LocalizationKeys_GetLocalizedString;
             On.PlayerEmoteContentEvent.GenerateComment += PlayerEmoteContentEvent_GenerateComment;
+            On.PropContentEvent.GenerateComment += PropContentEvent_GenerateComment;
+            //On.ContentPolling.Poll += ContentPolling_Poll;
+            On.ItemDatabase.TryGetItemFromID += ItemDatabase_TryGetItemFromID;
 
-            DataCollection();
+            DataCollection(); //collects most comments
 
-
-
-            using (StreamWriter writetext = new StreamWriter("D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt"))
-            {
-                Debug.Log("//COMMENTS");
-                writetext.WriteLine("//COMMENTS\n");
-            }
-
+            Print("//COMMENTS_MONSTER", append: false);
             foreach (string comment in commentList)
             {
 
-                int hashCode = HashFunction(comment, values);
-                using (StreamWriter writetext = new StreamWriter("D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt", true))
+                int hashCode = HashFunction(comment, values); //creates hashcode for comments
+                Print(hashCode.ToString(), comment);
+            }
+
+
+            PropContent[] props = SingletonAsset<PropContentDatabase>.Instance.Objects;
+            foreach (PropContent prop in props)
+            {
+                Debug.Log($"{prop.name}");
+                int i = 0;
+                foreach (string comment in prop.comments)
                 {
-                    writetext.WriteLine($"-{hashCode}\n+{comment}\n");
+
+                    Print(prop.name + i, comment); //collects prop comments
+                    i++;
                 }
-                Debug.Log("Key: " + hashCode);
-                Debug.Log("Value: " + comment);
+            }
+
+
+
+        }
+
+        private static bool ItemDatabase_TryGetItemFromID(On.ItemDatabase.orig_TryGetItemFromID orig, byte id, out Item item)
+        {
+            Debug.Log("ItemDatabase.TryGetItemFromId ACTIVATED !!!!!!!!!!!");
+            if (isWrittenItem)
+            {
+                return orig(id, out item);
+            }
+
+            Item[] items = SingletonAsset<ItemDatabase>.Instance.Objects;
+
+            Debug.Log("Created Item List!!!!!!!!");
+            Print("//COMMENTS_EMOTE");
+            foreach (Item _item in items)
+            {
+                int i = 0;
+                foreach(string comment in _item.emoteInfo.comments)
+                {
+                    Print(_item.name + "." + i, comment, log: true);
+                    i++;
+                }
+            }
+            isWrittenItem = true;
+            return orig(id, out item);
+        }
+
+
+
+        //private static void ContentPolling_Poll(On.ContentPolling.orig_Poll orig, int x, int y, Camera camera)
+        //{
+        //    orig(x, y, camera);
+
+        //    float x_ = (float)x / 20f;
+        //    float y_ = (float)y / 20f;
+        //    Ray laser = camera.ViewportPointToRay(new Vector3(x_, y_, 0f));
+        //    float num = 200f;
+        //    Vector3 last = laser.origin + laser.direction * num;
+        //    RaycastHit hitInfo;
+        //    bool thing = Physics.Raycast(laser, out hitInfo, num, int.MaxValue, QueryTriggerInteraction.Ignore);
+        //    if (thing)
+        //    {
+        //        last = hitInfo.point;
+        //        thing = false;
+        //        string name = hitInfo.collider.gameObject.name;
+        //        if(name != prevName)
+        //        {
+        //            ContentProvider contentProv = hitInfo.collider.GetComponentInParent<ContentProvider>();
+
+        //            if (contentProv != null)
+        //            {
+        //                Debug.Log($"RAYCAST HAS HIT {name} !!!!!!!!!!!!!!!!!!!!!!!");
+        //                thing = true;
+        //            }
+        //            prevName = name;
+        //        }
+
+        //    }
+        //}
+
+        private static void Print(string key, string value = "", bool append = true, bool log = false)
+        {
+            using (StreamWriter writetext = new StreamWriter("D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt", append))
+            {
+                if (value.IsNullOrWhiteSpace())
+                {
+                    if (log) { Debug.Log(key);};
+                    writetext.WriteLine(key);
+                    return;
+                }
+                if (log)
+                {
+                    Debug.Log("Key: " + key);
+                    Debug.Log("Key: " + value);
+                }
+                writetext.WriteLine($"-{key}\n+{value}\n");
             }
         }
+
+        private static Comment PropContentEvent_GenerateComment(On.PropContentEvent.orig_GenerateComment orig, PropContentEvent self)
+        {
+
+            return orig(self);
+        }
+
+       
 
         private static Comment PlayerEmoteContentEvent_GenerateComment(On.PlayerEmoteContentEvent.orig_GenerateComment orig, PlayerEmoteContentEvent self)
         {
             orig(self);
 
             PlayerEmoteContentEvent playerEmoteContentEvent = self;
-            if (!isAlsoWritten)
+
+            if (playerEmoteContentEvent.item.emoteInfo.comments != null)
             {
+                int i = 1;
+                string emoteName = playerEmoteContentEvent.item.emoteInfo.displayName;
+                Debug.Log($"emote comments found for {emoteName} !!!!!!!!");
                 foreach (string comment in playerEmoteContentEvent.item.emoteInfo.comments)
                 {
-                    Debug.Log(comment);
+                    Print(emoteName, comment, log: true);
+                    i++;
                 }
-                
-                using (StreamWriter writetext = new StreamWriter("D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt", true))
-                {
-                    Debug.Log("//EMOTES");
-                    writetext.WriteLine("//EMOTES\n");
-                }
-                if(playerEmoteContentEvent.item.emoteInfo.comments != null)
-                {
-                    int i = 1;
-                    string emoteName = playerEmoteContentEvent.item.emoteInfo.displayName;
-                    Debug.Log($"emote comments found for {emoteName} !!!!!!!!");
-                    foreach (string comment in playerEmoteContentEvent.item.emoteInfo.comments)
-                    {
-                        using (StreamWriter writetext = new StreamWriter("D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt", true))
-                        {
-
-                            Debug.Log("Key: " + emoteName + i);
-                            Debug.Log("Value: " + comment);
-                            writetext.WriteLine($"-{emoteName + i}\n+{comment}\n");
-                        }
-                        i++;
-                    }
-                }
-                else
-                {
-                    Debug.Log("emote comments does not EXIST!!!!!!!!");
-                }
-
-                isAlsoWritten = true;
+            }
+            else
+            {
+                Debug.Log("emote comments does not EXIST!!!!!!!!");
             }
 
             List<string> list = new List<string>();
@@ -107,11 +184,12 @@ namespace TranslatedWarning.Patches
             // Summing up all the ASCII values
             // of each alphabet in the string
             for (int k = 0; k <= c.GetUpperBound(0); k++)
-                total += c[k];
+                total += c[k]; //char can be converted into int??
 
             return total;
         }
 
+        
         private static void DataCollection()
         {
 

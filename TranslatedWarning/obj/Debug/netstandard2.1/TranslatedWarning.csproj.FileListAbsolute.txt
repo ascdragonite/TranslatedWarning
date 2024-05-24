@@ -22,3 +22,4 @@ D:\repos\TranslatedWarning\TranslatedWarning\obj\Debug\netstandard2.1\Translated
 D:\repos\TranslatedWarning\TranslatedWarning\obj\Debug\netstandard2.1\TranslatedWarning.csproj.CoreCompileInputs.cache
 D:\repos\TranslatedWarning\TranslatedWarning\obj\Debug\netstandard2.1\TranslatedWarning.csproj.CopyComplete
 D:\repos\TranslatedWarning\TranslatedWarning\obj\Debug\netstandard2.1\ascdragonite.TranslatedWarning.dll
+D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\Zorro.Core.Runtime.dll
