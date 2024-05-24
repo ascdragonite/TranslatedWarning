@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z9/YOT6Qf3E=",
+  "dgSpecHash": "E9tbB0n61xFm9mVkInrXNn4UvEF14ypW/yFDpV9Mr2MuyOt1Y86sP+hsYddUe0gt5A8VPA7IeL7nApS89Mabpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.csproj",
+  "projectFilePath": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\bepinex.analyzers\\1.0.8\\bepinex.analyzers.1.0.8.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\bepinex.assemblypublicizer.msbuild\\0.4.2\\bepinex.assemblypublicizer.msbuild.0.4.2.nupkg.sha512",

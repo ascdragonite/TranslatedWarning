@@ -9,35 +9,35 @@ namespace TranslatedWarning.Patches
 {
     public class InjectTranslation
     {
-        static string path = "";
-        static string category;
+        static string path = "D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt";
+
+        static Dictionary<string, string> translatedDict = new Dictionary<string, string>();
+        static List<string> keyList = new List<string>();
+        static List<string> valueList = new List<string>();
+        static int keyAssign;
+
         internal static void Init()
         {
 
             //fun things
             string[] lines = File.ReadAllLines(path);
+
+            Debug.Log("====== DICTIONARY BEGIN ======");
             for (int i = 0; i < lines.Length; i++) 
             {
                 string line = lines[i];
 
-                switch (category)
+                if (line.StartsWith("-"))
                 {
-                    case "COMMENTS":
-                        Debug.Log("something");
-                        break;
-                    case "EMOTE":
-
-                        break;
-                    case "":
-
-                        break;
-
+                    keyList.Add(line.Substring(1).Trim());
+                    keyAssign = i;
                 }
-
-                if (line.StartsWith("//"))
+                if (line.StartsWith("+"))
                 {
-                    category = line.TrimStart('/');
-                    Debug.Log($"Created category: {category}");
+                    valueList.Add(line.Substring(1).Trim());
+                    translatedDict.Add(lines[keyAssign], line.Substring(1).Trim());
+                    Debug.Log($"Key: {lines[keyAssign]}");
+                    Debug.Log($"Value: {line.Substring(1).Trim()}");
                 }
 
             }

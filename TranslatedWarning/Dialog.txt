@@ -1,4 +1,4 @@
-//COMMENTS_MONSTER
+//COMMENTS
 -7048
 +My absolute FAVORITE part of the video is when they saw the tentacle creature
 
@@ -1452,6 +1452,7 @@
 -3914
 +Dont get caught by the snail. I bet it bites
 
+//PROP
 -AppleTree0
 +Such  a great garden!
 
@@ -2987,7 +2988,7 @@
 - HatShop_CantAfford
 +{hatName} is too Expensive!
 
-//COMMENTS_EMOTE
+//EMOTE
 -Emote_Applause.0
 +Thats some good clapping
 

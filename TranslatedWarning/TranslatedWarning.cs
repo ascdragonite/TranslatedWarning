@@ -41,6 +41,8 @@ namespace TranslatedWarning
 
             DialogRipper.Init();
 
+            InjectTranslation.Init();
+
             Logger.LogDebug("Finished Hooking!");
 
 
