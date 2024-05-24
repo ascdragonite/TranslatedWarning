@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|c:\\users\\admin\\documents\\github\\translatedwarning\\translatedwarning\\hooks\\dialogripper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|solutionrelative:hooks\\dialogripper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|c:\\users\\admin\\documents\\github\\translatedwarning\\translatedwarning\\hooks\\injecttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|solutionrelative:hooks\\injecttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|c:\\users\\admin\\documents\\github\\translatedwarning\\translatedwarning\\translatedwarning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|solutionrelative:translatedwarning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InjectTranslation.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\Hooks\\InjectTranslation.cs",
+              "RelativeDocumentMoniker": "Hooks\\InjectTranslation.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\Hooks\\InjectTranslation.cs",
+              "RelativeToolTip": "Hooks\\InjectTranslation.cs",
+              "ViewState": "AQIAAA8AAAAAODMzMzPjvykAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T07:28:54.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DialogRipper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\Hooks\\DialogRipper.cs",
+              "RelativeDocumentMoniker": "Hooks\\DialogRipper.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\Hooks\\DialogRipper.cs",
+              "RelativeToolTip": "Hooks\\DialogRipper.cs",
+              "ViewState": "AQIAACEAAAAAODMzMzPjvygAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T07:28:54.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TranslatedWarning.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.cs",
+              "RelativeDocumentMoniker": "TranslatedWarning.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.cs",
+              "RelativeToolTip": "TranslatedWarning.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T07:28:54.616Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -38,7 +38,7 @@ namespace TranslatedWarning.Patches
 
             DataCollection(); //collects most comments
 
-            Print("//COMMENTS_MONSTER", append: false);
+            Print("//COMMENTS", append: false);
             foreach (string comment in commentList)
             {
 
@@ -48,6 +48,7 @@ namespace TranslatedWarning.Patches
 
 
             PropContent[] props = SingletonAsset<PropContentDatabase>.Instance.Objects;
+            Print("//PROP");
             foreach (PropContent prop in props)
             {
                 Debug.Log($"{prop.name}");
@@ -75,7 +76,7 @@ namespace TranslatedWarning.Patches
             Item[] items = SingletonAsset<ItemDatabase>.Instance.Objects;
 
             Debug.Log("Created Item List!!!!!!!!");
-            Print("//COMMENTS_EMOTE");
+            Print("//EMOTE");
             foreach (Item _item in items)
             {
                 int i = 0;
@@ -91,36 +92,6 @@ namespace TranslatedWarning.Patches
 
 
 
-        //private static void ContentPolling_Poll(On.ContentPolling.orig_Poll orig, int x, int y, Camera camera)
-        //{
-        //    orig(x, y, camera);
-
-        //    float x_ = (float)x / 20f;
-        //    float y_ = (float)y / 20f;
-        //    Ray laser = camera.ViewportPointToRay(new Vector3(x_, y_, 0f));
-        //    float num = 200f;
-        //    Vector3 last = laser.origin + laser.direction * num;
-        //    RaycastHit hitInfo;
-        //    bool thing = Physics.Raycast(laser, out hitInfo, num, int.MaxValue, QueryTriggerInteraction.Ignore);
-        //    if (thing)
-        //    {
-        //        last = hitInfo.point;
-        //        thing = false;
-        //        string name = hitInfo.collider.gameObject.name;
-        //        if(name != prevName)
-        //        {
-        //            ContentProvider contentProv = hitInfo.collider.GetComponentInParent<ContentProvider>();
-
-        //            if (contentProv != null)
-        //            {
-        //                Debug.Log($"RAYCAST HAS HIT {name} !!!!!!!!!!!!!!!!!!!!!!!");
-        //                thing = true;
-        //            }
-        //            prevName = name;
-        //        }
-
-        //    }
-        //}
 
         private static void Print(string key, string value = "", bool append = true, bool log = false)
         {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.csproj": {}
   },
   "projects": {
-    "D:\\repos\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.csproj",
         "projectName": "ascdragonite.TranslatedWarning",
-        "projectPath": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -36,6 +36,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -84,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
