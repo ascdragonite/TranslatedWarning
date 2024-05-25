@@ -2068,10 +2068,10 @@ MimeContentEvent.1
 +Gadgets
 
 -Emotes
-+Emote
++When you move.
 
 -Emotes2
-+Emote2
++Another time
 
 -Upgrades
 +Upgrades
