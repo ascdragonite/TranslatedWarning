@@ -9,7 +9,7 @@ namespace TranslatedWarning.Patches
 {
     public class InjectTranslation
     {
-        static string path = "D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt";
+        static string path = "D:\\repos\\TranslatedWarning\\TranslatedWarning\\TranslatedDialog.txt";
 
         static Dictionary<string, string> translatedDict = new Dictionary<string, string>();
         static List<string> keyList = new List<string>();

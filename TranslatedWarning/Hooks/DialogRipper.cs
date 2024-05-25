@@ -15,7 +15,7 @@ namespace TranslatedWarning.Patches
         private static bool isWritten = false;
         private static bool isWrittenItem = false;
 
-        public static List<string> commentList = new List<string>();
+        public static Dictionary<string, string> commentList = new Dictionary<string, string>();
 
         static string[] values = new string[50];
 
@@ -31,19 +31,26 @@ namespace TranslatedWarning.Patches
 
 
             On.LocalizationKeys.GetLocalizedString += LocalizationKeys_GetLocalizedString;
+
+            Debug.Log("LocalizationKeys.GetLocalizedString!!!!!!!!!!!");
+
             On.PlayerEmoteContentEvent.GenerateComment += PlayerEmoteContentEvent_GenerateComment;
-            On.PropContentEvent.GenerateComment += PropContentEvent_GenerateComment;
-            //On.ContentPolling.Poll += ContentPolling_Poll;
+
+            Debug.Log("PlayerEmoteContentEvent.GenerateComment!!!!!!!!!!!");
+
+
             On.ItemDatabase.TryGetItemFromID += ItemDatabase_TryGetItemFromID;
+
+            Debug.Log("Preparing DATA COLLECTION!!!");
 
             DataCollection(); //collects most comments
 
-            Print("//COMMENTS", append: false);
-            foreach (string comment in commentList)
+            Print("//COMMENTS",log: true, append: false);
+            foreach (KeyValuePair<string, string> kvp in commentList)
             {
-
-                int hashCode = HashFunction(comment, values); //creates hashcode for comments
-                Print(hashCode.ToString(), comment);
+                Debug.Log("funny");
+                //int hashCode = HashFunction(comment, values); //creates hashcode for comments
+                Print(kvp.Key, kvp.Value, log: true);
             }
 
 
@@ -56,7 +63,7 @@ namespace TranslatedWarning.Patches
                 foreach (string comment in prop.comments)
                 {
 
-                    Print(prop.name + i, comment); //collects prop comments
+                    Print(prop.name + "." + i, comment); //collects prop comments
                     i++;
                 }
             }
@@ -112,11 +119,6 @@ namespace TranslatedWarning.Patches
             }
         }
 
-        private static Comment PropContentEvent_GenerateComment(On.PropContentEvent.orig_GenerateComment orig, PropContentEvent self)
-        {
-
-            return orig(self);
-        }
 
        
 
@@ -147,207 +149,290 @@ namespace TranslatedWarning.Patches
             return new Comment(playerEmoteContentEvent.item.emoteInfo.comments![0]);
         }
 
-        static int HashFunction(string s, string[] array)
-        {
-            int total = 0;
-            char[] c = s.ToCharArray();
-
-            // Summing up all the ASCII values
-            // of each alphabet in the string
-            for (int k = 0; k <= c.GetUpperBound(0); k++)
-                total += c[k]; //char can be converted into int??
-
-            return total;
-        }
-
+        //amazing code
         
         private static void DataCollection()
         {
-
+            Debug.Log("DATA COLLECTION IS RUNNING");
+            int i = 0;
             foreach (var comment in BarnacleBallContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("BarnacleBallContentEvent."+i, comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             foreach (var comment in BigSlapAgroContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("BigSlapAgroContentEvent." + i, comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             foreach (var comment in BigSlapPeacefulContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("BigSlapPeacefulContentEvent."+i, comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             foreach (var comment in BlackHoleBotContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("BlackHoleBotContentEvent."+i, comment);
+                i++;
             }
-            commentList.Add("omg <playername> is holding the bomb!");
+            Debug.Log("DATA COLLECT");
+            i = 0;
+            commentList.Add("BombContentEvent", "omg <playername> is holding the bomb!");
             foreach (var comment in BombsContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("BombsContentEvent."+i, comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             foreach (var comment in CamCreepContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("CamCreepContentEvent."+i,comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             foreach (var comment in DogContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("DogContentEvent."+i, comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             foreach (var comment in EarContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("EarContentEvent."+i, comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             foreach (var comment in EyeGuyContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("EyeGuyContentEvent."+i, comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             foreach (var comment in FireMonsterContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("FireMonsterContentEvent."+i,comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             foreach (var comment in FlickerContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("FlickerContentEvent."+i,comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             GoodCatchContentEvent goodCatch = new GoodCatchContentEvent();
             foreach (var comment in goodCatch.GOOD_CATCH_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("GoodCatchContentEvent."+ i, comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             foreach (var comment in HarpoonerContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("HarpoonerContentEvent."+i,comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             InterviewEvent interview = new InterviewEvent();
             foreach (var comment in interview.INTERVIEW_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add(interview.GetType().ToString(), comment);
+                i++;
             }
+            Debug.Log("DATA COLLECT");
+            i = 0;
             foreach (var comment in JelloContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("JelloContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in KnifoContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("KnifoContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in LarvaContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("LarvaContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in MimeContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("MimeContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in MouthContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("MouthContentEvent."+i, comment);
+                i++;
             }
-            commentList.Add("I saw a bunch of monsters in this video! It was really cool!");
+            i = 0;
+            commentList.Add("MultiMonsterContentEvent", "I saw a bunch of monsters in this video! It was really cool!");
             foreach (var comment in PlayerContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("PlayerContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in PlayerDeadContentEvent.DEAD_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("PlayerDeadContentEvent."+i, comment);
+                i++;
             }
 
             //PlayerEmote is nowhere to be found
-
+            i = 0;
             foreach (var comment in PlayerFallingContentEvent.BIG_FALL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("PlayerFallingContentEvent.BIG." + i, comment);
+                i++;
             }
-
+            i = 0;
             foreach (var comment in PlayerFallingContentEvent.SMALL_FALL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("PlayerFallingContentEvent.SMALL." + i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in PlayerHoldingMicContentEvent.HOLDING_MIC_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("PlayerHoldingMicContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in PlayerRagdollContentEvent.RAGDOLL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("PlayerRagdollContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in PlayerTookDamageContentEvent.TOOK_DMG_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("PlayerTookDamageContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in PuffoContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("PuffoContentEvent."+i,comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in RobotButtonContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("RobotButtonContentEvent."+i,comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in PlayerShroomContentEvent.comments)
             {
-                commentList.Add(comment);
+                commentList.Add("PlayerShroomContentEvent."+i,comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in SlurperContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("SlurperContentEvent."+i,comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in SnailSpawnerContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("SnailSpawnerContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in SnatchoContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("SnatchoContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in SpiderContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("SpiderContentEvent."+i,comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in StreamerContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("StreamerContentEvent."+i,comment);
+                i++;
             }
-            foreach (var comment in BigSlapPeacefulContentEvent.NORMAL_COMMENTS)
-            {
-                commentList.Add(comment);
-            }
+            
+            i = 0;
             TauntEvent taunt = new TauntEvent();
             foreach (var comment in taunt.INTERVIEW_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("TauntEvent" + i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in ToolkitWhiskContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("ToolkitWhiskContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in WalloContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("WalloContentEvent."+i,comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in WeepingContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("WeepingContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in WeepingContentEventCaptured.CAPTURED_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("WeepingContentEventCaptured."+i,comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in WeepingContentEventFail.FAIL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("WeepingContentEventFail."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in WeepingContentEventSuccess.SUCCESS_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("WeepingContentEventSuccess."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in WormContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("WormContentEvent."+i, comment);
+                i++;
             }
+            i = 0;
             foreach (var comment in ZombieContentEvent.NORMAL_COMMENTS)
             {
-                commentList.Add(comment);
+                commentList.Add("ZombieContentEvent."+i, comment);
+                i++;
             }
         }
 
@@ -368,7 +453,7 @@ namespace TranslatedWarning.Patches
                 {
                     using (StreamWriter writetext = new StreamWriter("D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt", true))
                     {
-                        writetext.WriteLine($"- {kvp.Key}\n+{kvp.Value}\n");
+                        writetext.WriteLine($"-{kvp.Key}\n+{kvp.Value}\n");
                     }
                 }
                 isWritten = true;

@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\",
+  "WorkspaceRootPath": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|c:\\users\\admin\\documents\\github\\translatedwarning\\translatedwarning\\hooks\\dialogripper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|d:\\repos\\translatedwarning\\translatedwarning\\hooks\\dialogripper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|solutionrelative:hooks\\dialogripper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|c:\\users\\admin\\documents\\github\\translatedwarning\\translatedwarning\\hooks\\injecttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|solutionrelative:hooks\\injecttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|d:\\repos\\translatedwarning\\translatedwarning\\translatedwarning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|solutionrelative:translatedwarning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|c:\\users\\admin\\documents\\github\\translatedwarning\\translatedwarning\\translatedwarning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|solutionrelative:translatedwarning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|d:\\repos\\translatedwarning\\translatedwarning\\hooks\\injecttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6B1972B-45B2-4F41-831F-E52DF967DE68}|TranslatedWarning.csproj|solutionrelative:hooks\\injecttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InjectTranslation.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\Hooks\\InjectTranslation.cs",
+              "DocumentMoniker": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\Hooks\\InjectTranslation.cs",
               "RelativeDocumentMoniker": "Hooks\\InjectTranslation.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\Hooks\\InjectTranslation.cs",
+              "ToolTip": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\Hooks\\InjectTranslation.cs",
               "RelativeToolTip": "Hooks\\InjectTranslation.cs",
               "ViewState": "AQIAAA8AAAAAODMzMzPjvykAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -45,26 +45,27 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DialogRipper.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\Hooks\\DialogRipper.cs",
+              "DocumentMoniker": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\Hooks\\DialogRipper.cs",
               "RelativeDocumentMoniker": "Hooks\\DialogRipper.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\Hooks\\DialogRipper.cs",
+              "ToolTip": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\Hooks\\DialogRipper.cs",
               "RelativeToolTip": "Hooks\\DialogRipper.cs",
-              "ViewState": "AQIAACEAAAAAODMzMzPjvygAAAAdAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAADwv0EAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T07:28:54.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TranslatedWarning.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.cs",
+              "DocumentMoniker": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.cs",
               "RelativeDocumentMoniker": "TranslatedWarning.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.cs",
+              "ToolTip": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.cs",
               "RelativeToolTip": "TranslatedWarning.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAwwC0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T07:28:54.616Z"
+              "WhenOpened": "2024-05-24T07:28:54.616Z",
+              "EditorCaption": ""
             }
           ]
         }
