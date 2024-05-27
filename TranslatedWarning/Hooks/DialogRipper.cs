@@ -7,6 +7,8 @@ using static Unity.Collections.LowLevel.Unsafe.BurstRuntime;
 using static UnityEngine.UIElements.StylePropertyAnimationSystem;
 using UnityEngine;
 using Zorro.Core;
+using TMPro;
+using System.Net.NetworkInformation;
 
 namespace TranslatedWarning.Patches
 {
@@ -20,6 +22,7 @@ namespace TranslatedWarning.Patches
         static string[] values = new string[50];
 
         public static string prevName = "";
+
         internal static void Init()
         {
             /*
@@ -45,12 +48,11 @@ namespace TranslatedWarning.Patches
 
             DataCollection(); //collects most comments
 
-            Print("//COMMENTS",log: true, append: false);
+            Print("//COMMENTS", append: false);
             foreach (KeyValuePair<string, string> kvp in commentList)
             {
-                Debug.Log("funny");
                 //int hashCode = HashFunction(comment, values); //creates hashcode for comments
-                Print(kvp.Key, kvp.Value, log: true);
+                Print(kvp.Key, kvp.Value);
             }
 
 
@@ -89,7 +91,7 @@ namespace TranslatedWarning.Patches
                 int i = 0;
                 foreach(string comment in _item.emoteInfo.comments)
                 {
-                    Print(_item.name + "." + i, comment, log: true);
+                    Print(_item.name + "." + i, comment);
                     i++;
                 }
             }
@@ -135,7 +137,7 @@ namespace TranslatedWarning.Patches
                 Debug.Log($"emote comments found for {emoteName} !!!!!!!!");
                 foreach (string comment in playerEmoteContentEvent.item.emoteInfo.comments)
                 {
-                    Print(emoteName, comment, log: true);
+                    Print(emoteName, comment);
                     i++;
                 }
             }

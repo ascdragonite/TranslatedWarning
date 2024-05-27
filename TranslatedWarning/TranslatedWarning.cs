@@ -5,7 +5,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using TMPro;
 using TranslatedWarning.Patches;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 namespace TranslatedWarning
 {
@@ -22,6 +26,7 @@ namespace TranslatedWarning
 
         string[] values = new string[50];
 
+        string[] upgradeTranslations = { "WATER", "BIOS SYSTEM COOKIES", "GREAT PODCAST", "TOURISM SERVICES", "A MILITARY BASE" };
 
         private void Awake()
         {
@@ -31,10 +36,79 @@ namespace TranslatedWarning
             HookAll();
 
             Logger.LogInfo($"{MyPluginInfo.PLUGIN_GUID} v{MyPluginInfo.PLUGIN_VERSION} has loaded!");
+            SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+
+        internal void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+        {
+            Logger.LogInfo("OnSceneLoaded: " + scene.name);
+            Logger.LogInfo(mode);
+
+            if(scene.name == "SurfaceScene")
+            {
+                Logger.LogInfo("THIS IS THE SurfaceScene, RUNNING COROUTINE");
+                //InjectTransEnviro.Init();
+                StartCoroutine(Coroutine());
+            }
+
 
         }
 
-        
+
+
+        private IEnumerator Coroutine()
+        {
+            yield return 0;
+
+            GameObject addons = GameObject.Find("Addons");
+            Debug.Log("FOUND Addons!!!!!!!!!!");
+
+            int i = 0;
+
+            foreach (Transform upgradeTransform in addons.transform)
+            {
+                if (i == 5) { break; }
+                Transform upgrade = upgradeTransform;
+                Debug.Log($"LOOKING IN {upgrade.name}!!!!!!!!!!");
+
+                Transform locked = upgrade.GetChild(1);
+                Debug.Log($"{upgrade.name} FOUND {locked.name}!!!!!!!!!!");
+
+                Component[] objects = locked.GetComponentsInChildren<Component>(true);
+                Debug.Log($"{upgrade.name} GRABBED ComponentsInChildren!!!!!!!!!!");
+
+                GameObject title = new GameObject();
+                foreach (Component thing in objects)
+                {
+                    Debug.Log($"{upgrade.name} COMPONENT {thing}!!!!!!!!!!");
+                    if (thing.gameObject.name == "Title")
+                    {
+                        title = thing.gameObject;
+                        Debug.Log($"{upgrade.name} FOUND TITLE!!!!!!!!!!");
+                        break;
+                    }
+                }
+
+
+                TMP_Text TMP = title.GetComponent<TextMeshPro>();
+
+
+                Debug.Log(TMP.text);
+
+                TMP.text = upgradeTranslations[i];
+
+                Debug.Log(TMP.text);
+
+
+                Debug.Log($"{upgrade.name} TRANSLATION INJECTED!!!!!!!!?!?!?");
+                i++;
+            }
+
+            yield break;
+
+        }
+
+
         internal static void HookAll()
         {
             Logger.LogDebug("Hooking...");
@@ -45,6 +119,7 @@ namespace TranslatedWarning
 
             Logger.LogDebug("Finished Hooking!");
 
+            
 
         }
 

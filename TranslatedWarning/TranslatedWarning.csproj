@@ -65,6 +65,12 @@
     <!-- References - HookGen Assemblies -->
     <ItemGroup>
         <Reference Include="$(MMHOOKManaged)MMHOOK_Assembly-CSharp.dll" />
+        <Reference Include="Unity.TextMeshPro">
+          <HintPath>..\..\..\SteamLibrary\steamapps\common\Content Warning\Content Warning_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UI">
+          <HintPath>..\..\..\SteamLibrary\steamapps\common\Content Warning\Content Warning_Data\Managed\UnityEngine.UI.dll</HintPath>
+        </Reference>
         <Reference Include="Zorro.Core.Runtime">
           <HintPath>..\..\..\SteamLibrary\steamapps\common\Content Warning\Content Warning_Data\Managed\Zorro.Core.Runtime.dll</HintPath>
         </Reference>

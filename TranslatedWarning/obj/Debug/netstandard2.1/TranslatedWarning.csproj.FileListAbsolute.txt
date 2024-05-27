@@ -24,3 +24,5 @@ D:\repos\TranslatedWarning\TranslatedWarning\obj\Debug\netstandard2.1\ascdragoni
 D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\Zorro.Core.Runtime.dll
 D:\repos\TranslatedWarning\TranslatedWarning\obj\Debug\netstandard2.1\TranslatedWarning.sourcelink.json
 D:\repos\TranslatedWarning\TranslatedWarning\obj\Debug\netstandard2.1\Translat.779B8B58.Up2Date
+D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\Unity.TextMeshPro.dll
+D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\UnityEngine.UI.dll
