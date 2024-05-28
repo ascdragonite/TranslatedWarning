@@ -1840,1087 +1840,1087 @@ MimeContentEvent.1
 //MAIN
 
 -HelmetWelcome
-+Day 1
++First day
 
 -HelmetFailed
-+You Failed To Become Succesful!
++I do not know what you are talking about!
 
 -Sleep
-+Sleep
++In another place
 
 -Day
-+Day {0}
++By noon {0}
 
 -Views
-+Views
++holiday
 
 -Quota
-+Quota
++Hyde continued.
 
 -Money
-+Money
++Wealth
 
 -Empty
-+Empty
++What do you mean, what do you mean?
 
 -Save
-+Save
++I called you
 
 -DivingBellNotReadyMissingPlayersState
-+Not all suits are inside
++Price does not include all clothes.
 
 -DivingBellNotReadyDoorOpenState
-+Close the door!
++Go to the door!
 
 -DivingBellReady
-+Ready to submerge!
++Ready to fly!
 
 -DivingBellReadySurface
-+Ready to return
++I am ready to retire.
 
 -DivingBellRechargingState
-+Recharging...
++to...
 
 -JoinRandom
-+JOINING RANDOM GAME...
++JOIN ABULAK...
 
 -EnterDiveBellDay2Objective
-+ENTER THE DIVE BELL AND SUBMERGE
++PRESS THE JUMP BUTTON TO OVERCOME OBSTACLES.
 
 -EnterDiveBellObjective
-+ENTER THE DIVE BELL AND SUBMERGE
++PRESS THE JUMP BUTTON TO OVERCOME OBSTACLES.
 
 -BuyEquipmentObjective
-+BUY EQUIPMENT
++PREPARE THE FOOD
 
 -ExtractVideoObjective
-+Throw the camera into the video extraction machine
++Connect the camera to the video player
 
 -FilmSomethingScaryObjective
-+FILM SOMETHING SCARY
++ON HEAR
 
 -GoToBedFailedObjective
-+GO TO BED
++GO TO THE EXCEPTIONS PAGE
 
 -GoToBedSuccessObjective
-+GO TO BED
++GO TO THE EXCEPTIONS PAGE
 
 -InviteFriendsObjective
-+INVITE YOUR FRIENDS
++WE ARE TALKING ABOUT FRIENDS
 
 -LeaveHouseObjective
-+LEAVE THE HOUSE
++THIN
 
 -PickupDiscObjective
-+PICK UP THE DISC
++SELECT HOME
 
 -PickupTheCameraObjective
-+PICK UP THE CAMERA
++CHOOSE A LOT
 
 -ReturnToTheDiveBellObjective
-+RETURN TO THE DIVE BELL AND ASCEND
++GO BACK TO THE TEXT AND START AGAIN.
 
 -UploadVideoObjective
-+Upload the video to Spöök Tube
++The tube is used to transfer videö
 
 -WakeUpObjective
-+WAKE UP
++I GET UP
 
 -CelebrateObjective
-+CELEBRATE YOUR NEWFOUND FAME!
++HELLO NEW WATCH!
 
 -DaysLeft
-+{0} DAYS LEFT
++{0} TODAY
 
 -LastDay
-+LAST DAY
++YESTERDAY
 
 -Buy
-+Buy  
++For commercial purposes  
 
 -Left
-+Left
++Links
 
 -Right
-+Right
++He didn't think ahead
 
 -NotSleepy
-+Not Sleepy
++I can't sleep
 
 -StartGame
-+Start Game
++Start playing
 
 -Submerge
-+SUBMERGE
++DANCE
 
 -ReturnToSurface
-+RETURN TO THE SURFACE
++REDUCE
 
 -TerminalBusy
-+Terminal Busy
++The station is full.
 
 -Help
-+Help
++Die
 
 -InviteFriends
-+Invite Friends
++He invited his friends
 
 -Open
-+Open
++Morning
 
 -Close
-+Close
++Next page
 
 -GameFull
-+Can't Invite Friends: Game is full
++You can't invite your friends: Many games
 
 -GameStarted
-+Can't Invite Friends: Game has started
++You can't invite your friends: Let's start the game
 
 -Offline
-+Offline
++Not fresh
 
 -StartGameTitle
-+Are you sure you want to start?
++Do you really want to start?
 
 -StartGameBody
-+You can not invite friends after the game has started.
++You cannot invite friends once the game has started.
 
 -StartGameConfirm
-+Start Game
++Start playing
 
 -Cancel
-+Cancel
++Sad
 
 -PickUp
-+PICKUP
++EVERYTHING WILL BE FINE
 
 -SwitchCategory
-+Switch To {category} Category
++{category} to class
 
 -AddToCart
-+Add {item} To Cart
++Add products to {item}
 
 -SoldOut
-+SOLD OUT
++BORING RELATIONSHIP
 
 -Clear
-+Clear
++Tell
 
 -Order
-+Order
++Great
 
 -DeleteSave
-+Delete Save
++International offer
 
 -DeleteSaveConfirm
-+Are you sure you want to delete this save?
++Are you sure you want to delete this message?
 
 -Yes
-+Yes
++Under
 
 -No
-+No
++Normal
 
 -Interact
-+Interact
++Okay
 
 -HelmetDaysLeft
-+{0} Days Left!
++{0} Have a great weekend!
 
 -HelmetLastDay
-+This Is The Last Day!
++Today is the last day!
 
 -HelmetForgetCamera
-+Don´t Forget The Camera!
++Do not forget your wardrobe!
 
 -Oxygen
-+Oxygen
++Bad weather
 
 -Distance
-+Distance
++Far
 
 -Items
-+ITEMS
++FEEL
 
 -CloseVideo
-+Close Video
++I saw the light.
 
 -ReplayVideo
-+Replay Video
++I'm watching a video.
 
 -SaveVideo
-+Save Video to Desktop
++Save the video to your desktop.
 
 -UploadToSpookTube
-+Upload the video to Spöök Tube
++The tube is used to transfer video.
 
 -ShopClosed
-+Shop Closed!
++Shop closed!
 
 -Lights
-+Lights
++beautiful
 
 -Medical
-+Medical
++Doctor
 
 -Gadgets
-+Gadgets
++Crime
 
 -Emotes
-+Emote
++When you move.
 
 -Emotes2
-+Emote2
++Another time
 
 -Upgrades
-+Upgrades
++Rescue operation
 
 -Misc
-+Misc
++Mix together.
 
 -SpookTubeViews
-+Spöök Tube views
++Let's talk about punishment in the subway.
 
 -AdRevenue
-+Ad Revenue
++Sales results
 
 -HospitalBill
-+Hospital Bill For {InsertName}
++The cost of maintaining your health {InsertName}
 
 -CalibrationUseVoice
-+This game uses voice chat
++Use your communication skills while playing
 
 -CalibrationUseHeadphones
-+Please use headphones
++I have the opportunity to marry privately
 
 -CalibrationSelectMic
-+SELECT MICROPHONE
++CHOOSE YOUR BREAKFAST
 
 -CalibrationSelectVoice
-+SELECT VOICE MODE
++SELECT AUDIO MODE
 
 -CalibrationBrightness
-+ADJUST BRIGHTNESS
++EASY TO BUILD
 
 -CalibrationMonster
-+Please adjust until you don't see the TEXT behind the monster
++Notifications will no longer appear during preview.
 
 -Brightness
-+Brightness
++bone
 
 -Continue
-+CONTINUE
++I looked back.
 
 -OldVersion
-+Old Game Version
++Older version of the game
 
 -PleaseUpdate
-+Please update your game to continue playing!
++Update the game to continue!
 
 -CloseGame
-+Close Game
++Gemstone
 
 -CrouchKeybindSetting
-+Crouch
++Oppression
 
 -DropKeybindSetting
-+Drop
++Lack of steel
 
 -EmoteKeybindSetting
-+Emote
++When you move.
 
 -InteractKeybindSetting
-+Interact
++First
 
 -JumpKeybindSetting
-+Jump
++Dance
 
 -ToggleSelfieModeKeybindSetting
-+Toggle Selfie Mode
++Change the location of your profile picture.
 
 -WalkBackwardKeybindSetting
-+Walk Backward
++Me
 
 -WalkForwardKeybindSetting
-+Walk Forward
++like
 
 -WalkLeftKeybindSetting
-+Walk Left
++Three left Three left
 
 -WalkRightKeybindSetting
-+Walk Right
++Joey
 
 -AmbientOcclusionSetting
-+Ambient Occlusion
++External limitations
 
 -BrightnessSetting
-+Brightness
++bone
 
 -ChromaticAberrationSetting
-+Chromatic Aberration
++I am interested in your colors.
 
 -FullscreenSetting
-+Window mode
++From the window you can see the street.
 
 -VoiceVolumeSetting
-+Voice Volume
++It is a friend
 
 -VoiceSetting
-+Microphone
++microphone
 
 -VoiceChatModeSetting
-+Voice Chat Mode
++Voice chat function
 
 -VSyncSetting
-+VSync
++Adjust vertically
 
 -ShadowQualitySetting
-+Shadow Quality
++Like a shadow
 
 -ScreenResolutionSetting
-+Resolution
++Hide
 
 -SFXVolumeSetting
-+SFX Volume
++Strong health effects
 
 -MouseSensitivitySetting
-+Mouse Sensitivity
++Feel the rat
 
 -MaxFramerateSetting
-+Max Framerate
++Maximum frame rate
 
 -MasterVolumeSetting
-+Master Volume
++Original pattern
 
 -SprintKeybindSetting
-+Sprint
++Type 
 
 -JoinError
-+Join Error
++Kosher's mistake
 
 -JoinErrorMismatch
-+Trying To Join A Lobby With Mismatched Game Version
++You are trying to access a group that has an incompatible version of the game.
 
 -Ok
-+Ok
++Everything will be fine.
 
 -VideoSaved
-+Video saved to desktop!
++The video will be saved on your desktop.
 
 -VideoSavedAs
-+Saved as
++How is that?
 
 -VideoFailedSave
-+Failed to save video to desktop!
++Videos are not saved on the computer!
 
 -ServerIssues
-+MEDIUM SERVER LOAD!
++AVERAGE OFFICE PRICES!
 
 -DropItem
-+Drop Item
++Idle thing
 
 -Battery
-+BATTERY
++ACROSS THE COUNTRY
 
 -FilmLeft
-+% FILM LEFT
++MOVIE PRICES ARE REASONABLE.
 
 -ToggleLight
-+Toggle Light
++Replace the lamp
 
 -ZoomKey
-+[SCROLL] ZOOM
++[IT IS A FRIEND] GREAT
 
 -SelfieMode
-+[R] SELFIE MODE
++[R] PRIVATE ROOM
 
 -Aim
-+[RMB] AIM
++[FIRST] APPROVED
 
 -HostingGame
-+HOSTING GAME...
++I PLAY...
 
 -Connecting
-+Connecting
++Hyde continued.
 
 -BoomMic
-+Boom Mic
++Great microphone
 
 -Camera
-+Camera
++in the cell
 
 -CameraBroken
-+Broken Camera
++The camera is broken.
 
 -Clapper
-+Clapper
++Patience
 
 -Defibrilator
-+Defibrilator
++Mission room
 
 -Disc
-+Disc
++Receipt
 
 -Flare
-+Flare
++They forgive me
 
 -GooBall
-+Goo Ball
++The ball moves slowly.
 
 -Hugger
-+Hugger
++Hard
 
 -LongFlashlightPro
-+Long Flashlight Pro
++Professional long distance running
 
 -LongFlashlight
-+Long Flashlight
++Long lasting battery
 
 -ModernFlashlightPro
-+Modern Flashlight Pro
++Modern professional theater
 
 -ModernFlashlight
-+Modern Flashlight
++Final game
 
 -OldFlashlight
-+Old Flashlight
++Old wallet
 
 -PartyPopper
-+Party Popper
++Let's do an analysis.
 
 -ShockStick
-+Shock Stick
++He met his friends
 
 -SoundPlayer
-+Sound Player
++Musician
 
 -WalkieTalkie
-+Walkie-talkie
++Portable radio transmitter
 
 -WideFlashlight2
-+Wide Flashlight 2
++High quality 2 inch battery
 
 -WideFlashlight3
-+Wide Flashlight 3
++Large 3 inch battery
 
 -Winch
-+Winch
++Attention
 
 -Aminalstateu
-+Aminal stateu
++Motherhood
 
 -Animalstatue
-+Animal statue
++Animal pictures
 
 -Bone
-+Bone
++and feet
 
 -Brainonastick
-+Brain on a stick
++My mind is dead
 
 -Chorby
-+Chorby
++A spoon
 
 -Container
-+Container
++Let's cook.
 
 -OldPainting
-+Old Painting
++Old photo
 
 -Radio
-+Radio
++Cordless phone
 
 -Ribcage
-+Ribcage
++and feet 
 
 -Skull
-+Skull
++Capital ship
 
 -Spine
-+Spine
++Area
 
 -ReporterMic
-+Reporter Mic
++A reporter holds a microphone
 
 -RescueHook
-+Rescue Hook
++Protector of life
 
 -Emote_Applause
-+Applause
++Help
 
 -Emote_Dance1
-+Dance 101
++Dancing 101
 
 -Emote_Dance2
-+Dance 102
++Dancing 102
 
 -Emote_Dance3
-+Dance 103
++Dancing 103
 
 -Emote_FingerScratch
-+Confused
++Mix together.
 
 -Emote_HalfBackflip
-+Backflip p1
++Return to page 1
 
 -Emote_Handstand
-+Gymnastics
++Fact
 
 -Emote_HuggerHeal
 +LOCALIZATION ERROR
 
 -Emote_JumpJack
-+Workout 1
++1. Physical activity
 
 -Emote_MiddleFings
-+Ancient Gestures 1
++Download old emails 1
 
 -Emote_Peace
-+Ancient gestures 2
++Original FB2 Promo
 
 -Emote_PushUp
-+Workout 2
++Other workshop courses
 
 -Emote_Shrug
-+Caring
++Far
 
 -Emote_Stretch
-+Yoga
++Grace
 
 -Emote_Thumbnail1
-+Thumbnail 1
++Figure 1
 
 -Emote_Thumbnail2
-+Thumbnail 2
++2. Image index
 
 -Emote_ThumbsUp
-+Ancient gestures 3
++Cupid 3 ancient coins
 
 -BoomMic_ToolTips
-+Make things louder
++This has improved a lot.
 
 -Camera_ToolTips
-+[LMB] Record;[RMB] Aim;[R] Selfie Mode;[Scroll] Zoom
++[ROY] The files;[FIRST] A real goal;[R] Quality;[It is a friend] Great
 
 -Clapper_ToolTips
-+[LMB] Clamp;[RMB] Hold further away
++[ROY] what are you doing;[FIRST] Leave it here
 
 -Defibrilator_ToolTips
-+[LMB] Revive
++[ROY] Because of the resurrection
 
 -Disc_ToolTips
-+Upload to spöökktube
++Download Spocktube.mq4.
 
 -FakeOldFlashlight
-+FakeOldFlashlight
++Escape
 
 -FakeOldFlashlight_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 -Flare_ToolTips
-+[LMB] Light Flare
++[ROY] Bright flowers
 
 -GooBall_ToolTips
-+[LMB] Activate
++[ROY] ""leave""
 
 -GrabberArm
-+Grabber Arm
++Understood  
 
 -GrabberArm_ToolTips
 +LOCALIZATION ERROR
 
 -Hugger_ToolTips
-+[LMB] Hug;[RMB] Read Instructions
++[ROY] Hard;[FIRST] Read the instructions
 
 -LongFlashlightPro_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 -LongFlashlight_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 -LostDisc
-+Lost Disc
++Data will be deleted.
 
 -LostDisc_ToolTips
-+Upload to spööktube
++Talking Tube Manager
 
 -ModernFlashlightPro_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 -ModernFlashlight_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 -OldFlashlight_ToolTips
-+[LMB] Toggle OldLight
++[ROY] I replaced the old light bulb.
 
 -PartyPopper_ToolTips
-+[LMB] Confetti time
++[ROY] It's time to enjoy the confetti.
 
 -ReporterMic_ToolTips
-+Makes things louder;[RMB] Reach out
++This has improved a lot.;[FIRST] Great
 
 -ShockStick_ToolTips
-+[LMB] Turn on
++[ROY] A galaxy
 
 -SoundPlayer_ToolTips
-+[Scroll] Select sound;[LMB] Play Sound
++[It is a friend] Choose your voice;[ROY] Not guilty
 
 -WalkieTalkie_ToolTips
-+[LMB] Hold to talk
++[ROY] I say
 
 -WideFlashlight2_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 -WideFlashlight3_ToolTips
-+[LMB] Toggle Light
++[ROY] Replace the lamp
 
 -Radio_ToolTips
-+[LMB] Toggle on/off
++[ROY] holiday
 
 -Emote_Applause_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_Dance1_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_Dance2_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_Dance3_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_FingerScratch_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_HalfBackflip_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_Handstand_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_HuggerHeal_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_JumpJack_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_MiddleFings_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_Peace_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_PushUp_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_Shrug_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_Stretch_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_Thumbnail1_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_Thumbnail2_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -Emote_ThumbsUp_ToolTips
-+[LMB] Learn
++[ROY] Document
 
 -ThrowItemToolTip
-+Hold [{key}] Throw Item
++and back and forth [{key}] It is not suitable for objects.
 
 -Endscreen1_1
-+You failed to gain popularity as a content creator
++You can't be a star as a content creator.
 
 -Endscreen1_2
-+Your channel never took off
++Your channel never disappoints.
 
 -Endscreen1_3
-+The algorithm figured out that your content was uninteresting
++According to the algorithm, the content is not interesting.
 
 -Endscreen1_4
-+You did not have what it takes to become famous
++He did not say his name.
 
 -Endscreen1_5
-+Very few people ever subscribed to your channel
++How many people subscribe to your channel?
 
 -Endscreen2_1
-+Your dreams were crushed
++Dreams can come true
 
 -Endscreen2_2
-+Your content was not engaging enough
++Inappropriate content
 
 -Endscreen2_3
-+No one liked your videos
++Nobody will like your videos.
 
 -Endscreen2_4
-+None of your videos ever went viral
++It is not only this video that has gone viral.
 
 -Endscreen2_5
-+Eventually you stopped making videos
++Finally I stopped making videos.
 
 -Endscreen3_1
-+You died of sadness
++Painful death
 
 -Endscreen3_2
-+You never got over it
++Negative
 
 -Endscreen3_3
-+You lived out your days in shame
++Even on bad days
 
 -Endscreen3_4
-+You never found anything else you wanted to do with your life
++You can't help yourself.
 
 -Endscreen3_5
-+The world forgot about you
++The world has forgotten you.
 
 -Endscreen3_6
-+The rest of your life was mid
++They spent their whole lives together.
 
 -EndscreenDream
-+But then you realised it was only a bad dream
++But it was a nightmare.
 
 -Bomb
-+Bomb
++Ball
 
 -Apple
-+Apple
++Beauty
 
 -Sit
-+Sit
++Finish
 
 -Error_Steam_Title
-+Failed to authenticate with steam
++The security panel can be divided into two parts.
 
 -Error_Steam_Body
-+Make sure steam is online
++Make sure Steam is connected to the Internet.
 
 -Error_Auth_Failed
-+Failed to authenticate with servers
++The server could not be authenticated
 
 -Error_File_Not_Found
-+File not found
++No information found
 
 -Error_Save
-+Save Error!
++Beware of mistakes!
 
 -Error_RecordingsFolder
-+Failed To Create Recordingsfolder!
++You can even create a home directory!
 
 -Error_NoSave
-+No Save Found!
++I can't say for sure!
 
 -Error_HostLeft
-+Host Left the game
++He immediately left the field.
 
 -Error_Disconnected
-+You've been disconnected
++People with disabilities
 
 -Error_Join
-+Failed to join lobby
++You cannot enter the room.
 
 -Error_Delete_TempFolder
-+Failed To Delete Temp Folder
++Delete temporary file.
 
 -Error_CreateRoom
-+Failed to create room
++Cannot create number
 
 -Error_VideoPath
-+Failed To Get Video Path
++I can't find a video to watch.
 
 -AddedToCart
-+Added to cart!
++This article has been added to your favorites
 
 -PushToTalk
-+Push To Talk
++Click here to start a conversation.
 
 -VoiceDetection
-+Voice Detection
++Thank you for your choice.
 
 -FullScreenMode
-+Fullscreen
++Couple
 
 -WindowedMode
-+Windowed
++Through the window
 
 -HighSetting
-+High
++you know
 
 -LowSetting
-+Low
++Hole
 
 -OnSetting
-+On
++Wealth
 
 -OffSetting
-+Off
++Paint
 
 -PressAnyKeySetting
-+Press any key
++Press the button
 
 -Emote_Applause_Text
-+How to Applaude
++You are very arrogant
 
 -Emote_Dance1_Text
-+How to Dance 101
++101 ways to play
 
 -Emote_Dance2_Text
-+How to Dance 102
++This is how you play 102.
 
 -Emote_Dance3_Text
-+How to Dance 103
++103 such plays
 
 -Emote_FingerScratch_Text
-+How to look confused
++The worst
 
 -Emote_HalfBackflip_Text
-+How to Backflip (part 1)
++How to Translate (Part 1)
 
 -Emote_Handstand_Text
-+Gymnastics for beginners
++lobby group
 
 -Emote_HuggerHeal_Text
-+How to make a good thumbnail 1
++1. How to take beautiful photos?
 
 -Emote_JumpJack_Text
-+Workout book 1
++Book 1
 
 -Emote_MiddleFings_Text
-+Ancient gestures 1
++Download old emails 1
 
 -Emote_Peace_Text
-+Ancient gestures 2
++Original FB2 Promo
 
 -Emote_PushUp_Text
-+Workout book 2
++Confirm payment a second time
 
 -Emote_Shrug_Text
-+How to care less
++How do you get so much attention?
 
 -Emote_Stretch_Text
-+How to yoga
++How do you practice yoga?
 
 -Emote_Thumbnail1_Text
-+How to make a good thumbnail 1
++1. How to take beautiful photos?
 
 -Emote_Thumbnail2_Text
-+How to make a good thumbnail 2
++Instead of creating a FB2 project
 
 -Emote_ThumbsUp_Text
-+Ancient gestures 3
++Cupid 3 ancient coins
 
 -Unlock
-+UNLOCK FOR
++TYPE 
 
 -BalaclavaHat
-+Balaclava
++Father
 
 -BeanieHat
-+Beanie
++Cover
 
 -BucketHatHat
-+Bucket hat
++Cover
 
 -CatEarsHat
-+Cat ears
++Beautiful Ears
 
 -ChefHat
-+Chefs hat
++Burn the lid
 
 -FloppyHat
-+Floppy hat
++Adjustable hood chain
 
 -HomburgHat
-+Homburg
++Meat sandwich
 
 -Hair1Hat
-+Curly hair
++Lily
 
 -Hat_BowlerHat
-+Bowler hat
++That bad guy
 
 -Hat_CapHat
-+Cap
++Address list
 
 -Hat_ChildHat
-+Propeller hat
++Where is the lighthouse?
 
 -Hat_ClownHat
-+Clown hair
++Cute head
 
 -Hat_CowboyHat
-+Cowboy hat
++Cowboy outfit
 
 -Hat_CrownHat
-+Crown
++Death
 
 -Hat_HaloHat
-+Halo
++Many years
 
 -Hat_HornsHat
-+Horns
++Old years
 
 -Hat_HotdogHat
-+Hotdog hat
++Sausage hat
 
 -Hat_JesterHat
-+Jesters hat
++Fun hat
 
 -Hat_KnifoHat
-+Ghost hat
++Breath
 
 -Hat_MilkHat
-+Milk hat
++Cover your chest.
 
 -Hat_NewsHat
-+Newsboy cap
++Magazine cover
 
 -Hat_PirateHat
-+Pirate hat
++Sailor hat
 
 -Hat_RugbyHat
-+Sports helmet
++That's hard stuff
 
 -Hat_SavannahHat
-+Savannah hair
++Princess Diana's hairstyle
 
 -Hat_TooopHat
-+Tooop hat
++Cover
 
 -Hat_TopHat
-+Top hat
++State of emergency
 
 -PartyHat
-+Party hat
++High
 
 -ShroomHat
-+Shroom hat
++Belly hat
 
 -UshankaHat
-+Ushanka
++Russian hat
 
 -WitchHat
-+Witch hat
++Magic hat
 
 -NetworkBingoBongo_0_EmailTitle
-+Norf sponsorship opportunity!
++This offer is valid until November!
 
 -NetworkBingoBongo_0_DealName
-+Norf gun
++But it's cold
 
 -NetworkBingoBongo_0_Description
-+Make us an add for our brand new NORF GUN 2000!\n\nGet a total of <b>{Views} views</b> without uploading any <b>dead bodies!</b> Kids don't like those.
++Contact us for more information about the NORF GUN 2000.\n\nYou don't need to <b>{Views} download</b> the machine to hear the <b>whole story.</b>
 
 -NetworkBingoBongo_0_SuccessEmailBody
-+You didn't upload any <b>dead bodies</b> and <b>got {Views} views!</b>
++There are no <b>comments</b> because the <b>{Views} message</b> has <b>not been uploaded.</b>
 
 -NetworkBingoBongo_0_FailedEmailBody
-+Can you not read??! You uploaded a video with  a dead body!?\n\nWe told you <b>NOT to film any dead bodies</b> and you do just that?\n\nThe kids will never be the same, you know?
++I do not know what you are talking about!\n\nDo you want to <b>send funeral photos</b> on behalf of the deceased?\n\nThe children there are never the same.
 
 -NetworkHoldTheBombo_9_EmailTitle
-+IMPORTANT! Try our award winning helmet!
++Try our selection of the best headphones.
 
 -NetworkHoldTheBombo_9_DealName
-+HoldTheBombo
++I have cake
 
 -NetworkHoldTheBombo_9_Description
-+Upload a video of someone holding a bomb to prove how safe our helmet is!
++Check that the helmet is safe by posting a photo of the launcher.
 
 -NetworkHoldTheBombo_9_SuccessEmailBody
-+You showed them the power of the bomb!
++The power of the bomb is enough!
 
 -NetworkHoldTheBombo_9_FailedEmailBody
 +LOCALIZATION ERROR
 
 -NetworkInterviewer_2_EmailTitle
-+Media inquiry: Monster deep dive.
++Learning environments: An example of visibility.
 
 -NetworkInterviewer_2_DealName
-+Reporter Net
++Supplier network
 
 -NetworkInterviewer_2_Description
-+Upload a video of you interviewing {Views} different monsters with the reporter mic
++Video interviews with microphone and other examples {Views}
 
 -NetworkInterviewer_2_SuccessEmailBody
-+Thank you for interviewing the creatures of the old world!
++Thank you for visiting Ancient Designs!
 
 -NetworkInterviewer_2_FailedEmailBody
 +LOCALIZATION ERROR
 
 -NetworkJackass_4_EmailTitle
-+Energy drink colab!
++Let's use energy together.
 
 -NetworkJackass_4_DealName
-+Donkey Net
++tricks.com
 
 -NetworkJackass_4_Description
-+Our fans love seeing weirdos like you get hurt. \n\nUpload videos where you and your friends taking a total of <b>{amount} damage</b>
++Our fans love to see great people like you.\n\nIt is not safe to make videos with me and your <b>{amount} friends.</b>
 
 -NetworkJackass_4_SuccessEmailBody
-+That looked really painful! Hope the medical bills aren't too high!
++Goddess! Hopefully the treatment is expensive!
 
 -NetworkJackass_4_FailedEmailBody
 +LOCALIZATION ERROR
 
 -NetworkMultiMonsterInFrameAtOnce_5_EmailTitle
-+Sending this email to 1.000.000 spööktubers!
++Email millions of YouTubers!
 
 -NetworkMultiMonsterInFrameAtOnce_5_DealName
-+MultiMonster Net
++Great website.
 
 -NetworkMultiMonsterInFrameAtOnce_5_Description
-+Upload video of {Views} different monsters in the same shot to show how irresistible our burgers are!
++Use {Views} pictures to show how your hot dog will look.
 
 -NetworkMultiMonsterInFrameAtOnce_5_SuccessEmailBody
-+Thank you for capturing the monsters in the same shot!
++Thank you for tapping into your inner monster!
 
 -NetworkMultiMonsterInFrameAtOnce_5_FailedEmailBody
 +LOCALIZATION ERROR
 
 -NetworkTaunting_3_EmailTitle
-+DANCE VIDEO SPONSORSHIP?!
++Dance videos? ,
 
 -NetworkTaunting_3_DealName
-+Brave Net
++Pure kindness
 
 -NetworkTaunting_3_Description
-+Perform our new dance in front of {Amount} monsters with our hit song playing!
++They meet new {Amount} monsters.
 
 -NetworkTaunting_3_SuccessEmailBody
-+Thank you for showing your bravery!
++Thank you for visiting!
 
 -NetworkTaunting_3_FailedEmailBody
 +LOCALIZATION ERROR
 
 -NetworkWalletMoney_1_EmailTitle
-+We're looking for someone rich..
++We are looking for rich people -
 
 -NetworkWalletMoney_1_DealName
-+MoneyMoney Net
++Pure gold
 
 -NetworkWalletMoney_1_Description
-+We have some wealth to share. \nHowever we only want to give it to someone we KNOW is rich.\nHave a total of <b>{Amount}</b> to claim your reward
++There are resources I would like to share. \nBut I only give them to rich people I know.\nYou can say <b>{Amount}</b> that
 
 -NetworkWalletMoney_1_SuccessEmailBody
-+Your wealth has been noted and your reward is on the way!
++Here are the winners and their prizes!
 
 -NetworkWalletMoney_1_FailedEmailBody
 +LOCALIZATION ERROR
 
 -NoHat
-+No Hat
++Biting your nails
 
 -HatShop_AlreadyOwn
-+I already own {hatName}!
++to the time {hatName}!
 
 -HatShop_Buy
-+Buy {hatName}!
++Cooking is delicious {hatName}!
 
 -HatShop_CantAfford
-+{hatName} is too Expensive!
++{hatName} This is very important!
 
 //EMOTE
 -Emote_Applause.0
