@@ -1116,279 +1116,275 @@
 -SpiderContentEvent.4
 +GIVE ME A SPIDER
 
-
-//stopped
-
-
 -SpiderContentEvent.5
-+Easily the most scary video all day! What the spider
++I can watch bad movies all day. What is a spider?
 
 -SpiderContentEvent.6
-+Just wanna mention that there is no need for a spider that big
++I told you that you don't need a giant spider.
 
 -SpiderContentEvent.7
-+Exactly what I wanted to see today! Spider monster is really scary!
++What do you want to see now? Scary spiders!
 
 -SpiderContentEvent.8
-+This right here is professionals, facing a big spider like this with no fear
++Experts are not afraid of spiders.
 
 -SpiderContentEvent.9
-+Bet it has a poisionous bite
++Don't forget to turn it off.
 
 -SpiderContentEvent.10
-+I dont like how that spider moves at all!
++I don't like spiders!
 
 -SpiderContentEvent.11
 +SPIDER
 
 -SpiderContentEvent.12
-+I really like how you balance your humor with spooky things like the big spider
++I love the humor mixed with scary things like giant spiders.
 
 -SpiderContentEvent.13
-+I could watch that spider forever. Creeps me the hell out though
++I see spiders all the time. Tell us
 
 -SpiderContentEvent.14
-+Are you gonna do a colab with any other creators?
++Have you ever thought about working with other artists?
 
 -SpiderContentEvent.15
-+Literally never seen a bug animal this large even before
++I have never seen such a big mistake.
 
 -SpiderContentEvent.16
-+Wait a second.... That really large for a spider
++Wait... there are lots of spiders.
 
 -SpiderContentEvent.17
-+When you enter a having many eyes competition and your opponent is that spider..
++The spiders will be your enemies when you play school games.
 
 -SpiderContentEvent.18
-+Honestly love these videos, wish you made more!
++I loved this movie and wanted more.
 
 -StreamerContentEvent.0
-+That guy is filming! I think he is too mean for spööktubes guidelines!
++This guy is making a movie! I think this is a great solution for speakers.
 
 -StreamerContentEvent.1
-+Seems like that guy is murder streaming. kind of fucked up if you ask me. I wouldnt not watch something like that
++He looked like he was planning a simple murder. Not cool at all if you ask me, I've never seen it before.
 
 -StreamerContentEvent.2
-+RUN! Thats a kill streamer!! Dont let it get you!!
++Fixed it! The teacher is dead.
 
 -TauntEvent0
-+wow they are so brave, just taunting that monster!
++You are strong enough to defeat this monster!
 
 -ToolkitWhiskContentEvent.0
-+Hahaha put that thing back in the toolbox
++Loh, pick a shop.
 
 -ToolkitWhiskContentEvent.1
-+I think it FELL OVER
++I think he lost.
 
 -ToolkitWhiskContentEvent.2
-+Laughing so hard at the wisk monster
++The blue creature laughed loudly.
 
 -ToolkitWhiskContentEvent.3
-+Only my first video I see but I liked the machine monster
++I saw it for the first time. But as a guest
 
 -ToolkitWhiskContentEvent.4
-+Never change lol. Good footage!
++No change haha
 
 -ToolkitWhiskContentEvent.5
-+That thing was probably used to make things before
++I'm sure it was used in the past for some reason.
 
 -ToolkitWhiskContentEvent.6
-+I swear this is my favorite creature. Its such a weird shape!
++I believe I am my own animal. This is so scary!
 
 -ToolkitWhiskContentEvent.7
-+I rarely get scared and I guess I didn't really get scared this time either
++I was a little scared, but this time I don't want to.
 
 -ToolkitWhiskContentEvent.8
-+You already know they are gonna run into some freaky creatures!
++We knew we had met someone special!
 
 -ToolkitWhiskContentEvent.9
-+MORE VIDEOS! WISK HEAD
++FURTHER INFORMATION! HAND IN HAND
 
 -ToolkitWhiskContentEvent.10
-+Its the wisk head monster for me
++This example makes sense.
 
 -ToolkitWhiskContentEvent.11
-+Not the wisk head
++No fish heads
 
 -ToolkitWhiskContentEvent.12
-+Do people realise its actually dangerous!? My uncles all died
++Everyone knows that it is dangerous? All the boys are dead.
 
 -ToolkitWhiskContentEvent.13
-+Can we all agree that we want to see more of the wisk head?
++Can we agree that we need more intelligence?
 
 -ToolkitWhiskContentEvent.14
-+Never in a million years would that be me!
++Hope this doesn't happen to me in a million years!
 
 -ToolkitWhiskContentEvent.15
-+You know its serious when its wisker monster
++If you ask, you know it's serious.
 
 -ToolkitWhiskContentEvent.16
-+Favorite so far! Wisk guy!
++Now I love it! Tell me, friends!
 
 -WalloContentEvent.0
-+Maybe the real content was the friends we made along the way. Like the wall monster
++Maybe they will become true friends and we will meet on the road. Satan is like a wall
 
 -WalloContentEvent.1
-+Wall thing! Lovely video everyone!
++Build a wall! This is a film that everyone will enjoy!
 
 -WalloContentEvent.2
-+As someone who owns multiple walls, I find this video quite concerning
++Cinemas really bother me because they have so many walls.
 
 -WalloContentEvent.3
-+Not good at all that the monsters come out of the walls
++I don't like monsters on the walls.
 
 -WeepingContentEvent.0
-+OMG the big robot is crying!
++A giant screaming robot!
 
 -WeepingContentEvent.1
-+That big cage guy is real scary
++The great man was in a terrible palace.
 
 -WeepingContentEvent.2
-+I think the big robot is sad
++I think you are a very pathetic robot.
 
 -WeepingContentEvent.3
-+The big robot is crying!
++Giant robots call!
 
 -WeepingContentEvent.4
-+The big robot is crying! Aww
++Giant robots call! Girl!
 
 -WeepingContentEvent.5
-+The big robot is crying! Poor thing
++Giant robots call! Eight hundred
 
 -WeepingContentEvent.6
-+That big robot cage want's to kidnap someone
++This giant space robot is trying to rob someone.
 
 -WeepingContentEventCaptured.0
-+OMG they got captured!
++But they are trapped!
 
 -WeepingContentEventCaptured.1
-+Did you manage to sovle the Capthca??
++You can kill me
 
 -WeepingContentEventCaptured.2
-+Omg I cant believe you didnt stay away from the robot
++Oh my god, I can't believe you didn't make a robot.
 
 -WeepingContentEventFail.0
-+Seriously, who designed that captcha? I've struggled with some tough ones, but this is on another level. Poor crew, hope they find a way out soon. 
++Actually I have another problem. But this is another level. Only poor sailors could fly that fast. 
 
 -WeepingContentEventFail.1
-+My cats wouldn't stand for this! Hoping the kids find a way to outsmart that robot and get to safety.
++My cat doesn't like it! I hope you find a way to defeat the robots and stay safe.
 
 -WeepingContentEventFail.2
-+Sending virtual hugs to the pals. Stay strong, and I hope there's a positive resolution to this strange situation.
++Hug your friends online. Hope this strange situation can be resolved.
 
 -WeepingContentEventFail.3
-+Captchas are meant to annoy, not terrify! Hope this is just a strange online challenge and not a dangerous situation.
++3. The purpose of slavery was not fear. But it was a disaster. I think this is a minor and rare network issue.
 
 -WeepingContentEventSuccess.0
-+YOU MADE IT! The big robot is happy now!
++It is necessary! Now the big robot is happy!
 
 -WeepingContentEventSuccess.1
-+Awh the robot just wanted to watch you all on spooktube
++Want to see the stick in the funnel?
 
 -WeepingContentEventSuccess.2
-+Can we talk about the irony of a robot needing help with a captcha? Humans: 1, Robot: 0
++Human Support Captchas: 1, Bots: 0 Can you discuss the need for auto suggest?
 
 -WeepingContentEventSuccess.3
-+Imagine getting kidnapped and the only way out is solving captchas! Next-level trolling by the robot.
++Imagine that someone has hacked you. And the only solution is to share the verification code. The future is based on the use of artificial robots.
 
 -WeepingContentEventSuccess.4
-+Forget horror movies, this is the content I signed up for on SpookTube! Kids, you're legends for turning a scary situation into a captcha comedy!
++Forget horror stories. That's why I joined SpookDub!
 
 -WeepingContentEventSuccess.5
-+Thank you all for helping me out! Love your videos
++Thank you for your help! I like your videos
 
 -WormContentEvent.0
-+EWWW!! THAT WORM THING SUCKS
++PLAYGROUND! - THIS IS A CRIME SCENE.
 
 -WormContentEvent.1
-+Respect for these people for donating blood to the worm leech.
++Helps blood donors to fight parasites.
 
 -WormContentEvent.2
-+How are you not more scared?? DISGUSTING WORM
++How to stop fear? - This is not normal.
 
 -WormContentEvent.3
-+The only youtube channel that doesn't clickbait... They actually show cool stuff like that leech creature
++The youtube channel you didn't click on... this guy is amazing.
 
 -WormContentEvent.4
-+The reason I love these video is because it makes me feel so safe when I'm worried about what's going to happen to someone else
++I love this picture because it helps me not to worry about anything happening to anyone.
 
 -WormContentEvent.5
-+Cool video dont get eaten by worms
++In this video, the worm-eating guy looks very tasty.
 
 -WormContentEvent.6
-+Can we appreciate that they sacrifice themselves so we can watch these videos?
++Can we say thanks to the parties who helped make this video?
 
 -WormContentEvent.7
-+leeches are one of my biggest fears.. nmad respect for doin this
++My favorite shoes, I'm afraid of many things.
 
 -WormContentEvent.8
-+you are legend for getting so close to worm hats off to you
++It would be better if there were flies in the house.
 
 -ZombieContentEvent.0
-+Is that a snail?
++This is a bad habit.
 
 -ZombieContentEvent.1
-+A snail man??
++You can tell
 
 -ZombieContentEvent.2
-+Snail zombie! A Snailbie!
++Movies about zombies! Little snail!
 
 -ZombieContentEvent.3
-+Snail with legs zombie!
++Zombie legs work!
 
 -ZombieContentEvent.4
-+Hahaha its so slow!
++Haha now it's too late.
 
 -ZombieContentEvent.5
-+Ive heard they eat people
++I heard people eating.
 
 -ZombieContentEvent.6
-+You are really good at finding interesting things to show in videos! Love it!
++You can even get beautiful themes for your videos!
 
 -ZombieContentEvent.7
-+Not scariest I have seen but definitely snail
++It's not the most accurate result I've seen, but it's good.
 
 -ZombieContentEvent.8
-+Snail snail snail!
++Work!
 
 -ZombieContentEvent.9
-+Hahaha juicy snail!
++Hey, drink water!
 
 -ZombieContentEvent.10
-+Dont want to meet one of those at night! OR DAY
++Try not to meet anyone at night! Or now
 
 -ZombieContentEvent.11
-+I cant top laughing at the snail why does it have legs like a human
++It's not funny because snails have human legs.
 
 -ZombieContentEvent.12
-+I can genuinely feel how yucky it would be to touch that
++Of course I could be wrong.
 
 -ZombieContentEvent.13
-+Why am I watching this I have snails!
++Look at the horseshoe
 
 -ZombieContentEvent.14
-+Snails are friends! Love these videos!
++Snails are your friends! I like this photo!
 
 -ZombieContentEvent.15
-+Yo snail creature is actually really rare
++Your breasts are a rare beast.
 
 -ZombieContentEvent.16
-+Bet it would feel cold and sticky to touch
++The right hand should be cool and firm.
 
 -ZombieContentEvent.17
-+Please do more of this kind of video
++Bring more videos like this.
 
 -ZombieContentEvent.18
-+Havent watched a video on years, great video!
++I haven't seen this film in years. But good!
 
 -ZombieContentEvent.19
-+Snail snail snail!
++Work!
 
 -ZombieContentEvent.20
-+Zombie like snail!
++Imagine you are a snail!
 
 -ZombieContentEvent.21
-+Dont get caught by the snail. I bet it bites
++Sorry, I don't think that will happen.
 
 //PROP
 -AppleTree.0
