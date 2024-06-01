@@ -5,10 +5,11 @@ using System.IO;
 using UnityEngine;
 using static Unity.Collections.LowLevel.Unsafe.BurstRuntime;
 using static UnityEngine.UIElements.StylePropertyAnimationSystem;
-using UnityEngine;
 using Zorro.Core;
 using TMPro;
 using System.Net.NetworkInformation;
+using UnityEngine.UI;
+using IL;
 
 namespace TranslatedWarning.Patches
 {
@@ -23,6 +24,8 @@ namespace TranslatedWarning.Patches
 
         public static string prevName = "";
 
+        public static Dictionary<string, string> uiDict = new Dictionary<string, string>();
+
         internal static void Init()
         {
             /*
@@ -35,16 +38,17 @@ namespace TranslatedWarning.Patches
 
             On.LocalizationKeys.GetLocalizedString += LocalizationKeys_GetLocalizedString;
 
-            Debug.Log("LocalizationKeys.GetLocalizedString!!!!!!!!!!!");
 
             On.PlayerEmoteContentEvent.GenerateComment += PlayerEmoteContentEvent_GenerateComment;
-
-            Debug.Log("PlayerEmoteContentEvent.GenerateComment!!!!!!!!!!!");
 
 
             On.ItemDatabase.TryGetItemFromID += ItemDatabase_TryGetItemFromID;
 
-            Debug.Log("Preparing DATA COLLECTION!!!");
+            On.MainMenuMainPage.Awake += MainMenuMainPage_Awake;
+            On.MainMenuSettingsPage.Awake += MainMenuSettingsPage_Awake;
+
+            On.ShopHandler.Awake += ShopHandler_Awake;
+
 
             DataCollection(); //collects most comments
 
@@ -70,13 +74,86 @@ namespace TranslatedWarning.Patches
                 }
             }
 
-
-
         }
+
+
+
+
+        // ====== UI ======
+
+        //Shop
+        private static void ShopHandler_Awake(On.ShopHandler.orig_Awake orig, ShopHandler self)
+        {
+            var shop = self.gameObject.transform;
+            string text = shop.GetChild(0).GetChild(0).GetComponent<TextMeshPro>().text;
+            Debug.Log(text);
+            uiDict.Add(shop.name, text);
+            orig(self);
+        }
+
+
+        //Settings
+        private static bool isWrittenButtons2 = false;
+        private static void MainMenuSettingsPage_Awake(On.MainMenuSettingsPage.orig_Awake orig, MainMenuSettingsPage self)
+        {
+            //back button
+            if (!isWrittenButtons2) 
+            {
+                GrabButtonText(self.backButton);
+                isWrittenButtons2 = true;
+            }
+            Transform settings = self.backButton.transform.parent;
+
+            //settings text
+            string settingsText = settings.GetChild(1).GetComponent<TextMeshProUGUI>().text;
+            uiDict.Add(settings.gameObject.name, settingsText);
+
+            //tabs
+
+            Transform tabs = settings.GetChild(2).GetChild(0);
+            foreach (Transform tab in tabs) 
+            { 
+                Debug.Log("LOOKING IN "+ tab.gameObject.name + "!!!!!!!!!!!");
+                string text = tab.GetChild(1).GetComponent<TextMeshProUGUI>().text;
+                uiDict.Add(tab.gameObject.name, text);
+            }
+
+            orig(self);
+        }
+
+        //MainPage
+        private static bool isWrittenButtons = false;
+        private static void MainMenuMainPage_Awake(On.MainMenuMainPage.orig_Awake orig, MainMenuMainPage self)
+        {
+            if (!isWrittenButtons)
+            {
+                GrabButtonText(self.hostButton);
+                GrabButtonText(self.joinButton);
+                GrabButtonText(self.settingsButton);
+                GrabButtonText(self.creditsButton);
+                GrabButtonText(self.quitButton);
+                isWrittenButtons = true;
+            }
+            orig(self);
+        }
+
+        public static void GrabButtonText(Button button)
+        {
+            TextMeshProUGUI buttonText = button.gameObject.GetComponentInChildren<TextMeshProUGUI>();
+            Debug.Log(button.gameObject.name + "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            if (buttonText != null)
+            {
+                Debug.Log($"FOUND TextMeshProUGUI IN {button.gameObject.name} IT SAYS {buttonText.text} !!!!!!!!!!");
+                Debug.Log($"Key: {button.gameObject.name}");
+                Debug.Log($"Value: {buttonText.text}");
+                uiDict.Add(button.gameObject.name, buttonText.text);
+            }
+        }
+        
+        //======= EMOTES ========
 
         private static bool ItemDatabase_TryGetItemFromID(On.ItemDatabase.orig_TryGetItemFromID orig, byte id, out Item item)
         {
-            Debug.Log("ItemDatabase.TryGetItemFromId ACTIVATED !!!!!!!!!!!");
             if (isWrittenItem)
             {
                 return orig(id, out item);
@@ -84,7 +161,6 @@ namespace TranslatedWarning.Patches
 
             Item[] items = SingletonAsset<ItemDatabase>.Instance.Objects;
 
-            Debug.Log("Created Item List!!!!!!!!");
             Print("//EMOTE");
             foreach (Item _item in items)
             {
@@ -102,7 +178,7 @@ namespace TranslatedWarning.Patches
 
 
 
-        private static void Print(string key, string value = "", bool append = true, bool log = false)
+        public static void Print(string key, string value = "", bool append = true, bool log = false)
         {
             using (StreamWriter writetext = new StreamWriter("D:\\repos\\TranslatedWarning\\TranslatedWarning\\Dialog.txt", append))
             {
@@ -151,8 +227,10 @@ namespace TranslatedWarning.Patches
             return new Comment(playerEmoteContentEvent.item.emoteInfo.comments![0]);
         }
 
+        //======= COMMENTS ========
+
         //amazing code
-        
+
         private static void DataCollection()
         {
             Debug.Log("DATA COLLECTION IS RUNNING");
@@ -162,28 +240,28 @@ namespace TranslatedWarning.Patches
                 commentList.Add("BarnacleBallContentEvent."+i, comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             foreach (var comment in BigSlapAgroContentEvent.NORMAL_COMMENTS)
             {
                 commentList.Add("BigSlapAgroContentEvent." + i, comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             foreach (var comment in BigSlapPeacefulContentEvent.NORMAL_COMMENTS)
             {
                 commentList.Add("BigSlapPeacefulContentEvent."+i, comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             foreach (var comment in BlackHoleBotContentEvent.NORMAL_COMMENTS)
             {
                 commentList.Add("BlackHoleBotContentEvent."+i, comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             commentList.Add("BombContentEvent", "omg <playername> is holding the bomb!");
             foreach (var comment in BombsContentEvent.NORMAL_COMMENTS)
@@ -191,49 +269,49 @@ namespace TranslatedWarning.Patches
                 commentList.Add("BombsContentEvent."+i, comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             foreach (var comment in CamCreepContentEvent.NORMAL_COMMENTS)
             {
                 commentList.Add("CamCreepContentEvent."+i,comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             foreach (var comment in DogContentEvent.NORMAL_COMMENTS)
             {
                 commentList.Add("DogContentEvent."+i, comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             foreach (var comment in EarContentEvent.NORMAL_COMMENTS)
             {
                 commentList.Add("EarContentEvent."+i, comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             foreach (var comment in EyeGuyContentEvent.NORMAL_COMMENTS)
             {
                 commentList.Add("EyeGuyContentEvent."+i, comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             foreach (var comment in FireMonsterContentEvent.NORMAL_COMMENTS)
             {
                 commentList.Add("FireMonsterContentEvent."+i,comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             foreach (var comment in FlickerContentEvent.NORMAL_COMMENTS)
             {
                 commentList.Add("FlickerContentEvent."+i,comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             GoodCatchContentEvent goodCatch = new GoodCatchContentEvent();
             foreach (var comment in goodCatch.GOOD_CATCH_COMMENTS)
@@ -241,14 +319,14 @@ namespace TranslatedWarning.Patches
                 commentList.Add("GoodCatchContentEvent."+ i, comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             foreach (var comment in HarpoonerContentEvent.NORMAL_COMMENTS)
             {
                 commentList.Add("HarpoonerContentEvent."+i,comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             InterviewEvent interview = new InterviewEvent();
             foreach (var comment in interview.INTERVIEW_COMMENTS)
@@ -256,7 +334,7 @@ namespace TranslatedWarning.Patches
                 commentList.Add(interview.GetType().ToString(), comment);
                 i++;
             }
-            Debug.Log("DATA COLLECT");
+            
             i = 0;
             foreach (var comment in JelloContentEvent.NORMAL_COMMENTS)
             {
@@ -438,7 +516,7 @@ namespace TranslatedWarning.Patches
             }
         }
 
-
+        //======= MAIN ========
         private static string LocalizationKeys_GetLocalizedString(On.LocalizationKeys.orig_GetLocalizedString orig, LocalizationKeys.Keys key)
         {
             

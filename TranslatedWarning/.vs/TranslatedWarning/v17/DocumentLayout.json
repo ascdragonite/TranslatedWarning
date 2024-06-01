@@ -25,6 +25,19 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DialogRipper.cs",
+              "DocumentMoniker": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\Hooks\\DialogRipper.cs",
+              "RelativeDocumentMoniker": "Hooks\\DialogRipper.cs",
+              "ToolTip": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\Hooks\\DialogRipper.cs",
+              "RelativeToolTip": "Hooks\\DialogRipper.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAA5wAcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T07:28:54.612Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
@@ -36,22 +49,9 @@
               "RelativeDocumentMoniker": "Hooks\\InjectTranslation.cs",
               "ToolTip": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\Hooks\\InjectTranslation.cs",
               "RelativeToolTip": "Hooks\\InjectTranslation.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAA1wC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T07:28:54.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DialogRipper.cs",
-              "DocumentMoniker": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\Hooks\\DialogRipper.cs",
-              "RelativeDocumentMoniker": "Hooks\\DialogRipper.cs",
-              "ToolTip": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\Hooks\\DialogRipper.cs",
-              "RelativeToolTip": "Hooks\\DialogRipper.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAqwKIAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T07:28:54.612Z",
               "EditorCaption": ""
             },
             {
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "TranslatedWarning.cs",
               "ToolTip": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\TranslatedWarning.cs",
               "RelativeToolTip": "TranslatedWarning.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAiwEUAAAAmAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAiwGYAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T07:28:54.616Z",
               "EditorCaption": ""

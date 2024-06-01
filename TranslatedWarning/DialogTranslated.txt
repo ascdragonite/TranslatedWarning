@@ -3142,3 +3142,135 @@
 -Emote_ThumbsUp.4
 +please like my comment if you liked the part where <playername> posed
 
+//UI
+-Host
++PLAY WITH FRIENDS %DRAGOTEST
+
+-Join
++JOIN RANDOM %DRAGOTEST
+
+-Options
++OPTIONS %DRAGOTEST
+
+-Credits
++CREDITS %DRAGOTEST
+
+-Quit
++QUIT %DRAGOTEST
+
+-ShopV2
++ORDER HERE
+
+-SettingsPage
++SETTINGS
+
+-CW.SettingsPage
++BACK
+
+-GraphicsTab
++GRAPHICS
+
+-AudioTab
++AUDIO
+
+-ControlsTab
++CONTROLS
+
+-CW.HostPage
++HOST PRIVATE GAME
+
+-CW (1).HostPage %
++SELECT A SAVE SLOT
+
+-SaveCell
++SAVE 1
+
+-SaveCell.Content
++Empty
+
+-SaveCell (1) %
++SAVE 2
+
+-SaveCell (2) %
++SAVE 3
+
+-BackButton
++BACK
+
+-PasteTitle
++PASTE FACE
+
+-Back
++QUIT
+
+-Apply
++APPLY
+
+-ClearHat
++CLEAR HAT
+
+-PlayerCustomizerMachine
++TYPE A FACE
+
+-DiveOS
++DiveOS V1.24rc
+
+-ACTIVE
++ACTIVE
+
+-Connected Suits %
++CONNECTED SUITS
+
+-ExtractState
++EXTRACTING VIDEO...
+
+-SuccessState
++TAKE THE DISC
+
+-FailedState
++FAILED TO EXTRACT
+
+-Spook
++SPÖÖK
+
+-Tube
++TUBE
+
+-Text (TMP) (1).UploadVideo %
++UPLOAD VIDEO
+
+-Text (TMP).UploadVideo %
++INSERT DISC
+
+-ClosedState
++OFFLINE
+
+-UploadingState
++UPLOADING VIDEO...
+
+-ShowVideoState
++COMMENTS
+
+-SaveVideo.text
++SAVE VIDEO TO DESKTOP
+
+-Replay
++REPLAY
+
+-CLOSE
++CLOSE
+
+-RESUME
++RESUME
+
+-INVITE
++INVITE FRIENDS
+
+-SETTINGS
++SETTINGS
+
+-EXIT
++QUIT
+
+-Logo
++CONTENT WARNING

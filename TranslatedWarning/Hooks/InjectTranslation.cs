@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.IO;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using static Unity.Collections.LowLevel.Unsafe.BurstRuntime;
 using static UnityEngine.UIElements.StylePropertyAnimationSystem;
 
@@ -9,11 +12,9 @@ namespace TranslatedWarning.Patches
 {
     public class InjectTranslation
     {
-        static string path = "D:\\repos\\TranslatedWarning\\TranslatedWarning\\TranslatedDialog.txt";
+        static string path = "D:\\repos\\TranslatedWarning\\TranslatedWarning\\DialogTranslated.txt";
 
-        static Dictionary<string, string> translatedDict = new Dictionary<string, string>();
-        static List<string> keyList = new List<string>();
-        static List<string> valueList = new List<string>();
+        public static Dictionary<string, string> translatedDict = new Dictionary<string, string>();
         static int keyAssign;
 
         internal static void Init()
@@ -29,21 +30,42 @@ namespace TranslatedWarning.Patches
 
                 if (line.StartsWith("-"))
                 {
-                    keyList.Add(line.Substring(1).Trim());
                     keyAssign = i;
                 }
                 if (line.StartsWith("+"))
                 {
-                    valueList.Add(line.Substring(1).Trim());
-                    translatedDict.Add(lines[keyAssign], line.Substring(1).Trim());
+                    translatedDict.Add(lines[keyAssign].Substring(1).Trim(), line.Substring(1).Trim());
                     Debug.Log($"Key: {lines[keyAssign]}");
                     Debug.Log($"Value: {line.Substring(1).Trim()}");
                 }
 
             }
+            Debug.Log("====== DICTIONARY END ======");
+
+            On.LocalizationKeys.GetLocalizedString += LocalizationKeys_GetLocalizedString;
 
         }
 
 
+
+
+        public static bool mainMenuMainActive = false;
+
+
+        private static bool m_MadeLocaleStrings = false;
+        private static string LocalizationKeys_GetLocalizedString(On.LocalizationKeys.orig_GetLocalizedString orig, LocalizationKeys.Keys key)
+        {
+            if (!m_MadeLocaleStrings)
+            {
+                LocalizationKeys.MakeLocaleStrings();
+                m_MadeLocaleStrings = true;
+            }
+            if (translatedDict == null || !translatedDict.ContainsKey(key.ToString()))
+            {
+                Debug.LogError("Cant find TRANSLATED key for: " + key);
+                return orig(key);
+            }
+            return translatedDict[key.ToString()];
+        }
     }
 }

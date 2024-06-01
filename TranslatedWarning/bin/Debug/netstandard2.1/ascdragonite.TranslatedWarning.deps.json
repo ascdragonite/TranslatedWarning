@@ -15,6 +15,7 @@
           "BepInEx.PluginInfoProps": "2.1.0",
           "UnityEngine.Modules": "2022.3.10",
           "MMHOOK_Assembly-CSharp": "0.0.0.0",
+          "Unity.Localization": "0.0.0.0",
           "Unity.TextMeshPro": "0.0.0.0",
           "UnityEngine.UI": "1.0.0.0",
           "Zorro.Core.Runtime": "0.0.0.0"
@@ -660,6 +661,14 @@
           }
         }
       },
+      "Unity.Localization/0.0.0.0": {
+        "runtime": {
+          "Unity.Localization.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "Unity.TextMeshPro/0.0.0.0": {
         "runtime": {
           "Unity.TextMeshPro.dll": {
@@ -966,6 +975,11 @@
       "hashPath": "unityengine.modules.2022.3.10.nupkg.sha512"
     },
     "MMHOOK_Assembly-CSharp/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Localization/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

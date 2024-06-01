@@ -65,6 +65,9 @@
     <!-- References - HookGen Assemblies -->
     <ItemGroup>
         <Reference Include="$(MMHOOKManaged)MMHOOK_Assembly-CSharp.dll" />
+        <Reference Include="Unity.Localization">
+          <HintPath>..\..\..\SteamLibrary\steamapps\common\Content Warning\Content Warning_Data\Managed\Unity.Localization.dll</HintPath>
+        </Reference>
         <Reference Include="Unity.TextMeshPro">
           <HintPath>..\..\..\SteamLibrary\steamapps\common\Content Warning\Content Warning_Data\Managed\Unity.TextMeshPro.dll</HintPath>
         </Reference>
