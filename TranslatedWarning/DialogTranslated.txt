@@ -1388,454 +1388,454 @@
 
 //PROP
 -AppleTree.0
-+Such  a great garden!
++Beautiful garden!
 
 -AppleTree.1
-+I love the apple tree they have
++I love your tree.
 
 -AppleTree.2
-+Would LOOVE an apple tree tbh
++After all, apples are like love.
 
 -BlackHole.0
-+Is that a black hole?!??
++Black hole?
 
 -BlackHole.1
-+BLACK HOLE
++OTHERS HOLE
 
 -BlackHole.2
-+WOAH!! THATS A BLACK HOLE!!
++DANCE! IT'S A BLACK HOLE!
 
 -BombContent.0
-+Omg a bomb!
++Oh my god, this is really explosive!
 
 -BoomMic.0
-+Yo thank you for bringing a microphone. Helps a lot!
++Thanks Mike, very helpful!
 
 -BoomMic.1
-+Such good audio quality! I'm really enjoying the big mic!
++Great sound quality! I love great microphones!
 
 -BoomMic.2
-+They are so professional with that HUGE mic!
++Professionals love this great microphone!
 
 -BoomMic.3
-+You're getting pretty serious with a mic like that!
++In this case: seriously!
 
 -BoomMic.4
-+I really hear everything! 
++We are very sad! 
 
 -BoomMic.5
-+I also want a mic like that!
++I want a microphone like this!
 
 -BoomMic.6
-+I love the mic! 
++I love Mike! 
 
 -DeadTree.0
-+Even the trees are dead there....
++There are also dry plants.
 
 -DeadTree.1
-+I didn't know threes are alive???
++Did you not know the three survived? ,
 
 -DeadTree.2
-+The trees look so sad
++This tree is not suitable.
 
 -DeadTree.3
-+The world used to be so big...
++It doesn't happen...
 
 -DeadTree.4
-+I wonder if my grandparents lived here...
++I don't know if my ancestors lived here or not.
 
 -DivingBell.0
-+They much be rich with a diving bell like that...
++He was still rich then...
 
 -DivingBell.1
-+The diving bell looks heavy...
++Focus on the big things…
 
 -DivingBell.2
-+Imagine the diving bell breaking and not taking you back??
++Have you ever thought about taking off your clothes?
 
 -DivingBell.3
-+That bell looks  unsafe...
++And it looks dangerous.
 
 -DivingBell.4
-+I wish I had a diving bell
++I want to learn.
 
 -DivingBell.5
-+Actually it's cheap to rent diving bells, I did it once for my bachelor  party
++We will be happy to rent an air purifier at a reasonable price.
 
 -FactoryExterior.0
-+That's a factory??
++Is this a plant?
 
 -FactoryExterior.1
-+Factories are so creepy
++I'm afraid of factories.
 
 -FactoryExterior.2
-+I wonder what they made there..
++Who knows what's there?
 
 -FactoryExterior.3
-+What a grim looking building..
++Large empty building
 
 -GrabberArmPC.0
-+Yo thank you for bringing a microphone. Helps a lot!
++Thanks Mike, very helpful!
 
 -GrabberArmPC.1
-+Such good audio quality! I'm really enjoying the big mic!
++Great sound quality! I love great microphones!
 
 -GrabberArmPC.2
-+They are so professional with that HUGE mic!
++Professionals love this great microphone!
 
 -GrabberArmPC.3
-+You're getting pretty serious with a mic like that!
++In this case: seriously!
 
 -GrabberArmPC.4
-+I really hear everything! 
++Ask yourself! 
 
 -GrabberArmPC.5
-+I also want a mic like that!
++I want a microphone like this!
 
 -GrabberArmPC.6
-+I love the mic! 
++I love Mike! 
 
 -Laser.0
-+The lasers look really dangerous!
++Lasers are very dangerous!
 
 -Laser.1
-+The lasers are really scary!
++Lasers are amazing!
 
 -Laser.2
-+That laser is pretty scary tbh
++I like the laser.
 
 -PersistantRadioContent.0
-+What a cool thingy
++Sometimes!
 
 -PersistantRadioContent.1
-+That noise thing was cool
++The sound is very beautiful.
 
 -PersistantRadioContent.2
-+Oh ive heard of those music things
++Oh, I listen to music.
 
 -ReporterMic.0
-+Yo thank you for bringing a microphone. Helps a lot!
++Thanks Mike, very helpful!
 
 -ReporterMic.1
-+Such good audio quality! I'm really enjoying the big mic!
++Great sound quality! I love great microphones!
 
 -ReporterMic.2
-+They are so professional with that HUGE mic!
++Professionals love this great microphone!
 
 -ReporterMic.3
-+You're getting pretty serious with a mic like that!
++The students are very talented!
 
 -ReporterMic.4
-+I really hear everything! 
++Ask yourself! 
 
 -ReporterMic.5
-+I also want a mic like that!
++And you need a microphone!
 
 -ReporterMic.6
-+I love the mic! 
++I love Mike! 
 
 -ReporterMic.7
-+Wow its like a real news show!
++Wow, that's a great workout plan!
 
 -ReporterMic.8
-+Never thought I'd get my news on spööktube.
++I wasn't expecting an email from SpokeTube.
 
 -SpinningMachine.0
-+That machine is still spinning...
++The engine is still running.
 
 -SpinningMachine.1
-+I wonder if the factory is still making things???
++Is the factory still operating?
 
 -SpinningMachine.2
-+That factory must be cursed
++The factory is almost destroyed.
 
 -SpinningMachine.3
-+Factories are scary
++Terrorists attacked this factory.
 
 -Sunflower.0
-+I love sunflowers!
++I am a flower
 
 -Sunflower.1
-+What a pretty garden they have!
++Beautiful garden!
 
 -Sunflower.2
-+I wish I also had sunflowers that big!
++I have big sunflowers!
 
 -Sunflower.3
-+Actually, sunflowers are really bad for your health
++Sunflower oil is very dangerous for health.
 
 -Sunflower.4
-+SUNFLOWERS!
++SUNFLOWER OIL
 
 -Sunflower.5
-+What a pretty garden!
++Beautiful garden!
 
 -Sunflower.6
-+I wish my garden was that alive!
++I hope my garden is still alive!
 
 -Sunflower.7
-+Big respect on that garden
++I love this park.
 
 -AppleContent.0
-+That apple looks tasty!
++The apples are so beautiful!
 
 -AppleContent.1
-+an apple once fell on my head :(
++Something happened to me :(
 
 -AppleContent.2
-+Like this comment if you love apples!
++If the review is wrong, try it!
 
 -BigSlapPainting.0
-+Lol ugly painting
++The film is very good (laughs).
 
 -BigSlapPainting.1
-+I paint better than that
++I want to publish it.
 
 -BigSlapPainting.2
-+what is that suppose to be?
++Okay
 
 -BigSlapPainting.3
-+IS THAT MONSTER!
++CHANGE!
 
 -BigSlapPainting.4
-+what a pretty painting
++Good game!
 
 -BigSlapPainting.5
-+Beautiful UwU!
++Be happy
 
 -Bones.0
-+As a med student, I appreciate these detailed visuals of bone anatomy. 
++As a medical student, I appreciate a deep understanding of bone anatomy. 
 
 -Bones.1
-+Watching this video, and now I can't unsee the spooky side of bones! 
++Watch the video and you will not miss this terrible event.
 
 -Bones.2
-+Chills down my spine watching this – bones are surprisingly eerie! 😱
++The bridge was beautiful! 😱
 
 -Bones.3
-+Never thought I'd be spooked by anatomy, but here we are. Bones, you got me! 👀
++I never thought I would be afraid of surgery, but it makes perfect sense to me! 👀
 
 -Bones.4
-+Spooky bones!
++Clean feet!
 
 -Bones.5
-+Not sure about the bones
++I don't know much about feet.
 
 -Bones.6
-+Bone
++and feet
 
 -Bones_Skull.0
-+A SKULL??
++FEET???
 
 -Bones_Skull.1
-+ew is that a human skull?
++It was a feet.
 
 -Bones_Skull.2
-+dont touch dead stuff!
++Do not touch the dead!
 
 -BrainOnStick.0
-+Omg what was that??
++What
 
 -BrainOnStick.1
-+wtfff is that a brain
++Good
 
 -BrainOnStick.2
-+Looks like my uncles brain
++The soul looks old
 
 -BrainOnStick.3
-+hahaha poor guy
++Very good
 
 -BrainOnStick.4
-+think stick!
++I said country!
 
 -BrainOnStick.5
-+Ummmm I dont think thats very hygenic
++I think this is wrong.
 
 -Chorby.0
-+is that a…chorby??
++Catch water?
 
 -Chorby.1
-+CHORBY
++A SPOON
 
 -Chorby.2
-+my sister had one of those in the 90s
++My brother had one in the 90s.
 
 -Chorby.3
-+the crush house was my fav show
++My favorite movie is back.
 
 -ContainerContent.0
-+Wahts that!?
++okay,
 
 -ContainerContent.1
-+I dont think you are supposed to hold that item
++I don't think it needs to be updated.
 
 -ContainerContent.2
-+Its literally a radiation warning. DONT HOLD THAT
++Radiation is an immediate warning. Don't run
 
 -ContainerContent.3
-+Nuclear power!
++Nuclear energy!
 
 -ContainerContent.4
-+Probably not a good idea to hold onto an item with a warning like that
++You cannot bypass this limitation.
 
 -ContainerContent.5
-+Love your content! Be careful with radiation
++I love that it blocks radiation.
 
 -GravityFlipperContent.0
-+Dont fly away!
++It doesn't fly.
 
 -GravityFlipperContent.1
-+Mysterious
++Hide
 
 -GravityFlipperContent.2
-+Thats a rabbit
++This is the rabbit
 
 -GravityFlipperContent.3
-+Thats a duck
++Sven
 
 -Radio.0
-+What a cool thingy
++Sometimes!
 
 -Radio.1
-+That noise thing was cool
++The sound is very beautiful.
 
 -Radio.2
-+Oh ive heard of those music things
++Oh, I listen to music.
 
 -ShroomContent.0
-+Lol shrom
++That's right, mushrooms.
 
 -ShroomContent.1
-+Thats so funny, they found a shroom 
++I was surprised to see a live frog.
 
 -ShroomContent.2
-+Loooove this video! Love picking mushrooms
++I thought he was eating mushrooms.
 
 -ShroomContent.3
-+I liked and subscribed after watching this X 3 times!!
++I loved it so much that I watched it three times before ordering it!
 
 -ShroomContent.4
-+heh
++At least a little
 
 -FredGullContent.0
-+I could drink up to 8 FredGulls a day IF it was healthy..
++In good health, you can drink up to 8 glasses of Galfort per day.
 
 -FredGullContent.1
-+it tastes like bad decisions
++I think this is a bad decision.
 
 -FredGullContent.2
-+Fred Gull is amazing!
++Fred Norris is great!
 
 -FredGullContent.3
-+Never tried a fred gull, never will.
++I have never met Fred Segal and never will.
 
 -FredGullContent.4
-+I don't think people drink that for the taste!
++Nobody drinks alcohol in public.
 
 -FredGullContent.5
-+it tastes like red soap candy,  like a sugar rush in a can
++It reminds me of red algae and sucrose.
 
 -FredGullContent.6
-+Ive never had a fred gull. is that weird?
++I don't have a husband.
 
 -FredGullContent.7
-+I drink 3 of those everyday before i wake up
++I drink 3 glasses a day before waking up.
 
 -HardHatContent.0
-+Despite having no plans to get a helmet, I continue to love watching these videos.
++I don't have headphones but I want to watch the movie.
 
 -HardHatContent.1
-+I love gear review, thanks for making them
++I like visual tools. Appreciate this fact.
 
 -HardHatContent.2
-+Hi,guys!!How do you think,which helmet is better: LD11 BigCiry or BSK SmallCity?I see that LD11  a little harder
++Hello!
 
 -HardHatContent.3
-+Just bought that helmet. i noticed that there isn' the red lock in the side.
++When I bought the hat, I noticed the red and green parts were missing.
 
 -HardHatContent.4
-+How is the field of vision in the forward over sport rideing position?
++What about elite sports?
 
 -HardHatContent.5
-+Can I use it for a sport bike?
++Can it be used with exercise bikes?
 
 -HardHatContent.6
-+Where can i order one sir?
++Where should I apply?
 
 -HardHatContent.7
-+Now, that's a review!
++Here's the review!
 
 -NiceBagContent.0
-+I’m in love with this equestrian shape!
++I love the horse!
 
 -NiceBagContent.1
-+Love the quiet look it doesn’t scream it’s so sleek heart eyesssss
++I like that you are calm and friendly.
 
 -NiceBagContent.2
-+really loved the review!!! its so GORGEOUS
++I love this review!
 
 -NiceBagContent.3
-+Wow, gorgeous and elegant bag!
++Wow, the bag is very beautiful and stylish.
 
 -NiceBagContent.4
-+That bag is different and definitely an everyday bag. Live it
++This simple bag will last a long time.
 
 -NiceBagContent.5
-+I just got this same bag - love it!  Love how it is so under the radar and it is lightweight
++Another bag of peaches!  It's very simple even if you don't know it.
 
 -NiceBagContent.6
-+Thanks for sharing!! Looks like a really nice and practical bag
++Thanks for the info!
 
 -NiceBagContent.7
-+Did you say the price? I loved this first sight!
++Sorry, I just said I loved my first job!
 
 -NorfGunContent.0
-+AAAAARHH I WANT IT!
++OH, I LOVE IT!
 
 -NorfGunContent.1
-+This really shows the true power of the norf gun
++This clearly shows the prowess of the Norf gun.
 
 -NorfGunContent.2
-+OMG ITS THE SIR MONSTER BURGER!
++THIS COMPANY IS MY BEST TEACHER!
 
 -NorfGunContent.3
-+The best norf gun is the ainomo
++The most powerful new weapon was torture.
 
 -NorfGunContent.4
-+that norf gun needs a buff
++He called a meeting on November 1
 
 -NorfGunContent.5
-+what is your favorite norf?
++What is your favorite herb?
 
 -NorfGunContent.6
-+i bought the older version last year :(
++I bought the :(
 
 -NorfGunContent.7
-+Cool norf
++Cold night
 
 -SirMonsterBurgerConent.0
-+What a jummy looking burger!
++Delicious burgers!
 
 -SirMonsterBurgerConent.1
-+Actually I dont think its good to eat burgers before diving
++Honestly, I don't think eating a burger before diving is a bad idea.
 
 -SirMonsterBurgerConent.2
-+OMG ITS THE SIR MONSTER BURGER!
++THIS COMPANY IS MY BEST TEACHER!
 
 -SirMonsterBurgerConent.3
-+I could make a better burger than that! Like if you agree
++I can do better! what are you doing
 
 -SirMonsterBurgerConent.4
-+mmmm burger
++This is a hamburger.
 
 -SirMonsterBurgerConent.5
-+is that a vegan burger
++What vegetables are in a hamburger?
 
 -SirMonsterBurgerConent.6
-+Thats some nice looking meat
++This food is very tasty.
 
 -SirMonsterBurgerConent.7
-+Thats my favorite vegan Sir Monster Burger!
++My favorite monster veggie burger!
 
 //MAIN
 
@@ -2924,223 +2924,223 @@
 
 //EMOTE
 -Emote_Applause.0
-+Thats some good clapping
++And the price
 
 -Emote_Applause.1
-+wow <playername> got really excited there
++Really, <playername>, I really like it.
 
 -Emote_Applause.2
-+its so nice to see <playername> showing some appreciation
++It is good to show respect. <playername>
 
 -Emote_Choke.0
-+I want someone to do the hug on me for 4 minutes straight
++Someone will call you in four minutes.
 
 -Emote_Choke.1
-+omg that looks so nice! Never seen that before
++Wow, that's great! I didn't come
 
 -Emote_Choke.2
-+I will try that with my friends as well!
++I will try it with my friends!
 
 -Emote_Choke.3
-+omg I cant believe I never knew about hugs before. Spooktube is the best
++God, I have never heard of this bank. Yes that is correct
 
 -Emote_Choked.0
-+emote choked
++Feeling tense
 
 -Emote_Dance1.0
-+Anyone watch this amazing dancing more then once
++Has anyone seen this beautiful dance?
 
 -Emote_Dance1.1
-+<playername> slayed this dance
++<playername> I can dance well.
 
 -Emote_Dance1.2
-+ absolutely love the smiles and confidence <playername> gathered
++<playername> loves to laugh and lives up to his name
 
 -Emote_Dance2.0
-+<playername> DID REALLY GOOD I Can't DO THIS DANCE
++<playername> this dance is hell,
 
 -Emote_Dance2.1
-+Slay!!!
++We have a winner!
 
 -Emote_Dance2.2
-+<playername>'s dance style is captivating
++<playername> The dance is very sex.
 
 -Emote_Dance2.3
-+This is the best dance
++It feels good to dance.
 
 -Emote_Dance3.0
-+the sickest dance
++A very beautiful dance
 
 -Emote_Dance3.1
-+As someone who has never danced in their entire life this looks like algebra.
++Algebra like I have never danced in my life.
 
 -Emote_Dance3.2
-+Keep dancing. Dancing is freedom it defies gravity..
++Freestyle dance is a dance that defies gravity.
 
 -Emote_Dance3.3
-+I'm always in awe of people who can dance like this
++Dancers always surprise me.
 
 -Emote_Dance4TokTok.0
-+<playername> DID REALLY GOOD I Can't DO THIS DANCE
++<playername> This dance is impossible for me.
 
 -Emote_Dance4TokTok.1
-+Slay!!!
++We have a winner!
 
 -Emote_Dance4TokTok.2
-+<playername>'s dance style is captivating
++<playername> The dance is very simple.
 
 -Emote_Dance4TokTok.3
-+This is the best dance
++It feels good to dance.
 
 -Emote_FingerScratch.0
-+wow <playername> is confused
++<playername> is confused
 
 -Emote_FingerScratch.1
-+I wonder what <playername> is thinking about
++What do you think about <playername>?
 
 -Emote_FingerScratch.2
-+why does <playername> look so confused
++Why do <playername> look confused?
 
 -Emote_FingerScratch.3
-+<playername> looks like me when I have to solve a catchya
++<playername> is displayed if troubleshooting is required.
 
 -Emote_HalfBackflip.0
-+thats almost a backflip
++It's like going back in time.
 
 -Emote_HalfBackflip.1
-+good try!
++Good experience!
 
 -Emote_HalfBackflip.2
-+<playername> got so close!
++<playername> coming soon!
 
 -Emote_Handstand.0
-+i wish I could do a handstand
++I want to hold your hand
 
 -Emote_Handstand.1
-+Overcoming the fear of falling is actually the hardest part for me
++The most difficult thing to overcome is the fear of falling.
 
 -Emote_Handstand.2
-+Just tried this on my rooftop by 5:30 a.m.  Now commenting from hell
++I'm going to the terrace at half past twelve, answer now.
 
 -Emote_HuggerHeal.0
-+I want someone to do the hug on me for 4 minutes straight
++Someone will call you in four minutes.
 
 -Emote_HuggerHeal.1
-+omg that looks so nice! Never seen that before
++Wow, that's great! I didn't come
 
 -Emote_HuggerHeal.2
-+I will try that with my friends as well!
++I will try it with my friends!
 
 -Emote_HuggerHeal.3
-+omg I cant believe I never knew about hugs before. Spooktube is the best
++God, I have never heard of this bank. Yes that is correct
 
 -Emote_JumpJack.0
-+thats a good workout
++This is a great game.
 
 -Emote_JumpJack.1
-+look <playername> go! So strong
++<playername> Welcome to the top level!
 
 -Emote_JumpJack.2
-+I wake up at 5 everyday and do that workout
++I wake up at 5:00 and do this exercise.
 
 -Emote_MiddleFings.0
-+Ive seen that gesture in history books
++I have seen this symbol in history books.
 
 -Emote_MiddleFings.1
-+Thats a cool handsign. It looks friendly
++The right decision, everything is fine with the baby.
 
 -Emote_MiddleFings.2
-+what a lovely gesture by <playername>
++Best credits <playername>
 
 -Emote_Peace.0
-+is that an offensive ancient hand sign
++Attack on old characters
 
 -Emote_Peace.1
-+I'm not sure what that gesture means.. looks scary
++I don't know what the sign is, I'm worried.
 
 -Emote_Peace.2
-+<playername> is always so out of pocket
++Always followed by <playername>
 
 -Emote_Peace.3
-+????
++,?
 
 -Emote_PushUp.0
-+<playername> is so strong
++<playername> Very good.
 
 -Emote_PushUp.1
-+Is that a proper push up?
++Is the price fair?
 
 -Emote_PushUp.2
-+I love <playername> 's discipline
++I want to play with <playername>.
 
 -Emote_PushUp.3
-+<playername> is workout goals
++<playername> is at the bottom of the deck.
 
 -Emote_PushUp.4
-+flexing on the monsters! btw love the video
++Goodbye Satan! But as far as I know.
 
 -Emote_Shrug.0
-+they just dont care. cool.
++The cold doesn't bother me.
 
 -Emote_Shrug.1
-+<playername> just dont know whats going on
++<playername> doesn't know what's going on.
 
 -Emote_Shrug.2
-+long time viewer, first time commenter
++I have been waiting for a long time and this is my first call.
 
 -Emote_Shrug.3
-+they are so nonschalant and cool
++Everyone is very rude and careless.
 
 -Emote_Shrug.4
-+hah, its like <playername> doesnt even care about the monsters
++Oh, <playername>, I'm not even looking for monsters.
 
 -Emote_Stretch.0
-+zen mode
++John Wade
 
 -Emote_Stretch.1
-+biiig stretch
++bitch
 
 -Emote_Stretch.2
-+oooh <playername> is getting ready!
++Finally! <playername>
 
 -Emote_Thumbnail1.0
-+thats a great pose for a thumbnail
++This method is suitable for children.
 
 -Emote_Thumbnail1.1
-+im gonna steal that post for my thumbnail
++I will take your stick and your finger.
 
 -Emote_Thumbnail1.2
-+Wow omg I love this channel
++Wow, I really like this station.
 
 -Emote_Thumbnail1.3
-+love the energy I've been a viewer for a long time!
++I want to see its power!
 
 -Emote_Thumbnail2.0
-+thats an even greater pose for a thumbnail
++Suitable for small children
 
 -Emote_Thumbnail2.1
-+love how <playername> is just striking a pose
++Like the world <playername>
 
 -Emote_Thumbnail2.2
-+what is <playername> pointing at
++Tell us <playername>
 
 -Emote_Thumbnail2.3
-+I thought it was click bait unitl I saw that
++I love them
 
 -Emote_ThumbsUp.0
-+Thumbs up!
++Everything will be fine.
 
 -Emote_ThumbsUp.1
-+<playername> approves, and so do I!
++And I love you <playername>!
 
 -Emote_ThumbsUp.2
-+I really like <playername>'s vibe
++I like <playername>'s atmosphere of the place.
 
 -Emote_ThumbsUp.3
-+I love the positive atmosphere in this video
++I like the positive theme of this film.
 
 -Emote_ThumbsUp.4
-+please like my comment if you liked the part where <playername> posed
++<playername>, if you like my article, please like and subscribe.
 
 //UI
 -Host
@@ -3213,7 +3213,6 @@
 +BODY AND FACE
 
 -DiveOS
-+DIVEOS V1.24RC OPERATING SYSTEM
 +DiveOS V1.24rc Operating System
 
 -ACTIVE
