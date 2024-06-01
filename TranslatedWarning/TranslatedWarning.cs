@@ -15,6 +15,7 @@ using UnityEngine.UI;
 using Zorro.Core;
 using UnityEngine.UIElements;
 using UnityEngine.Localization.Components;
+using UnityEngine.Localization.PropertyVariants;
 
 namespace TranslatedWarning
 {
@@ -63,6 +64,7 @@ namespace TranslatedWarning
             SceneManager.sceneLoaded += OnSceneLoaded;
         }
 
+        public static List<string> seenList = new List<string>();
         internal void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
             Logger.LogInfo("OnSceneLoaded: " + scene.name);
@@ -88,74 +90,51 @@ namespace TranslatedWarning
                 // COROUTINE 
                 StartCoroutine(Surface());
             }
+
             if (scene.name == "NewMainMenu")
             {
-                Transform buttonsList = GameObject.Find("Canvas").transform.GetChild(0).GetChild(3);
+                Debug.Log("CLEARING LIST");
+                seenList.Clear();
 
-                foreach (Transform button in buttonsList) 
-                {
-                    TranslateButtonText(button);
-                    var componentList = button.GetComponentInChildren<TextMeshProUGUI>().gameObject.GetComponents<Component>();
-                    foreach (var component in componentList)
-                    {
-                        if (component.GetType() == typeof(LocalizeStringEvent))
-                        {
-                            Debug.Log($"FOUND {component.GetType().ToString()}!!!! DELETEING THIS NIGGER");
-                            Destroy(component);
-                        }
-                    }
-                }
             }
 
         }
-        bool activated = false;
+        
         void Update()
         {
-            //if (GameObject.Find("Canvas").transform.GetChild(2).gameObject.activeSelf == false && activated == false)
-            //{
-            //    StartCoroutine(MainMenuMain());
-            //    activated = true;
-            //}
 
-            if (Input.GetKeyDown(KeyCode.T))
-            {
-                StartCoroutine(MainMenuMain());
-            }
         }
 
-        private IEnumerator MainMenuMain()
+        private IEnumerator MainMenu()
         {
 
+            yield return null;
+            foreach (var things in GameObject.Find("Canvas").transform)
+            {
+                Debug.Log(things);
+            }
+
+            // =============== MAIN MENU ===============
             Transform buttonsList = GameObject.Find("Canvas").transform.GetChild(0).GetChild(3);
 
+            foreach (Transform button in buttonsList)
+            {
+                TranslateText(button);
+            }
+
+            // =============== SETTINGS ===============
 
 
-           int i = 0;
-           while (i < buttonsList.childCount)
-           {
-                Debug.Log("CURRENT DIALOG: " + buttonsList.GetChild(i).gameObject.GetComponentInChildren<TextMeshProUGUI>().text);
-                yield return null;
-                if (buttonsList.GetChild(i).gameObject.GetComponentInChildren<TextMeshProUGUI>().text != InjectTranslation.translatedDict[buttonsList.GetChild(i).gameObject.name])
-                {
-                    TranslateButtonText(buttonsList.GetChild(i));
-                    var componentList = buttonsList.GetChild(i).GetComponentInChildren<TextMeshProUGUI>().gameObject.GetComponents<Component>();
-                    foreach (var component in componentList)
-                    {
-                        Debug.Log($"Components: {component}");
-                        if (component.GetType() == typeof(LocalizeStringEvent))
-                        {
-                            Debug.Log($"FOUND {component.GetType().ToString()}");
-                            Destroy(component);
-                        }
-                    }
+            Transform settings = GameObject.Find("Canvas").transform.GetChild(3).GetChild(2);
 
-                }
-                else
-                {
-                    i++;
-                }
-           }
-            
+            TranslateText(settings.GetChild(0)); //BackButton
+            TranslateText(settings.GetChild(1), key: settings.gameObject.name); //Settings title
+
+            Transform tabs = settings.GetChild(2).GetChild(0);
+            foreach (Transform tab in tabs)
+            {
+                TranslateText(tab);
+            }
 
             yield break;
         }
@@ -201,15 +180,7 @@ namespace TranslatedWarning
 
             
         }
-        public static void TranslateButtonText(Transform button)
-        {
-            TextMeshProUGUI buttonText = button.gameObject.GetComponentInChildren<TextMeshProUGUI>();
-            if (buttonText != null)
-            {
-                Debug.Log(buttonText.text + "!!!!!!!!!!!!!");
-                buttonText.text = InjectTranslation.translatedDict[button.gameObject.name];
-            }
-        }
+
         internal static void HookAll()
         {
             Logger.LogDebug("Hooking...");
@@ -223,7 +194,33 @@ namespace TranslatedWarning
             
 
         }
+        public static void TranslateText(Transform textObject, string key = "")
+        {
+            TextMeshProUGUI text = textObject.gameObject.GetComponentInChildren<TextMeshProUGUI>(); //find TextMeshPro
+            if (text != null)
+            {
+                Debug.Log(text.text + "!!!!!!!!!!!!!");
+                if (key.IsNullOrWhiteSpace()) { text.text = InjectTranslation.translatedDict[textObject.gameObject.name]; }
+                else { text.text = InjectTranslation.translatedDict[key]; } //change text
 
+                var componentList = text.gameObject.GetComponents<Component>(); //destroy unecessary components
+                foreach (var component in componentList)
+                {
+                    if (component.GetType() == typeof(LocalizeStringEvent) || component.GetType() == typeof(GameObjectLocalizer))
+                    {
+                        Destroy(component);
+                    }
+                }
+
+            }
+
+        }
+
+        public static void Delete(Component component)
+        {
+            Debug.Log($"FOUND {component.GetType().ToString()}!!!! DELETEING THIS NIGGER");
+            Destroy(component);
+        }
         internal static void UnhookAll()
         {
 

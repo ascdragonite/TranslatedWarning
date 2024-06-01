@@ -1,12 +1,17 @@
-﻿using System;
+﻿using BepInEx;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization.Components;
+using UnityEngine.Localization.PropertyVariants;
 using UnityEngine.UI;
 using static Unity.Collections.LowLevel.Unsafe.BurstRuntime;
 using static UnityEngine.UIElements.StylePropertyAnimationSystem;
+using UnityEngine.SceneManagement;
+using System.Runtime.Serialization;
 
 namespace TranslatedWarning.Patches
 {
@@ -44,10 +49,46 @@ namespace TranslatedWarning.Patches
 
             On.LocalizationKeys.GetLocalizedString += LocalizationKeys_GetLocalizedString;
 
+            On.MainMenuUIHandler.OnTransistionedToPage += MainMenuUIHandler_OnTransistionedToPage;
         }
 
+        
+        private static void MainMenuUIHandler_OnTransistionedToPage(On.MainMenuUIHandler.orig_OnTransistionedToPage orig, MainMenuUIHandler self, Zorro.UI.UIPage newPage)
+        {
+            orig(self, newPage);
+            string currentPage = newPage.GetType().ToString();
+            Debug.Log($"InjectTranslation: TRANSITION TO {currentPage}");
+            switch (currentPage)
+            {
+                case "MainMenuMainPage":
+                    if (TranslatedWarning.seenList.Contains(currentPage)) { Debug.Log($"InjectTranslation: ALREADY SEEN!!!!!");  break; }
+                    Debug.Log("CASE MAIN MENU!!!!!!!!");
+                    Transform buttonsList = newPage.gameObject.transform.GetChild(3);
+                    foreach (Transform button in buttonsList) 
+                    {
+                        TranslateText(button);
+                    }
+                    TranslatedWarning.seenList.Add(currentPage);
+                    break;
 
+                case "MainMenuSettingsPage":
+                    if (TranslatedWarning.seenList.Contains(currentPage)) { Debug.Log($"InjectTranslation: ALREADY SEEN!!!!!"); break; }
+                    Debug.Log("CASE SETTINGS!!!!!!!!");
+                    Transform settings = newPage.transform.GetChild(2);
 
+                    TranslateText(settings.GetChild(0)); //BackButton
+                    TranslateText(settings.GetChild(1), key: settings.gameObject.name); //Settings title
+
+                    Transform tabs = settings.GetChild(2).GetChild(0);
+                    foreach (Transform tab in tabs)
+                    {
+                        TranslateText(tab);
+                    }
+
+                    TranslatedWarning.seenList.Add(currentPage);
+                    break;
+            }
+        }
 
         public static bool mainMenuMainActive = false;
 
@@ -67,5 +108,29 @@ namespace TranslatedWarning.Patches
             }
             return translatedDict[key.ToString()];
         }
+
+
+        public static void TranslateText(Transform textObject, string key = "")
+        {
+            TextMeshProUGUI text = textObject.gameObject.GetComponentInChildren<TextMeshProUGUI>(); //find TextMeshPro
+            if (text != null)
+            {
+                Debug.Log(text.text + "!!!!!!!!!!!!!");
+                if (key.IsNullOrWhiteSpace()) { text.text = InjectTranslation.translatedDict[textObject.gameObject.name]; }
+                else { text.text = InjectTranslation.translatedDict[key]; } //change text
+
+                var componentList = text.gameObject.GetComponents<Component>(); //destroy unecessary components
+                foreach (var component in componentList)
+                {
+                    if (component.GetType() == typeof(LocalizeStringEvent) || component.GetType() == typeof(GameObjectLocalizer))
+                    {
+                        TranslatedWarning.Delete(component);
+                    }
+                }
+
+            }
+
+        }
     }
+
 }

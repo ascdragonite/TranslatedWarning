@@ -3164,9 +3164,6 @@
 -SettingsPage
 +CLUB
 
--CW.SettingsPage
-+VERY
-
 -GraphicsTab
 +FROM NOW ON
 

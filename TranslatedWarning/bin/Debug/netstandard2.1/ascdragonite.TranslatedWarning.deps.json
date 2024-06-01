@@ -18,7 +18,8 @@
           "Unity.Localization": "0.0.0.0",
           "Unity.TextMeshPro": "0.0.0.0",
           "UnityEngine.UI": "1.0.0.0",
-          "Zorro.Core.Runtime": "0.0.0.0"
+          "Zorro.Core.Runtime": "0.0.0.0",
+          "Zorro.UI.Runtime": "0.0.0.0"
         },
         "runtime": {
           "ascdragonite.TranslatedWarning.dll": {}
@@ -692,6 +693,14 @@
             "fileVersion": "0.0.0.0"
           }
         }
+      },
+      "Zorro.UI.Runtime/0.0.0.0": {
+        "runtime": {
+          "Zorro.UI.Runtime.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
       }
     }
   },
@@ -995,6 +1004,11 @@
       "sha512": ""
     },
     "Zorro.Core.Runtime/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zorro.UI.Runtime/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

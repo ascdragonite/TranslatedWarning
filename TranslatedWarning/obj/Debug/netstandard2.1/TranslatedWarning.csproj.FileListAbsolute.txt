@@ -27,3 +27,4 @@ D:\repos\TranslatedWarning\TranslatedWarning\obj\Debug\netstandard2.1\Translat.7
 D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\Unity.TextMeshPro.dll
 D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\UnityEngine.UI.dll
 D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\Unity.Localization.dll
+D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\Zorro.UI.Runtime.dll

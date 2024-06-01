@@ -77,5 +77,8 @@
         <Reference Include="Zorro.Core.Runtime">
           <HintPath>..\..\..\SteamLibrary\steamapps\common\Content Warning\Content Warning_Data\Managed\Zorro.Core.Runtime.dll</HintPath>
         </Reference>
+        <Reference Include="Zorro.UI.Runtime">
+          <HintPath>..\..\..\SteamLibrary\steamapps\common\Content Warning\Content Warning_Data\Managed\Zorro.UI.Runtime.dll</HintPath>
+        </Reference>
     </ItemGroup>
 </Project>
