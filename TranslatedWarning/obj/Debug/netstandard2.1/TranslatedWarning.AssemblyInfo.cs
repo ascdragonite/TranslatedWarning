@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ascdragonite.TranslatedWarning")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7afbbb20d22feb2df1ca3e0f69adbae1130a980d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c89acccf464261a43ce63bcbfac6294dab84421")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranslatedWarning")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ascdragonite.TranslatedWarning")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
