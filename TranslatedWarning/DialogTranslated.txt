@@ -764,10 +764,6 @@
 -LarvaContentEvent.13
 +Check out other locations!
 
-
-//stopped
-
-
 -MimeContentEvent.0
 +Have you ever seen a crazy person? But I really like this video.
 
@@ -2921,6 +2917,33 @@
 
 -HatShop_CantAfford
 +{hatName} This is very important!
+
+
+//HATS
+-30_Hat_Hard.0
++Despite having no plans to get a helmet, I continue to love watching these videos.
+
+-30_Hat_Hard.1
++I love gear review, thanks for making them
+
+-30_Hat_Hard.2
++Hi,guys!!How do you think,which helmet is better: LD11 BigCiry or BSK SmallCity?I see that LD11  a little harder
+
+-30_Hat_Hard.3
++Just bought that helmet. i noticed that there isn' the red lock in the side.
+
+-30_Hat_Hard.4
++How is the field of vision in the forward over sport rideing position?
+
+-30_Hat_Hard.5
++Can I use it for a sport bike?
+
+-30_Hat_Hard.6
++Where can i order one sir?
+
+-30_Hat_Hard.7
++Now, that's a review!
+
 
 //EMOTE
 -Emote_Applause.0

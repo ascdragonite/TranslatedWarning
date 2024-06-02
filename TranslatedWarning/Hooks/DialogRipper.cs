@@ -45,9 +45,13 @@ namespace TranslatedWarning.Patches
             On.ItemDatabase.TryGetItemFromID += ItemDatabase_TryGetItemFromID;
 
             On.MainMenuMainPage.Awake += MainMenuMainPage_Awake;
+
             On.MainMenuSettingsPage.Awake += MainMenuSettingsPage_Awake;
 
             On.ShopHandler.Awake += ShopHandler_Awake;
+
+            On.HatDatabase.Awake += HatDatabase_Awake;
+
 
 
             DataCollection(); //collects most comments
@@ -74,6 +78,25 @@ namespace TranslatedWarning.Patches
                 }
             }
 
+        }
+
+        public static Hat[]? hatList;
+
+        private static void HatDatabase_Awake(On.HatDatabase.orig_Awake orig, HatDatabase self)
+        {
+            orig(self);
+            hatList = self.hats;
+            Print("//HATS");
+            if (hatList != null)
+            {
+                foreach (Hat hat in hatList)
+                {
+                    foreach (string comment in hat.comments)
+                    {
+                        Print(hat.name, comment, log: true);
+                    }
+                }
+            }
         }
 
 

@@ -12,6 +12,10 @@ using static Unity.Collections.LowLevel.Unsafe.BurstRuntime;
 using static UnityEngine.UIElements.StylePropertyAnimationSystem;
 using UnityEngine.SceneManagement;
 using System.Runtime.Serialization;
+using System.Linq;
+using MonoMod.Cil;
+using DefaultNamespace.ContentProviders;
+using DefaultNamespace.ContentEvents;
 
 namespace TranslatedWarning.Patches
 {
@@ -50,9 +54,86 @@ namespace TranslatedWarning.Patches
             On.LocalizationKeys.GetLocalizedString += LocalizationKeys_GetLocalizedString;
 
             On.MainMenuUIHandler.OnTransistionedToPage += MainMenuUIHandler_OnTransistionedToPage;
+
+            On.ContentBuffer.GenerateComments += ContentBuffer_GenerateComments;
+
+            On.PlayerBaseEvent.FixPlayerName += PlayerBaseEvent_FixPlayerName;
         }
 
-        
+        static PlayerBaseEvent? playerBaseEvent;
+        private static string PlayerBaseEvent_FixPlayerName(On.PlayerBaseEvent.orig_FixPlayerName orig, PlayerBaseEvent self, string comment)
+        {
+            playerBaseEvent = self;
+            Debug.Log("FixPlayerName ACTIVATED!!!!!!");
+            return orig(self, comment);
+        }
+
+        private static List<Comment> ContentBuffer_GenerateComments(On.ContentBuffer.orig_GenerateComments orig, ContentBuffer self)
+        {
+            try
+            {
+                List<Comment> list = new List<Comment>();
+                foreach (ContentBuffer.BufferedContent item in self.buffer)
+                {
+                    var cEvent = item.frame.contentEvent;
+                    Debug.Log($"FOUND EVENT: {cEvent.GetType().ToString()}");
+                    Comment comment = cEvent.GenerateComment();
+
+                    comment.Text = TranslateComment(cEvent); //magic happens
+
+                    comment.Likes = BigNumbers.GetScoreToViews(Mathf.RoundToInt(item.score), GameAPI.CurrentDay);
+                    comment.Time = item.frame.time;
+                    comment.Face = FaceDatabase.GetRandomFaceIndex();
+                    comment.FaceColor = FaceDatabase.GetRandomColorIndex();
+                    list.Add(comment);
+                }
+                list.Sort((Comment c1, Comment c2) => c1.Time.CompareTo(c2.Time));
+                return list;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("EPIC FAIL!!!!!");
+                Debug.LogError(e.ToString());
+                return orig(self);
+            }
+
+        }
+
+        public static string TranslateComment(ContentEvent content)
+        {
+            string pattern;
+            if (content.GetType() == typeof(PropContentEvent))
+            {
+                PropContentEvent propContent = (PropContentEvent)content;
+                Debug.Log("PROP FOUND: " + propContent.content.name);
+                pattern = propContent.content.name;
+            }
+            else if (content.GetType() == typeof(ArtifactContentEvent))
+            {
+                ArtifactContentEvent artifactContent = (ArtifactContentEvent)content;
+
+                Debug.Log("ARTIFACT FOUND: " + artifactContent.content.name);
+                pattern = artifactContent.content.name;
+            }
+            else
+            {
+                pattern = content.GetType().ToString();
+            }
+            string[] eventCommentArray = translatedDict.Where(kvp => kvp.Key.Contains(pattern)).Select(kvp => kvp.Value).ToArray(); //gets all values (maybe) that has the ContentEvent in it
+
+            System.Random random = new System.Random();
+            int index = random.Next(0, eventCommentArray.Length); //make a random number from 0 to array length
+            Debug.Log($"COMMENT CHOSEN: {pattern}.{index}"); 
+            string comment = eventCommentArray[index];
+            if (content.GetType().IsSubclassOf(typeof(PlayerBaseEvent)))
+            {
+                PlayerBaseEvent playerBaseEvent = (PlayerBaseEvent)content;
+
+            }
+
+            return eventCommentArray[index]; //return random comment
+        }
+
         private static void MainMenuUIHandler_OnTransistionedToPage(On.MainMenuUIHandler.orig_OnTransistionedToPage orig, MainMenuUIHandler self, Zorro.UI.UIPage newPage)
         {
             orig(self, newPage);

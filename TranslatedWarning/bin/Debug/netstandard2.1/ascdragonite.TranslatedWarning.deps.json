@@ -15,6 +15,7 @@
           "BepInEx.PluginInfoProps": "2.1.0",
           "UnityEngine.Modules": "2022.3.10",
           "MMHOOK_Assembly-CSharp": "0.0.0.0",
+          "Sirenix.Serialization": "1.0.0.0",
           "Unity.Localization": "0.0.0.0",
           "Unity.TextMeshPro": "0.0.0.0",
           "UnityEngine.UI": "1.0.0.0",
@@ -662,6 +663,14 @@
           }
         }
       },
+      "Sirenix.Serialization/1.0.0.0": {
+        "runtime": {
+          "Sirenix.Serialization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Unity.Localization/0.0.0.0": {
         "runtime": {
           "Unity.Localization.dll": {
@@ -984,6 +993,11 @@
       "hashPath": "unityengine.modules.2022.3.10.nupkg.sha512"
     },
     "MMHOOK_Assembly-CSharp/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sirenix.Serialization/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

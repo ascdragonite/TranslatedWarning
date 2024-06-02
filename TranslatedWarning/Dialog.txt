@@ -1837,6 +1837,1116 @@ MimeContentEvent.1
 -SirMonsterBurgerConent.7
 +Thats my favorite vegan Sir Monster Burger!
 
+//MAIN
+
+-HelmetWelcome
++Day 1
+
+-HelmetFailed
++You Failed To Become Succesful!
+
+-Sleep
++Sleep
+
+-Day
++Day {0}
+
+-Views
++Views
+
+-Quota
++Quota
+
+-Money
++Money
+
+-Empty
++Empty
+
+-Save
++Save
+
+-DivingBellNotReadyMissingPlayersState
++Not all suits are inside
+
+-DivingBellNotReadyDoorOpenState
++Close the door!
+
+-DivingBellReady
++Ready to submerge!
+
+-DivingBellReadySurface
++Ready to return
+
+-DivingBellRechargingState
++Recharging...
+
+-JoinRandom
++JOINING RANDOM GAME...
+
+-EnterDiveBellDay2Objective
++ENTER THE DIVE BELL AND SUBMERGE
+
+-EnterDiveBellObjective
++ENTER THE DIVE BELL AND SUBMERGE
+
+-BuyEquipmentObjective
++BUY EQUIPMENT
+
+-ExtractVideoObjective
++Throw the camera into the video extraction machine
+
+-FilmSomethingScaryObjective
++FILM SOMETHING SCARY
+
+-GoToBedFailedObjective
++GO TO BED
+
+-GoToBedSuccessObjective
++GO TO BED
+
+-InviteFriendsObjective
++INVITE YOUR FRIENDS
+
+-LeaveHouseObjective
++LEAVE THE HOUSE
+
+-PickupDiscObjective
++PICK UP THE DISC
+
+-PickupTheCameraObjective
++PICK UP THE CAMERA
+
+-ReturnToTheDiveBellObjective
++RETURN TO THE DIVE BELL AND ASCEND
+
+-UploadVideoObjective
++Upload the video to Spöök Tube
+
+-WakeUpObjective
++WAKE UP
+
+-CelebrateObjective
++CELEBRATE YOUR NEWFOUND FAME!
+
+-DaysLeft
++{0} DAYS LEFT
+
+-LastDay
++LAST DAY
+
+-Buy
++Buy  
+
+-Left
++Left
+
+-Right
++Right
+
+-NotSleepy
++Not Sleepy
+
+-StartGame
++Start Game
+
+-Submerge
++SUBMERGE
+
+-ReturnToSurface
++RETURN TO THE SURFACE
+
+-TerminalBusy
++Terminal Busy
+
+-Help
++Help
+
+-InviteFriends
++Invite Friends
+
+-Open
++Open
+
+-Close
++Close
+
+-GameFull
++Can't Invite Friends: Game is full
+
+-GameStarted
++Can't Invite Friends: Game has started
+
+-Offline
++Offline
+
+-StartGameTitle
++Are you sure you want to start?
+
+-StartGameBody
++You can not invite friends after the game has started.
+
+-StartGameConfirm
++Start Game
+
+-Cancel
++Cancel
+
+-PickUp
++PICKUP
+
+-SwitchCategory
++Switch To {category} Category
+
+-AddToCart
++Add {item} To Cart
+
+-SoldOut
++SOLD OUT
+
+-Clear
++Clear
+
+-Order
++Order
+
+-DeleteSave
++Delete Save
+
+-DeleteSaveConfirm
++Are you sure you want to delete this save?
+
+-Yes
++Yes
+
+-No
++No
+
+-Interact
++Interact
+
+-HelmetDaysLeft
++{0} Days Left!
+
+-HelmetLastDay
++This Is The Last Day!
+
+-HelmetForgetCamera
++Don´t Forget The Camera!
+
+-Oxygen
++Oxygen
+
+-Distance
++Distance
+
+-Items
++ITEMS
+
+-CloseVideo
++Close Video
+
+-ReplayVideo
++Replay Video
+
+-SaveVideo
++Save Video to Desktop
+
+-UploadToSpookTube
++Upload the video to Spöök Tube
+
+-ShopClosed
++Shop Closed!
+
+-Lights
++Lights
+
+-Medical
++Medical
+
+-Gadgets
++Gadgets
+
+-Emotes
++Emote
+
+-Emotes2
++Emote2
+
+-Upgrades
++Upgrades
+
+-Misc
++Misc
+
+-SpookTubeViews
++Spöök Tube views
+
+-AdRevenue
++Ad Revenue
+
+-HospitalBill
++Hospital Bill For {InsertName}
+
+-CalibrationUseVoice
++This game uses voice chat
+
+-CalibrationUseHeadphones
++Please use headphones
+
+-CalibrationSelectMic
++SELECT MICROPHONE
+
+-CalibrationSelectVoice
++SELECT VOICE MODE
+
+-CalibrationBrightness
++ADJUST BRIGHTNESS
+
+-CalibrationMonster
++Please adjust until you don't see the TEXT behind the monster
+
+-Brightness
++Brightness
+
+-Continue
++CONTINUE
+
+-OldVersion
++Old Game Version
+
+-PleaseUpdate
++Please update your game to continue playing!
+
+-CloseGame
++Close Game
+
+-CrouchKeybindSetting
++Crouch
+
+-DropKeybindSetting
++Drop
+
+-EmoteKeybindSetting
++Emote
+
+-InteractKeybindSetting
++Interact
+
+-JumpKeybindSetting
++Jump
+
+-ToggleSelfieModeKeybindSetting
++Toggle Selfie Mode
+
+-WalkBackwardKeybindSetting
++Walk Backward
+
+-WalkForwardKeybindSetting
++Walk Forward
+
+-WalkLeftKeybindSetting
++Walk Left
+
+-WalkRightKeybindSetting
++Walk Right
+
+-AmbientOcclusionSetting
++Ambient Occlusion
+
+-BrightnessSetting
++Brightness
+
+-ChromaticAberrationSetting
++Chromatic Aberration
+
+-FullscreenSetting
++Window mode
+
+-VoiceVolumeSetting
++Voice Volume
+
+-VoiceSetting
++Microphone
+
+-VoiceChatModeSetting
++Voice Chat Mode
+
+-VSyncSetting
++VSync
+
+-ShadowQualitySetting
++Shadow Quality
+
+-ScreenResolutionSetting
++Resolution
+
+-SFXVolumeSetting
++SFX Volume
+
+-MouseSensitivitySetting
++Mouse Sensitivity
+
+-MaxFramerateSetting
++Max Framerate
+
+-MasterVolumeSetting
++Master Volume
+
+-SprintKeybindSetting
++Sprint
+
+-JoinError
++Join Error
+
+-JoinErrorMismatch
++Trying To Join A Lobby With Mismatched Game Version
+
+-Ok
++Ok
+
+-VideoSaved
++Video saved to desktop!
+
+-VideoSavedAs
++Saved as
+
+-VideoFailedSave
++Failed to save video to desktop!
+
+-ServerIssues
++MEDIUM SERVER LOAD!
+
+-DropItem
++Drop Item
+
+-Battery
++BATTERY
+
+-FilmLeft
++% FILM LEFT
+
+-ToggleLight
++Toggle Light
+
+-ZoomKey
++[SCROLL] ZOOM
+
+-SelfieMode
++[R] SELFIE MODE
+
+-Aim
++[RMB] AIM
+
+-HostingGame
++HOSTING GAME...
+
+-Connecting
++Connecting
+
+-BoomMic
++Boom Mic
+
+-Camera
++Camera
+
+-CameraBroken
++Broken Camera
+
+-Clapper
++Clapper
+
+-Defibrilator
++Defibrilator
+
+-Disc
++Disc
+
+-Flare
++Flare
+
+-GooBall
++Goo Ball
+
+-Hugger
++Hugger
+
+-LongFlashlightPro
++Long Flashlight Pro
+
+-LongFlashlight
++Long Flashlight
+
+-ModernFlashlightPro
++Modern Flashlight Pro
+
+-ModernFlashlight
++Modern Flashlight
+
+-OldFlashlight
++Old Flashlight
+
+-PartyPopper
++Party Popper
+
+-ShockStick
++Shock Stick
+
+-SoundPlayer
++Sound Player
+
+-WalkieTalkie
++Walkie-talkie
+
+-WideFlashlight2
++Wide Flashlight 2
+
+-WideFlashlight3
++Wide Flashlight 3
+
+-Winch
++Winch
+
+-Aminalstateu
++Aminal stateu
+
+-Animalstatue
++Animal statue
+
+-Bone
++Bone
+
+-Brainonastick
++Brain on a stick
+
+-Chorby
++Chorby
+
+-Container
++Container
+
+-OldPainting
++Old Painting
+
+-Radio
++Radio
+
+-Ribcage
++Ribcage
+
+-Skull
++Skull
+
+-Spine
++Spine
+
+-ReporterMic
++Reporter Mic
+
+-RescueHook
++Rescue Hook
+
+-Emote_Applause
++Applause
+
+-Emote_Dance1
++Dance 101
+
+-Emote_Dance2
++Dance 102
+
+-Emote_Dance3
++Dance 103
+
+-Emote_FingerScratch
++Confused
+
+-Emote_HalfBackflip
++Backflip p1
+
+-Emote_Handstand
++Gymnastics
+
+-Emote_HuggerHeal
++LOCALIZATION ERROR
+
+-Emote_JumpJack
++Workout 1
+
+-Emote_MiddleFings
++Ancient Gestures 1
+
+-Emote_Peace
++Ancient gestures 2
+
+-Emote_PushUp
++Workout 2
+
+-Emote_Shrug
++Caring
+
+-Emote_Stretch
++Yoga
+
+-Emote_Thumbnail1
++Thumbnail 1
+
+-Emote_Thumbnail2
++Thumbnail 2
+
+-Emote_ThumbsUp
++Ancient gestures 3
+
+-BoomMic_ToolTips
++Make things louder
+
+-Camera_ToolTips
++[LMB] Record;[RMB] Aim;[R] Selfie Mode;[Scroll] Zoom
+
+-Clapper_ToolTips
++[LMB] Clamp;[RMB] Hold further away
+
+-Defibrilator_ToolTips
++[LMB] Revive
+
+-Disc_ToolTips
++Upload to spöökktube
+
+-FakeOldFlashlight
++FakeOldFlashlight
+
+-FakeOldFlashlight_ToolTips
++[LMB] Toggle Light
+
+-Flare_ToolTips
++[LMB] Light Flare
+
+-GooBall_ToolTips
++[LMB] Activate
+
+-GrabberArm
++Grabber Arm
+
+-GrabberArm_ToolTips
++LOCALIZATION ERROR
+
+-Hugger_ToolTips
++[LMB] Hug;[RMB] Read Instructions
+
+-LongFlashlightPro_ToolTips
++[LMB] Toggle Light
+
+-LongFlashlight_ToolTips
++[LMB] Toggle Light
+
+-LostDisc
++Lost Disc
+
+-LostDisc_ToolTips
++Upload to spööktube
+
+-ModernFlashlightPro_ToolTips
++[LMB] Toggle Light
+
+-ModernFlashlight_ToolTips
++[LMB] Toggle Light
+
+-OldFlashlight_ToolTips
++[LMB] Toggle OldLight
+
+-PartyPopper_ToolTips
++[LMB] Confetti time
+
+-ReporterMic_ToolTips
++Makes things louder;[RMB] Reach out
+
+-ShockStick_ToolTips
++[LMB] Turn on
+
+-SoundPlayer_ToolTips
++[Scroll] Select sound;[LMB] Play Sound
+
+-WalkieTalkie_ToolTips
++[LMB] Hold to talk
+
+-WideFlashlight2_ToolTips
++[LMB] Toggle Light
+
+-WideFlashlight3_ToolTips
++[LMB] Toggle Light
+
+-Radio_ToolTips
++[LMB] Toggle on/off
+
+-Emote_Applause_ToolTips
++[LMB] Learn
+
+-Emote_Dance1_ToolTips
++[LMB] Learn
+
+-Emote_Dance2_ToolTips
++[LMB] Learn
+
+-Emote_Dance3_ToolTips
++[LMB] Learn
+
+-Emote_FingerScratch_ToolTips
++[LMB] Learn
+
+-Emote_HalfBackflip_ToolTips
++[LMB] Learn
+
+-Emote_Handstand_ToolTips
++[LMB] Learn
+
+-Emote_HuggerHeal_ToolTips
++[LMB] Learn
+
+-Emote_JumpJack_ToolTips
++[LMB] Learn
+
+-Emote_MiddleFings_ToolTips
++[LMB] Learn
+
+-Emote_Peace_ToolTips
++[LMB] Learn
+
+-Emote_PushUp_ToolTips
++[LMB] Learn
+
+-Emote_Shrug_ToolTips
++[LMB] Learn
+
+-Emote_Stretch_ToolTips
++[LMB] Learn
+
+-Emote_Thumbnail1_ToolTips
++[LMB] Learn
+
+-Emote_Thumbnail2_ToolTips
++[LMB] Learn
+
+-Emote_ThumbsUp_ToolTips
++[LMB] Learn
+
+-ThrowItemToolTip
++Hold [{key}] Throw Item
+
+-Endscreen1_1
++You failed to gain popularity as a content creator
+
+-Endscreen1_2
++Your channel never took off
+
+-Endscreen1_3
++The algorithm figured out that your content was uninteresting
+
+-Endscreen1_4
++You did not have what it takes to become famous
+
+-Endscreen1_5
++Very few people ever subscribed to your channel
+
+-Endscreen2_1
++Your dreams were crushed
+
+-Endscreen2_2
++Your content was not engaging enough
+
+-Endscreen2_3
++No one liked your videos
+
+-Endscreen2_4
++None of your videos ever went viral
+
+-Endscreen2_5
++Eventually you stopped making videos
+
+-Endscreen3_1
++You died of sadness
+
+-Endscreen3_2
++You never got over it
+
+-Endscreen3_3
++You lived out your days in shame
+
+-Endscreen3_4
++You never found anything else you wanted to do with your life
+
+-Endscreen3_5
++The world forgot about you
+
+-Endscreen3_6
++The rest of your life was mid
+
+-EndscreenDream
++But then you realised it was only a bad dream
+
+-Bomb
++Bomb
+
+-Apple
++Apple
+
+-Sit
++Sit
+
+-Error_Steam_Title
++Failed to authenticate with steam
+
+-Error_Steam_Body
++Make sure steam is online
+
+-Error_Auth_Failed
++Failed to authenticate with servers
+
+-Error_File_Not_Found
++File not found
+
+-Error_Save
++Save Error!
+
+-Error_RecordingsFolder
++Failed To Create Recordingsfolder!
+
+-Error_NoSave
++No Save Found!
+
+-Error_HostLeft
++Host Left the game
+
+-Error_Disconnected
++You've been disconnected
+
+-Error_Join
++Failed to join lobby
+
+-Error_Delete_TempFolder
++Failed To Delete Temp Folder
+
+-Error_CreateRoom
++Failed to create room
+
+-Error_VideoPath
++Failed To Get Video Path
+
+-AddedToCart
++Added to cart!
+
+-PushToTalk
++Push To Talk
+
+-VoiceDetection
++Voice Detection
+
+-FullScreenMode
++Fullscreen
+
+-WindowedMode
++Windowed
+
+-HighSetting
++High
+
+-LowSetting
++Low
+
+-OnSetting
++On
+
+-OffSetting
++Off
+
+-PressAnyKeySetting
++Press any key
+
+-Emote_Applause_Text
++How to Applaude
+
+-Emote_Dance1_Text
++How to Dance 101
+
+-Emote_Dance2_Text
++How to Dance 102
+
+-Emote_Dance3_Text
++How to Dance 103
+
+-Emote_FingerScratch_Text
++How to look confused
+
+-Emote_HalfBackflip_Text
++How to Backflip (part 1)
+
+-Emote_Handstand_Text
++Gymnastics for beginners
+
+-Emote_HuggerHeal_Text
++How to make a good thumbnail 1
+
+-Emote_JumpJack_Text
++Workout book 1
+
+-Emote_MiddleFings_Text
++Ancient gestures 1
+
+-Emote_Peace_Text
++Ancient gestures 2
+
+-Emote_PushUp_Text
++Workout book 2
+
+-Emote_Shrug_Text
++How to care less
+
+-Emote_Stretch_Text
++How to yoga
+
+-Emote_Thumbnail1_Text
++How to make a good thumbnail 1
+
+-Emote_Thumbnail2_Text
++How to make a good thumbnail 2
+
+-Emote_ThumbsUp_Text
++Ancient gestures 3
+
+-Unlock
++UNLOCK FOR
+
+-BalaclavaHat
++Balaclava
+
+-BeanieHat
++Beanie
+
+-BucketHatHat
++Bucket hat
+
+-CatEarsHat
++Cat ears
+
+-ChefHat
++Chefs hat
+
+-FloppyHat
++Floppy hat
+
+-HomburgHat
++Homburg
+
+-Hair1Hat
++Curly hair
+
+-Hat_BowlerHat
++Bowler hat
+
+-Hat_CapHat
++Cap
+
+-Hat_ChildHat
++Propeller hat
+
+-Hat_ClownHat
++Clown hair
+
+-Hat_CowboyHat
++Cowboy hat
+
+-Hat_CrownHat
++Crown
+
+-Hat_HaloHat
++Halo
+
+-Hat_HornsHat
++Horns
+
+-Hat_HotdogHat
++Hotdog hat
+
+-Hat_JesterHat
++Jesters hat
+
+-Hat_KnifoHat
++Ghost hat
+
+-Hat_MilkHat
++Milk hat
+
+-Hat_NewsHat
++Newsboy cap
+
+-Hat_PirateHat
++Pirate hat
+
+-Hat_RugbyHat
++Sports helmet
+
+-Hat_SavannahHat
++Savannah hair
+
+-Hat_TooopHat
++Tooop hat
+
+-Hat_TopHat
++Top hat
+
+-PartyHat
++Party hat
+
+-ShroomHat
++Shroom hat
+
+-UshankaHat
++Ushanka
+
+-WitchHat
++Witch hat
+
+-NetworkBingoBongo_0_EmailTitle
++Norf sponsorship opportunity!
+
+-NetworkBingoBongo_0_DealName
++Norf gun
+
+-NetworkBingoBongo_0_Description
++Make us an add for our brand new NORF GUN 2000!\n\nGet a total of <b>{Views} views</b> without uploading any <b>dead bodies!</b> Kids don't like those.
+
+-NetworkBingoBongo_0_SuccessEmailBody
++You didn't upload any <b>dead bodies</b> and <b>got {Views} views!</b>
+
+-NetworkBingoBongo_0_FailedEmailBody
++Can you not read??! You uploaded a video with  a dead body!?\n\nWe told you <b>NOT to film any dead bodies</b> and you do just that?\n\nThe kids will never be the same, you know?
+
+-NetworkHoldTheBombo_9_EmailTitle
++IMPORTANT! Try our award winning helmet!
+
+-NetworkHoldTheBombo_9_DealName
++HoldTheBombo
+
+-NetworkHoldTheBombo_9_Description
++Upload a video of someone holding a bomb to prove how safe our helmet is!
+
+-NetworkHoldTheBombo_9_SuccessEmailBody
++You showed them the power of the bomb!
+
+-NetworkHoldTheBombo_9_FailedEmailBody
++LOCALIZATION ERROR
+
+-NetworkInterviewer_2_EmailTitle
++Media inquiry: Monster deep dive.
+
+-NetworkInterviewer_2_DealName
++Reporter Net
+
+-NetworkInterviewer_2_Description
++Upload a video of you interviewing {Views} different monsters with the reporter mic
+
+-NetworkInterviewer_2_SuccessEmailBody
++Thank you for interviewing the creatures of the old world!
+
+-NetworkInterviewer_2_FailedEmailBody
++LOCALIZATION ERROR
+
+-NetworkJackass_4_EmailTitle
++Energy drink colab!
+
+-NetworkJackass_4_DealName
++Donkey Net
+
+-NetworkJackass_4_Description
++Our fans love seeing weirdos like you get hurt. \n\nUpload videos where you and your friends taking a total of <b>{amount} damage</b>
+
+-NetworkJackass_4_SuccessEmailBody
++That looked really painful! Hope the medical bills aren't too high!
+
+-NetworkJackass_4_FailedEmailBody
++LOCALIZATION ERROR
+
+-NetworkMultiMonsterInFrameAtOnce_5_EmailTitle
++Sending this email to 1.000.000 spööktubers!
+
+-NetworkMultiMonsterInFrameAtOnce_5_DealName
++MultiMonster Net
+
+-NetworkMultiMonsterInFrameAtOnce_5_Description
++Upload video of {Views} different monsters in the same shot to show how irresistible our burgers are!
+
+-NetworkMultiMonsterInFrameAtOnce_5_SuccessEmailBody
++Thank you for capturing the monsters in the same shot!
+
+-NetworkMultiMonsterInFrameAtOnce_5_FailedEmailBody
++LOCALIZATION ERROR
+
+-NetworkTaunting_3_EmailTitle
++DANCE VIDEO SPONSORSHIP?!
+
+-NetworkTaunting_3_DealName
++Brave Net
+
+-NetworkTaunting_3_Description
++Perform our new dance in front of {Amount} monsters with our hit song playing!
+
+-NetworkTaunting_3_SuccessEmailBody
++Thank you for showing your bravery!
+
+-NetworkTaunting_3_FailedEmailBody
++LOCALIZATION ERROR
+
+-NetworkWalletMoney_1_EmailTitle
++We're looking for someone rich..
+
+-NetworkWalletMoney_1_DealName
++MoneyMoney Net
+
+-NetworkWalletMoney_1_Description
++We have some wealth to share. \nHowever we only want to give it to someone we KNOW is rich.\nHave a total of <b>{Amount}</b> to claim your reward
+
+-NetworkWalletMoney_1_SuccessEmailBody
++Your wealth has been noted and your reward is on the way!
+
+-NetworkWalletMoney_1_FailedEmailBody
++LOCALIZATION ERROR
+
+-NoHat
++No Hat
+
+-HatShop_AlreadyOwn
++I already own {hatName}!
+
+-HatShop_Buy
++Buy {hatName}!
+
+-HatShop_CantAfford
++{hatName} is too Expensive!
+
+//HATS
+-30_Hat_Hard.0
++Despite having no plans to get a helmet, I continue to love watching these videos.
+
+-30_Hat_Hard.1
++I love gear review, thanks for making them
+
+-30_Hat_Hard.2
++Hi,guys!!How do you think,which helmet is better: LD11 BigCiry or BSK SmallCity?I see that LD11  a little harder
+
+-30_Hat_Hard.3
++Just bought that helmet. i noticed that there isn' the red lock in the side.
+
+-30_Hat_Hard.4
++How is the field of vision in the forward over sport rideing position?
+
+-30_Hat_Hard.5
++Can I use it for a sport bike?
+
+-30_Hat_Hard.6
++Where can i order one sir?
+
+-30_Hat_Hard.7
++Now, that's a review!
+
 //EMOTE
 -Emote_Applause.0
 +Thats some good clapping
@@ -2057,121 +3167,3 @@ MimeContentEvent.1
 -Emote_ThumbsUp.4
 +please like my comment if you liked the part where <playername> posed
 
-//UI
--Host
-+PLAY WITH FRIENDS
-
--Join
-+JOIN RANDOM
-
--Options
-+OPTIONS
-
--Credits
-+CREDITS
-
--Quit
-+QUIT
-
--ShopV2
-+ORDER HERE
-
--SettingsPage
-+SETTINGS
-
--CW.SettingsPage
-+BACK
-
--GraphicsTab
-+GRAPHICS
-
--AudioTab
-+AUDIO
-
--ControlsTab
-+CONTROLS
-
--CW.HostPage
-+HOST PRIVATE GAME
-
--CW (1).HostPage %
-+SELECT A SAVE SLOT
-
--SaveCell
-+SAVE 1
-
--SaveCell.Content
-+Empty
-
--SaveCell (1) %
-+SAVE 2
-
--SaveCell (2) %
-+SAVE 3
-
--BackButton
-+BACK
-
--PasteTitle
-+PASTE FACE
-
--Back
-+QUIT
-
--Apply
-+APPLY
-
--ClearHat
-+CLEAR HAT
-
--PlayerCustomizerMachine
-+TYPE A FACE
-
--DiveOS
-+DiveOS V1.24rc
-
--ACTIVE
-+ACTIVE
-
--Connected Suits %
-+CONNECTED SUITS
-
--ExtractState
-+EXTRACTING VIDEO...
-
--SuccessState
-+TAKE THE DISC
-
--FailedState
-+FAILED TO EXTRACT
-
--Spook
-+SPÖÖK
-
--Tube
-+TUBE
-
--Text (TMP) (1).UploadVideo %
-+UPLOAD VIDEO
-
--Text (TMP).UploadVideo %
-+INSERT DISC
-
--ClosedState
-+OFFLINE
-
--UploadingState
-+UPLOADING VIDEO...
-
--ShowVideoState
-+COMMENTS
-
--SaveVideo
-+SAVE VIDEO TO DESKTOP
-
--Replay
-+REPLAY
-
--CLOSE
-+CLOSE//UI
-//UI

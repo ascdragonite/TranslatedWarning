@@ -28,3 +28,4 @@ D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\Unity.Text
 D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\UnityEngine.UI.dll
 D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\Unity.Localization.dll
 D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\Zorro.UI.Runtime.dll
+D:\repos\TranslatedWarning\TranslatedWarning\bin\Debug\netstandard2.1\Sirenix.Serialization.dll
