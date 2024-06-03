@@ -223,6 +223,7 @@ namespace TranslatedWarning.Patches
             orig(self, newPage);
             string currentPage = newPage.GetType().ToString();
             Debug.Log($"InjectTranslation: TRANSITION TO {currentPage}");
+
             switch (currentPage)
             {
                 case "MainMenuMainPage":
@@ -242,7 +243,7 @@ namespace TranslatedWarning.Patches
                     Transform settings = newPage.transform.GetChild(2);
 
                     TranslateText(settings.GetChild(0)); //BackButton
-                    TranslateText(settings.GetChild(1), key: settings.gameObject.name); //Settings title
+                    TranslateText(settings.GetChild(1), settings.gameObject.name); //Settings title
 
                     Transform tabs = settings.GetChild(2).GetChild(0);
                     foreach (Transform tab in tabs)
@@ -252,11 +253,33 @@ namespace TranslatedWarning.Patches
 
                     TranslatedWarning.seenList.Add(currentPage);
                     break;
+
+                case "MainMenuHostPage":
+
+                    if (TranslatedWarning.seenList.Contains(currentPage)) { Debug.Log($"InjectTranslation: ALREADY SEEN!!!!!"); break; }
+                    Debug.Log("CASE HOST!!!!!!!!");
+
+                    Transform hostPage = newPage.gameObject.transform;
+
+                    TranslateText(hostPage.GetChild(2), "CW.HostPage"); //host h1
+                    TranslateText(hostPage.GetChild(3), "CW (1).HostPage"); //host h2
+
+                    foreach (Transform save in hostPage.GetChild(4))
+                    {
+                        TranslateText(save.GetChild(3), save.gameObject.name); //save numbers
+                        TranslateText(save.GetChild(4).GetChild(0), "SaveCell." + save.GetChild(4).gameObject.name); //the text inside that says empty
+                    }
+
+                    TranslateText(hostPage.GetChild(5)); //back buttonm
+                    TranslateText(hostPage.GetChild(6), "Host"); //host button
+
+                    break;
             }
         }
 
-        public static bool mainMenuMainActive = false;
 
+
+        // =============== MAIN TEXT ===============
 
         private static bool m_MadeLocaleStrings = false;
         private static string LocalizationKeys_GetLocalizedString(On.LocalizationKeys.orig_GetLocalizedString orig, LocalizationKeys.Keys key)
@@ -275,14 +298,14 @@ namespace TranslatedWarning.Patches
         }
 
 
-        public static void TranslateText(Transform textObject, string key = "")
+        public static void TranslateText(Transform textObject, string key = "") 
         {
             TextMeshProUGUI text = textObject.gameObject.GetComponentInChildren<TextMeshProUGUI>(); //find TextMeshPro
             if (text != null)
             {
                 Debug.Log(text.text + "!!!!!!!!!!!!!");
-                if (key.IsNullOrWhiteSpace()) { text.text = InjectTranslation.translatedDict[textObject.gameObject.name]; }
-                else { text.text = InjectTranslation.translatedDict[key]; } //change text
+                if (key.IsNullOrWhiteSpace()) { text.text = translatedDict[textObject.gameObject.name]; }
+                else { text.text = translatedDict[key]; } //change text
 
                 var componentList = text.gameObject.GetComponents<Component>(); //destroy unecessary components
                 foreach (var component in componentList)

@@ -3199,7 +3199,7 @@
 -CW.HostPage
 +I WILL BE MORE SPECIFIC.
 
--CW (1).HostPage %
+-CW (1).HostPage
 +SELECT YOUR HOME SERVER.
 
 -SaveCell
@@ -3208,10 +3208,10 @@
 -SaveCell.Content
 +What do you mean, what do you mean?
 
--SaveCell (1) %
+-SaveCell (1)
 +AS WELL AS NUMBER 2
 
--SaveCell (2) %
+-SaveCell (2)
 +AS WELL AS NUMBER 3
 
 -BackButton
@@ -3238,7 +3238,7 @@
 -ACTIVE
 +HE KNOWS IT
 
--Connected Suits %
+-Connected Suits
 +LINK TO PACKAGE
 
 -ExtractState
@@ -3256,10 +3256,10 @@
 -Tube
 +TELEVISION
 
--Text (TMP) (1).UploadVideo %
+-Text (TMP) (1).UploadVideo
 +DOWNLOAD J'S VIDEO.
 
--Text (TMP).UploadVideo %
+-Text (TMP).UploadVideo
 +INSERT THE DISC
 
 -ClosedState

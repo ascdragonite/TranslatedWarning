@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Hooks\\InjectTranslation.cs",
               "ToolTip": "D:\\repos\\TranslatedWarning\\TranslatedWarning\\Hooks\\InjectTranslation.cs",
               "RelativeToolTip": "Hooks\\InjectTranslation.cs",
-              "ViewState": "AQIAAAgBAAAAAAAAAAAswNoAAAAdAAAA",
+              "ViewState": "AQIAAOsAAAAAAAAAAAAiwBMBAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T07:28:54.404Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Hooks\\DialogRipper.cs",
               "ViewState": "AQIAAOoAAAAAAAAAAAAowF8AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T08:39:09.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T08:39:09.991Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "TranslatedWarning.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAIwE0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T07:28:54.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T07:28:54.616Z"
             }
           ]
         }
