@@ -1,63 +1,63 @@
 //COMMENTS
 -BarnacleBallContentEvent.0
-+My FAVORITE part of this video is when you see the shop.
++What I LIKE most about this video is the commercial value.
 
 -BarnacleBallContentEvent.1
-+Do you talk on the phone when it snows?
++It's raining
 
 -BarnacleBallContentEvent.2
-+This is not finished!
++Not finished yet!
 
 -BarnacleBallContentEvent.3
-+This is not finished?
++Mi
 
 -BarnacleBallContentEvent.4
-+I don't like hunting monsters, but it's fun.
++I don't like hunting wolves but it's fun.
 
 -BarnacleBallContentEvent.5
 +Who is the neighbor of the censor?
 
 -BarnacleBallContentEvent.6
-+Make more videos like this, I want to try.
++I wanted to make this video because you make a lot of videos.
 
 -BarnacleBallContentEvent.7
-+Please see the next video.
++Check below:
 
 -BarnacleBallContentEvent.8
-+Yes, I want to be better.
++So I want to get better.
 
 -BarnacleBallContentEvent.9
-+They saw many terrible sea creatures coming.
++They saw many scary sea creatures approaching them.
 
 -BarnacleBallContentEvent.10
 +Give me more... too good... too bad.
 
 -BarnacleBallContentEvent.11
-+THE SHOP WAS FINE WHEN I LANDED.
++WHEN I ARRIVED, THE STORE WAS QUIET.
 
 -BarnacleBallContentEvent.12
-+When I'm stressed, I put down my laptop and sigh.
++Even more confused, I put down my laptop and took a deep breath.
 
 -BarnacleBallContentEvent.13
-+Who knows if they will attack or not?
++No one knows whether he was attacked or not.
 
 -BarnacleBallContentEvent.14
-+This is not the truth. Shops remain closed
++Very bad.
 
 -BarnacleBallContentEvent.15
-+Be careful at night, there are monsters and claws!
++There are monsters and kingdoms at night, be careful!
 
 -BarnacleBallContentEvent.16
-+Guys we have to stop this monster LMAO it scares me beyond reason.
++You're scaring me, lmao, you need to stop.
 
 -BarnacleBallContentEvent.17
-+I love this movie...it's great.
++I love this picture...it's so beautiful.
 
 -BarnacleBallContentEvent.18
 +!!!!!!!!!!!!!!!!!!
 
 -BarnacleBallContentEvent.19
-+I want to see scary monsters.
++I like watching scary monsters.
 
 -BarnacleBallContentEvent.20
 +I've been looking for you and I'm so glad I found you.
@@ -66,31 +66,31 @@
 +I love you and hope to see you again.
 
 -BarnacleBallContentEvent.22
-+I don't want to touch the animal.
++I don't like to touch animals.
 
 -BarnacleBallContentEvent.23
 +Are there big fish in the sea?
 
 -BarnacleBallContentEvent.24
-+Do you have mustaches for sale?
++Dear, you sold it
 
 -BarnacleBallContentEvent.25
-+Why should I go to the store?
++Why did you buy it?
 
 -BarnacleBallContentEvent.26
-+Fixed it! Fixed it! I think you should try it!
++Ready! Ready! I think you should try it!
 
 -BarnacleBallContentEvent.27
-+Imagine a sea creature that has spines like this.
++Imagine sea creatures with a mind like this.
 
 -BarnacleBallContentEvent.28
-+I like this photo! Lupine is Cross' friend.
++I like this picture! Lupine is a bad friend.
 
 -BarnacleBallContentEvent.29
 +Is this really dangerous? Do not believe
 
 -BigSlapAgroContentEvent.0
-+"They get angry easily.
++It's easy to get angry.
 
 -BigSlapAgroContentEvent.1
 +I'M ANGRY, YOU WANT TO BUY?
@@ -102,10 +102,10 @@
 +I don't want to see it
 
 -BigSlapAgroContentEvent.4
-+I am very worried! He is angry
++I'm scared! I am very worried.
 
 -BigSlapAgroContentEvent.5
-+I hope you don't follow me.
++I
 
 -BigSlapAgroContentEvent.6
 +He looked angry.
@@ -117,55 +117,55 @@
 +Anger at Satan.
 
 -BigSlapAgroContentEvent.9
-+The worst thing happened when the old man kicked him.
++The old man was angry with him.
 
 -BigSlapAgroContentEvent.10
-+The death rate of bone cancer is not very high.
++The death rate from bone cancer has increased.
 
 -BigSlapAgroContentEvent.11
 +In the morning I'm sick, but in the evening I watch a movie before bed.
 
 -BigSlapAgroContentEvent.12
-+I was surprised to see an old man. what are you doing
++The old man was frightened. what are you doing
 
 -BigSlapAgroContentEvent.13
 +He feared God more than any creature I had ever seen.
 
 -BigSlapAgroContentEvent.14
-+In the end, I joined the brave people. Need more space.
++First, it must be clean.
 
 -BigSlapAgroContentEvent.15
-+There's a ghost there, God, he's a good guy.
++He is Satan, he is God. And he is a good man.
 
 -BigSlapAgroContentEvent.16
-+Hey, you know how I run when I see a guy?
++Hey, you know how I jump every time I see a guy?
 
 -BigSlapAgroContentEvent.17
-+First and foremost, these are my animals.
++This is my first concern.
 
 -BigSlapAgroContentEvent.18
-+If the monster catches you, you die.
++If the animal catches it, it will die.
 
 -BigSlapAgroContentEvent.19
-+Believe it or not, these are the most beautiful figs I have ever seen!
++Believe it or not, these are the most beautiful figs you will ever see.
 
 -BigSlapAgroContentEvent.20
-+When he saw the wrong hand, he screamed.
++When he saw that his hand was broken, he cried.
 
 -BigSlapAgroContentEvent.21
 +what are you doing
 
 -BigSlapAgroContentEvent.22
-+Who can defeat this monster?
++Who can defeat this fucking monster?
 
 -BigSlapAgroContentEvent.23
 +It happened
 
 -BigSlapAgroContentEvent.24
-+Great video! Everything is always good or bad!
++Great video! Everything is always good and bad!
 
 -BigSlapAgroContentEvent.25
-+Great animal! I love you forever
++Great animal! I will love you forever
 
 -BigSlapAgroContentEvent.26
 +As usual, the big wolf is on the hunt! Read more!
@@ -174,76 +174,76 @@
 +Large animal
 
 -BigSlapPeacefulContentEvent.1
-+The animal is afraid.
++He is afraid of animals.
 
 -BigSlapPeacefulContentEvent.2
-+This man...
++how...
 
 -BigSlapPeacefulContentEvent.3
 +Compare...
 
 -BigSlapPeacefulContentEvent.4
-+Does anyone know if there are more?
++When they stop
 
 -BigSlapPeacefulContentEvent.5
 +Go to your room!
 
 -BigSlapPeacefulContentEvent.6
-+They forgive me...
++They love me...
 
 -BigSlapPeacefulContentEvent.7
 +Send or send!
 
 -BigSlapPeacefulContentEvent.8
-+I like to look at the animals.
++I like to look at animals.
 
 -BigSlapPeacefulContentEvent.9
 +A good example is Hello from the Isle of Skye.
 
 -BigSlapPeacefulContentEvent.10
-+You lead by example and do a great job. You are very honest and trustworthy.
++Lead by example and treat others well. You are a very honest and trustworthy person.
 
 -BigSlapPeacefulContentEvent.11
 +You are the most beautiful and beautiful...
 
 -BigSlapPeacefulContentEvent.12
-+This is a great review! ,
++Great review! ,
 
 -BigSlapPeacefulContentEvent.13
-+I can't count how many times I've seen your new posts... :)
++I can't count how many times I've seen a new thread... :)
 
 -BigSlapPeacefulContentEvent.14
 +I don't believe it! I saw many beautiful animals. But you are special.
 
 -BigSlapPeacefulContentEvent.15
-+I totally agree with the other comments, this is a great monster tank.
++I completely agree with the other comments. This is also a beautiful lake.
 
 -BigSlapPeacefulContentEvent.16
-+This is the right way to fight the devil...! ,
++This is a great way to fight the devil! ,
 
 -BigSlapPeacefulContentEvent.17
-+Come on monsters! You have to worry about something!
++It's a monster! where?
 
 -BigSlapPeacefulContentEvent.18
-+Thanks for the post, I was afraid to write!
++Thank you for the message, I was very worried!
 
 -BigSlapPeacefulContentEvent.19
-+Sorry, I'm not smart enough to watch other spooktube videos!
++Sorry, I'm not smart enough to use like videos.
 
 -BigSlapPeacefulContentEvent.20
-+Sir, why are you doing this? Horror!
++Oh God, why do you love me? Sometimes!
 
 -BigSlapPeacefulContentEvent.21
-+I think you saw it! This is very dangerous!
++If I this is really dangerous!
 
 -BlackHoleBotContentEvent.0
 +Haha, I like it.
 
 -BlackHoleBotContentEvent.1
-+I think it's interesting! Sometimes!
++I think this will be fun! Again!
 
 -BlackHoleBotContentEvent.2
-+I love this beautiful video of camel racing.
++I love this amazing video of camel jumping.
 
 -BlackHoleBotContentEvent.3
 +Thanks for the video! I want to act in a movie, I hope you recognize the flying robot you saw!
@@ -261,19 +261,19 @@
 +Eat pepper! The formula is very weak.
 
 -BombsContentEvent.3
-+Ghost faces are nothing new until you see a fat fig.
++Shanti's face when she saw the big monkey.
 
 -BombsContentEvent.4
-+The change stopped the explosion.
++The changed did not work.
 
 -BombsContentEvent.5
-+I didn't believe in the Big Bang then. And I couldn't believe it.
++That didn't happen with the Big Bang, don't believe me.
 
 -BombsContentEvent.6
 +He looked like he was crying but remained calm.
 
 -BombsContentEvent.7
-+I live near a bomb factory. I'm still scared but I respect you a lot.
++I live near a bomb factory. I still have it, but I really appreciate it.
 
 -BombsContentEvent.8
 +The spirit ship exploded.
@@ -285,55 +285,55 @@
 +Hell bombs are very dangerous. When I watched the film, I was confused.
 
 -BombsContentEvent.11
-+I have never seen a record of a wolf hunt. I love your videos!
++I know nothing about hunting wolves. I love your videos!
 
 -BombsContentEvent.12
-+How to polish it?
++It is very soft
 
 -BombsContentEvent.13
 +We guarantee that we have the best video collection! My favorite food is onions.
 
 -BombsContentEvent.14
-+This video is amazing. Challenge yourself with your favorite movies. We are waiting for new guests.
++Watch the best videos of your favorite movies. We are waiting for new guests.
 
 -BombsContentEvent.15
-+Magic Number = Ring!
++Magic number = efficiency!
 
 -BombsContentEvent.16
-+Honestly, I'm more confused than the devils right now.
++To be honest, I'm still confused.
 
 -BombsContentEvent.17
-+And most importantly, the monster has a bomb in his hands.
++This was the first bomb attempt.
 
 -BombsContentEvent.18
-+Ball!
++M
 
 -BombsContentEvent.19
-+Ball?
++I'm ready.
 
 -BombsContentEvent.20
 +I think I would explode if I wasn't involved in this film.
 
 -BombsContentEvent.21
-+Let's look at another explosive example. I want to see you
++Let's look at another explosive example. I called you
 
 -BombsContentEvent.22
-+You really need three explosives.
++You need 3 bombs.
 
 -BombsContentEvent.23
-+The first horror video that made me laugh.
++The first horror film that made me laugh
 
 -BombsContentEvent.24
-+Oh, I love you so much, what can I say? This video is a tube...
++Wow, I love what you said about Deepam's video….
 
 -CamCreepContentEvent.0
-+THAT BAD GUY
++THIS PERSON
 
 -DogContentEvent.0
-+You can handle it.
++I need you
 
 -DogContentEvent.1
-+Meaning: Aha!
++Meaning: But!
 
 -DogContentEvent.2
 +The channel must have the maximum number of viewers. Congratulations on the new film.
@@ -351,10 +351,10 @@
 +I'm glad they finally refunded my money. Access the I Love Docs video
 
 -DogContentEvent.7
-+Funny... I also went to school with him.
++Very funny... more
 
 -DogContentEvent.8
-+I follow you and love your videos!
++I follow and love your videos!
 
 -DogContentEvent.9
 +DOG SHIRT
@@ -369,7 +369,7 @@
 +I cried at home! --. The name of a dog
 
 -EarContentEvent.0
-+"The guy has big ears!
++The guy has big ears!
 
 -EarContentEvent.1
 +He has many ears!
@@ -378,7 +378,7 @@
 +Haha, I don't like the sound.
 
 -EarContentEvent.3
-+Very funny
++This is very fun.
 
 -EarContentEvent.4
 +I have watched this movie many times and it still breaks my heart.
@@ -387,10 +387,10 @@
 +Beautiful picture but difficult to make.
 
 -EarContentEvent.6
-+Photographs and women want to look wide.
++I want to see more films by women.
 
 -EarContentEvent.7
-+YES, YOU HAVE TO WORRY ABOUT THE QUALITY OF THE CHAIN, BUT THE CHAIN HAS 4 BIG BUTTONS.
++I AM ALSO CONCERNED ABOUT THE QUALITY OF THE NETWORK. BUT THERE ARE 4 BIG KEYS.
 
 -EarContentEvent.8
 +It was the most magical and mysterious thing I have ever seen, a lot of ears.
@@ -402,40 +402,40 @@
 +For your dog
 
 -EarContentEvent.11
-+I also trust my ears.
++I trust my ears.
 
 -EarContentEvent.12
 +When I feel good.
 
 -EarContentEvent.13
-+Then he looked: Good! I think he would be angry if I did what he wanted.
++But he added: I think he would be angry if he did what he said.
 
 -EarContentEvent.14
 +ARE BIG EARS SENSITIVE?
 
 -EyeGuyContentEvent.0
-+I lost control.
++I lost control
 
 -EyeGuyContentEvent.1
 +Be careful when walking.
 
 -EyeGuyContentEvent.2
-+This is our biggest problem. Fortunately, they all survived.
++This is our big problem. Luckily we didn't.
 
 -EyeGuyContentEvent.3
-+I am very afraid. This is an animal with big eyes.
++This is a very scary animal with big eyes.
 
 -EyeGuyContentEvent.4
 +Birds do not like bright light.
 
 -EyeGuyContentEvent.5
-+I was so scared, I was so shocked when I saw my big eyes.
++I wonder why my eyes are so big.
 
 -EyeGuyContentEvent.6
 +Hello God new love
 
 -EyeGuyContentEvent.7
-+Horror! - I hope that someone can solve the problem if necessary.
++Read more! ""I think if someone wants to fix it, they can fix it.""
 
 -EyeGuyContentEvent.8
 +Do you know what this big bird does?
@@ -444,7 +444,7 @@
 +I don't like onions.
 
 -FireMonsterContentEvent.0
-+I think it is very dangerous to be near fire.
++I think they were very close to the fire.
 
 -FireMonsterContentEvent.1
 +Bring wet, light clothes.
@@ -465,10 +465,10 @@
 +Meaning: Zoey! Do you want to move?
 
 -FlickerContentEvent.2
-+Can't you see yourself winking? ,
++Can't you see yourself wanking?
 
 -FlickerContentEvent.3
-+Flash is not real!
++Lightning is not real!
 
 -FlickerContentEvent.4
 +bind you
@@ -486,28 +486,28 @@
 +This is the best film I have ever seen.
 
 -FlickerContentEvent.9
-+It made me cry.
++I want to cry
 
 -FlickerContentEvent.10
-+This can be a big problem. This can be a big problem. I don't know
++This can be a big problem. This can be a big problem. I don't know that.
 
 -FlickerContentEvent.11
 +A beautiful miracle
 
 -FlickerContentEvent.12
-+Who wrote the name of this cute animal in the comments column?
++Who wrote the best name in the comments?
 
 -FlickerContentEvent.13
 +Friends are friends! At first I was very surprised.
 
 -FlickerContentEvent.14
-+We have a new customer. I want you to know that we need more programmers.
++We have new customers, you know, we need more programmers.
 
 -FlickerContentEvent.15
-+Sure! - I love your video style!
++There is no doubt about it! - I love your video style!
 
 -FlickerContentEvent.16
-+What you find is truly amazing! They can not see!
++Read more →! Make them laugh!
 
 -FlickerContentEvent.17
 +what... :)
@@ -516,25 +516,25 @@
 +I am very happy! What a beautiful creature! Be healthy and safe!
 
 -FlickerContentEvent.19
-+A living bird! Another great film!
++Congratulations Bird, another great film is coming out.
 
 -FlickerContentEvent.20
-+The monster will meet you later!
++See you at the exhibition!
 
 -FlickerContentEvent.21
-+Advertising is very limited.
++Advertising plays a minor role.
 
 -FlickerContentEvent.22
-+I love your videos and I hope…
++I like your picture.
 
 -FlickerContentEvent.23
-+You are the best, I can't believe it's true!
++You are the best, it seems unreal!
 
 -FlickerContentEvent.24
-+EAST! ,
++CHRISTMAS! ,
 
 -FlickerContentEvent.25
-+I told you, it's not true!
++I say!
 
 -GoodCatchContentEvent.0
 +I caught a lot of fish. <playername>!
@@ -555,46 +555,46 @@
 +If you wet or wet the bed, your life will be ruined.
 
 -HarpoonerContentEvent.1
-+This is very fun! I can see anyone! stop! 
++How! Everyone's watching! Sleep mode! 
 
 -HarpoonerContentEvent.2
-+Thanks for the threats etc.
++source threats
 
 -HarpoonerContentEvent.3
-+I love this TV show. What is interesting is that he did not die.
++I really like this series. And what is surprising is that he is not dead.
 
 -HarpoonerContentEvent.4
-+Do not touch animals that use spears.
++Do not give medicine to animals.
 
 -HarpoonerContentEvent.5
 +Find out why everyone is afraid of monsters.
 
 -HarpoonerContentEvent.6
-+Seeing it in the dark is a different experience. I think it is dangerous.
++Seeing it in the dark is a very different experience. I think it is dangerous.
 
 -HarpoonerContentEvent.7
-+I remember your video, I wanted to say that bright eyes are not a sign.
++I remember a movie that said that light is not a symbol of the eye.
 
 -HarpoonerContentEvent.8
-+TELL ABOUT THE PEOPLE YOU MEET. ISN'T THAT AMAZING?
++TELL US ABOUT THE PEOPLE YOU MEET.
 
 -HarpoonerContentEvent.9
 +If you'd like to see more of Hunter's work, leave a comment!
 
 -HarpoonerContentEvent.10
-+My new favorite station
++I'm almost ready for a new car.
 
 -InterviewEvent
-+I have seen this creature!
++I saw the creature!
 
 -JelloContentEvent.0
 +This is a great place!
 
 -JelloContentEvent.1
-+I love diving!
++One cup please!
 
 -JelloContentEvent.2
-+I wonder if I can eat it...
++I can eat
 
 -JelloContentEvent.3
 +I want to play!
@@ -603,19 +603,19 @@
 +VISCOUS LIQUID! VISCOUS LIQUID! VISCOUS LIQUID!
 
 -JelloContentEvent.5
-+Spell block is ready!
++Block the game!
 
 -JelloContentEvent.6
 +I will take you there!
 
 -JelloContentEvent.7
-+Maybe not a brand.
++This has not been decided yet.
 
 -JelloContentEvent.8
-+Animal
++Ice cream
 
 -JelloContentEvent.9
-+I am a new writer, our relationship started when we met him in traffic.
++Our relationship started when I was very young and we met on the street.
 
 -JelloContentEvent.10
 +My friends adidas gr8 pics are amazing…
@@ -633,52 +633,52 @@
 +I am afraid to bless you!
 
 -JelloContentEvent.15
-+fond memories! - Hide photos too!
++fond memories! - You can hide photos!
 
 -KnifoContentEvent.0
-+I'm just a blank page.
++I am a blank page.
 
 -KnifoContentEvent.1
 +Find the numbers written on the blank paper in this game.
 
 -KnifoContentEvent.2
-+But seriously, scientists beware!
++But please be an honest and serious researcher!
 
 -KnifoContentEvent.3
-+Ghost mask or white mask!
++Ghost mask or white mask?
 
 -KnifoContentEvent.4
 +Do you think this is a local legend or a tragic accident?
 
 -KnifoContentEvent.5
-+A fighter
++soldier
 
 -KnifoContentEvent.6
 +Oh spirit!
 
 -KnifoContentEvent.7
-+I can't talk to him! Something like!
++I can't talk to him! Very similar!
 
 -KnifoContentEvent.8
-+Ripe! Yesterday I saw white bricks in a dream.
++Special! Yesterday I saw white bricks in a dream.
 
 -KnifoContentEvent.9
 +How not to panic in this situation?
 
 -KnifoContentEvent.10
-+Forget the dream, the guy should join a comedy club.
++They forget their dreams when they go to a comedy club.
 
 -KnifoContentEvent.11
-+Scary but cute
++But it is very scary
 
 -KnifoContentEvent.12
 +Anyway, thank you for reading my article. I came here with a knife.
 
 -KnifoContentEvent.13
-+Having problems with other people is bad.
++Problems with other dependencies
 
 -KnifoContentEvent.14
-+The film is very good. Does anyone know what to do if the card is empty?
++I really like this film. Who knows how long the card will last?
 
 -KnifoContentEvent.15
 +Maybe try using a knife! A lot of laughter
@@ -705,46 +705,46 @@
 +Another holy sword
 
 -KnifoContentEvent.23
-+I'm pretty sure it's not a real knife. You are still very scared.
++Not a sword, I'm afraid.
 
 -KnifoContentEvent.24
 +my strength
 
 -KnifoContentEvent.25
-+This fear is more ridiculous than laughter.
++The fear was overwhelming.
 
 -KnifoContentEvent.26
-+Beautiful views, dance scenes and romantic dreams.
++Beautiful nature, dance scenes, romantic dreams.
 
 -KnifoContentEvent.27
-+Thicker sheets...even acrylic!
++Thick layer...or acrylic!
 
 -KnifoContentEvent.28
 +I'm so brave to go! I like false dreams.
 
 -LarvaContentEvent.0
-+Good Jean
++An extraordinary young man
 
 -LarvaContentEvent.1
-+SPRAINS
++OTHERS
 
 -LarvaContentEvent.2
-+You don't want them there. It looks very interesting...
++I don't want to go, so...
 
 -LarvaContentEvent.3
 +It's scary, but I think I can do it.
 
 -LarvaContentEvent.4
-+Is this - is this perverted?
++Are you talented?
 
 -LarvaContentEvent.5
-+There are alien monsters! I like this photo!
++Afraid of ghosts! I like this picture!
 
 -LarvaContentEvent.6
-+Agree that we all love to see exotic animals.
++We all agree that we love exotic animals.
 
 -LarvaContentEvent.7
-+very sad-
++forgive me -
 
 -LarvaContentEvent.8
 +Why do you have such big hands?
@@ -753,25 +753,25 @@
 +Everything will be fine. So many eyes, God!
 
 -LarvaContentEvent.10
-+He was afraid of the commotion.
++They fear anarchy.
 
 -LarvaContentEvent.11
-+Tell me that's not true, or at least it should be.
++Say it's not true, or at least say it's not true.
 
 -LarvaContentEvent.12
 +Because they are wild animals.
 
 -LarvaContentEvent.13
-+Check out other locations!
++Discover more places!
 
 -MimeContentEvent.0
-+Have you ever seen a crazy person? But I really like this video.
++Have you ever seen a fool? But I like this picture.
 
 -MouthContentEvent.1
-+HA HA! NOTHING TO WORRY ABOUT.
++HA HA! HE IS NOT DEAD YET.
 
 -MouthContentEvent.2
-+I love you
++World Health Organization
 
 -MouthContentEvent.3
 +BOY
@@ -783,25 +783,25 @@
 +what's in your mouth
 
 -MouthContentEvent.6
-+Lil J's two best producers have produced some of the best sounds and videos I've ever seen.
++Lil J's two best producers have created some of the best sounds and videos I've ever seen.
 
 -MouthContentEvent.7
-+Did you know that big lips are beautiful?
++Did you know that big lips can also be beautiful?
 
 -MouthContentEvent.8
-+This is not normal.
++and lost
 
 -MouthContentEvent.9
-+Of course they don't like you where they live.
++He said that he did not like where he lived.
 
 -MouthContentEvent.10
 +First
 
 -MouthContentEvent.11
-+ha ha
++A lot of laughter
 
 -MouthContentEvent.12
-+Do you want bigger lips?
++Do you like big lips?
 
 -MouthContentEvent.13
 +I really like your stuff. Let me know when the next Birds = God video is released.
@@ -810,13 +810,13 @@
 +I want to know more about monsters!
 
 -MouthContentEvent.15
-+Aren't you ashamed to look like that?
++Aren't you bored?
 
 -MouthContentEvent.16
-+Haha no problem.
++Yes, I doubt it.
 
 -MultiMonsterContentEvent
-+There are a lot of ghosts in this film! Absolutely amazing!
++There are a lot of ghosts in this film! A miracle!
 
 -PlayerContentEvent.0
 +This <playername>?
@@ -3294,3 +3294,9 @@
 
 -Logo
 +CHOICE
+
+-HatName
++NO HAIRSTYLE
+
+-HostButton
++FOR CUSTOMERS
