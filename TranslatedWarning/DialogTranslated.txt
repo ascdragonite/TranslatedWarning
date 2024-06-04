@@ -3217,7 +3217,7 @@
 -BackButton
 +VERY
 
--PasteTitle
+-Paste
 +WELCOME TO FACEBOOK.
 
 -Back
@@ -3256,10 +3256,10 @@
 -Tube
 +TELEVISION
 
--Text (TMP) (1).UploadVideo
+-UploadVideo
 +DOWNLOAD J'S VIDEO.
 
--Text (TMP).UploadVideo
+-InsertDisc
 +INSERT THE DISC
 
 -ClosedState

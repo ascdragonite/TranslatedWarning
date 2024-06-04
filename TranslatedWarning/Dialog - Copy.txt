@@ -2151,10 +2151,10 @@ MimeContentEvent.1
 -Tube
 +TUBE
 
--Text (TMP) (1).UploadVideo %
+-UploadVideo
 +UPLOAD VIDEO
 
--Text (TMP).UploadVideo %
+-InsertDisc
 +INSERT DISC
 
 -ClosedState

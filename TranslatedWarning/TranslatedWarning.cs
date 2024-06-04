@@ -35,7 +35,7 @@ namespace TranslatedWarning
         string[] upgradeTranslations = { "WATER", "BIOS SYSTEM COOKIES", "GREAT PODCAST", "TOURISM SERVICES", "A MILITARY BASE" };
 
 
-        Texture2D? translatedPlan;
+        public static Texture2D? translatedPlan;
 
 
         private void Start()
@@ -74,19 +74,6 @@ namespace TranslatedWarning
             {
                 Logger.LogInfo("THIS IS THE SurfaceScene, RUNNING COROUTINE");
 
-
-                // =============== THE PLAN ===============
-                Transform thePlan = GameObject.Find("House").transform.GetChild(3).GetChild(0); //find the Transform
-
-                Renderer rend = thePlan.GetComponent<Renderer>(); //get the MeshRenderer
-
-                Material material = new Material(Shader.Find("Universal Render Pipeline/Unlit")); //create and apply material
-                material.color = Color.white;
-                material.mainTexture = translatedPlan;
-
-                rend.material = material;
-
-
                 // COROUTINE 
                 StartCoroutine(Surface());
             }
@@ -100,10 +87,6 @@ namespace TranslatedWarning
 
         }
         
-        void Update()
-        {
-
-        }
 
         private IEnumerator MainMenu()
         {
@@ -178,7 +161,28 @@ namespace TranslatedWarning
                 i++;
             }
 
-            
+            // =============== UPLOAD VIDEO MACHINE ===============
+
+            Transform mcScreen = GameObject.Find("UploadMachine2").transform.GetChild(1); //Cinema dialog also uses McScreen as a gameObject name
+
+            InjectTranslation.TranslateText(mcScreen.GetChild(0).GetChild(0).GetChild(0).GetChild(0).GetChild(0)); //tube
+            InjectTranslation.TranslateText(mcScreen.GetChild(0).GetChild(0).GetChild(0).GetChild(1)); //spook
+
+            Transform content = mcScreen.GetChild(1);
+
+            InjectTranslation.TranslateText(content.GetChild(0).GetChild(0).GetChild(0), "UploadVideo"); //UploadState
+            InjectTranslation.TranslateText(content.GetChild(0).GetChild(0).GetChild(2), "InsertDisc");
+
+            InjectTranslation.TranslateText(content.GetChild(1)); //ClosedState
+
+            InjectTranslation.TranslateText(content.GetChild(2)); //UploadingState
+
+            InjectTranslation.TranslateText(content.GetChild(3).GetChild(1), "ShowVideoState"); //ShowVideoState
+            InjectTranslation.TranslateText(content.GetChild(3).GetChild(0).GetChild(2).GetChild(1), "SaveVideo.text");
+            InjectTranslation.TranslateText(content.GetChild(3).GetChild(0).GetChild(2).GetChild(2));
+            InjectTranslation.TranslateText(content.GetChild(3).GetChild(0).GetChild(2).GetChild(3));
+
+            yield break;
         }
 
         internal static void HookAll()

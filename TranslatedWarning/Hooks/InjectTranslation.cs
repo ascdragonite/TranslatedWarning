@@ -16,6 +16,8 @@ using System.Linq;
 using MonoMod.Cil;
 using DefaultNamespace.ContentProviders;
 using DefaultNamespace.ContentEvents;
+using UnityEngine.Localization;
+using Photon.Pun;
 
 namespace TranslatedWarning.Patches
 {
@@ -57,6 +59,19 @@ namespace TranslatedWarning.Patches
 
             On.ContentBuffer.GenerateComments += ContentBuffer_GenerateComments;
 
+            On.PlayerCustomizer.Awake += PlayerCustomizer_Awake;
+
+            On.ThePlanLocalizer.LocalizeMe += ThePlanLocalizer_LocalizeMe;
+
+            On.VideoCamera.Start += VideoCamera_Start;
+
+            On.ShopHandler.InitShopHandler += ShopHandler_InitShopHandler;
+
+            On.DivingBell.Start += DivingBell_Start;
+
+            On.ExtractVideoMachine.Awake += ExtractVideoMachine_Awake;
+
+
             On.PlayerWearingHatContentEvent.GenerateComment += PlayerWearingHatContentEvent_GenerateComment;
             On.PlayerEmoteContentEvent.GenerateComment += PlayerEmoteContentEvent_GenerateComment;
             On.PlayerDeadContentEvent.GenerateComment += PlayerDeadContentEvent_GenerateComment;
@@ -68,57 +83,118 @@ namespace TranslatedWarning.Patches
             On.PlayerContentEvent.GenerateComment += PlayerContentEvent_GenerateComment;
 
         }
+
+        // =============== VIDEO EXTRACTOR ===============
+        private static void ExtractVideoMachine_Awake(On.ExtractVideoMachine.orig_Awake orig, ExtractVideoMachine self)
+        {
+            orig(self);
+            Transform canvas = self.gameObject.transform.GetChild(2);
+            for (int i = 1; i < 4; i++)
+            {
+                TranslateText(canvas.GetChild(i));
+            }
+        }
+
+        // =============== DIVING BELL ===============
+        private static void DivingBell_Start(On.DivingBell.orig_Start orig, DivingBell self)
+        {
+            orig(self);
+            Transform canvas = self.gameObject.transform.GetChild(2).GetChild(2).GetChild(0).GetChild(1);
+
+            for (int i = 0; i < 3; i++)
+            {
+                TranslateText(canvas.GetChild(i));
+            }
+        }
+
+        // =============== THE SHOP ===============
+        private static void ShopHandler_InitShopHandler(On.ShopHandler.orig_InitShopHandler orig, ShopHandler self)
+        {
+            Debug.Log("ShopHandler ACTIVATE!!!!!!");
+            
+            orig(self);
+            Debug.Log(self.gameObject.transform.GetChild(0));
+            TranslateText(self.gameObject.transform, ugui: false);
+            Debug.Log("ShopHandler ACTIVATE!!!!!!");
+        }
+
+        // =============== THE "REC" TEXT U SEE ON THE CAMERA ===============
+        private static void VideoCamera_Start(On.VideoCamera.orig_Start orig, VideoCamera self)
+        {
+            orig(self);
+            TranslateText(self.m_recordingUI.gameObject.transform);
+        }
+
+        // =============== THE PLAN ===============
+        private static void ThePlanLocalizer_LocalizeMe(On.ThePlanLocalizer.orig_LocalizeMe orig, ThePlanLocalizer self)
+        {
+            if(TranslatedWarning.translatedPlan != null)
+            {
+                self.m_PlanRenderer.material.SetTexture("_Variation", TranslatedWarning.translatedPlan);
+            }
+
+        }
+
+        // =============== PLAYER CUSTOMIZER ===============
+        private static void PlayerCustomizer_Awake(On.PlayerCustomizer.orig_Awake orig, PlayerCustomizer self)
+        {
+            orig(self);
+            TranslateText(self.applyButton.gameObject.transform.GetParent());
+            TranslateText(self.quitButton.gameObject.transform.GetParent());
+
+            TranslateText(self.clearHatButton.gameObject.transform);
+            TranslateText(self.hatNameText.gameObject.transform);
+
+            var customizer = self.gameObject.transform.GetChild(0).GetChild(0);
+            TranslateText(customizer.GetChild(9), "PlayerCustomizerMachine");
+            TranslateText(customizer.GetChild(2));
+
+        }
+
         // =============== COMMENTS ===============
+
         private static Comment PlayerContentEvent_GenerateComment(On.PlayerContentEvent.orig_GenerateComment orig, PlayerContentEvent self)
         {
             string comment = FindTranslation(self.GetType().ToString());
             return new Comment(self.FixPlayerName(comment));
         }
-
         private static Comment GoodCatchContentEvent_GenerateComment(On.GoodCatchContentEvent.orig_GenerateComment orig, GoodCatchContentEvent self)
         {
             string comment = FindTranslation(self.GetType().ToString());
             return new Comment(self.FixPlayerName(comment));
         }
-
         private static Comment PlayerTookDamageContentEvent_GenerateComment(On.PlayerTookDamageContentEvent.orig_GenerateComment orig, PlayerTookDamageContentEvent self)
         {
             string comment = FindTranslation(self.GetType().ToString());
             return new Comment(self.FixPlayerName(comment));
         }
-
         private static Comment PlayerRagdollContentEvent_GenerateComment(On.PlayerRagdollContentEvent.orig_GenerateComment orig, PlayerRagdollContentEvent self)
         {
             string comment = FindTranslation(self.GetType().ToString());
             return new Comment(self.FixPlayerName(comment));
         }
-
         private static Comment PlayerHoldingMicContentEvent_GenerateComment(On.PlayerHoldingMicContentEvent.orig_GenerateComment orig, PlayerHoldingMicContentEvent self)
         {
             string comment = FindTranslation(self.GetType().ToString());
             return new Comment(self.FixPlayerName(comment));
         }
-
         private static Comment PlayerFallingContentEvent_GenerateComment(On.PlayerFallingContentEvent.orig_GenerateComment orig, PlayerFallingContentEvent self)
         {
             string key = self.IsBigFall ? self.GetType().ToString() + ".BIG" : self.GetType().ToString() + ".SMALL";
             string comment = FindTranslation(key);
             return new Comment(self.FixPlayerName(comment));
         }
-
         private static Comment PlayerDeadContentEvent_GenerateComment(On.PlayerDeadContentEvent.orig_GenerateComment orig, PlayerDeadContentEvent self)
         {
             string comment = FindTranslation(self.GetType().ToString());
             return new Comment(self.FixPlayerName(comment));
         }
-
         private static Comment PlayerEmoteContentEvent_GenerateComment(On.PlayerEmoteContentEvent.orig_GenerateComment orig, PlayerEmoteContentEvent self)
         {
             string comment = FindTranslation(self.item.name);
             Debug.Log("FINDING COMMENTS FOR: " + self.item.name);
             return new Comment(self.FixPlayerName(comment));
         }
-
         private static Comment PlayerWearingHatContentEvent_GenerateComment(On.PlayerWearingHatContentEvent.orig_GenerateComment orig, PlayerWearingHatContentEvent self)
         {
             string comment = FindTranslation(self.hatInDatabase.name);
@@ -127,19 +203,21 @@ namespace TranslatedWarning.Patches
 
 
 
+
         
 
         public static List<Type> excludedEvents =
-                [
-                typeof(PlayerWearingHatContentEvent),
-                typeof(PlayerEmoteContentEvent), typeof(PlayerDeadContentEvent),
-                typeof(PlayerFallingContentEvent),
-                typeof(PlayerHoldingMicContentEvent),
-                typeof(PlayerRagdollContentEvent),
-                typeof(PlayerTookDamageContentEvent),
-                typeof(GoodCatchContentEvent),
-                typeof(PlayerContentEvent)
-                ];
+        [
+            typeof(PlayerWearingHatContentEvent),
+            typeof(PlayerEmoteContentEvent), 
+            typeof(PlayerDeadContentEvent),
+            typeof(PlayerFallingContentEvent),
+            typeof(PlayerHoldingMicContentEvent),
+            typeof(PlayerRagdollContentEvent),
+            typeof(PlayerTookDamageContentEvent),
+            typeof(GoodCatchContentEvent),
+            typeof(PlayerContentEvent)
+        ];
 
 
 
@@ -217,7 +295,7 @@ namespace TranslatedWarning.Patches
 
 
         // =============== UI ===============
-
+        // ----- MAIN MENU -----
         private static void MainMenuUIHandler_OnTransistionedToPage(On.MainMenuUIHandler.orig_OnTransistionedToPage orig, MainMenuUIHandler self, Zorro.UI.UIPage newPage)
         {
             orig(self, newPage);
@@ -271,7 +349,7 @@ namespace TranslatedWarning.Patches
                     }
 
                     TranslateText(hostPage.GetChild(5)); //back buttonm
-                    TranslateText(hostPage.GetChild(6), "Host"); //host button
+                    TranslateText(hostPage.GetChild(6), "HostButton"); //host button
 
                     break;
             }
@@ -298,22 +376,51 @@ namespace TranslatedWarning.Patches
         }
 
 
-        public static void TranslateText(Transform textObject, string key = "") 
+        public static void TranslateText(Transform textObject, string key = "", bool ugui = true) 
         {
-            TextMeshProUGUI text = textObject.gameObject.GetComponentInChildren<TextMeshProUGUI>(); //find TextMeshPro
+            TMP_Text? text = null;
+            if (ugui) 
+            {
+                text = textObject.gameObject.GetComponentInChildren<TextMeshProUGUI>(); 
+            }
+            else 
+            {
+                text = textObject.gameObject.GetComponentInChildren<TextMeshPro>(); 
+            }
+
             if (text != null)
             {
                 Debug.Log(text.text + "!!!!!!!!!!!!!");
-                if (key.IsNullOrWhiteSpace()) { text.text = translatedDict[textObject.gameObject.name]; }
-                else { text.text = translatedDict[key]; } //change text
-
-                var componentList = text.gameObject.GetComponents<Component>(); //destroy unecessary components
-                foreach (var component in componentList)
+                try
                 {
-                    if (component.GetType() == typeof(LocalizeStringEvent) || component.GetType() == typeof(GameObjectLocalizer))
+                    if (key.IsNullOrWhiteSpace())
                     {
-                        TranslatedWarning.Delete(component);
+                        key = textObject.gameObject.name;
                     }
+                    text.text = translatedDict[key];  //change text
+
+                    var componentList = text.gameObject.GetComponents<Component>(); //destroy unecessary components
+                    foreach (var component in componentList)
+                    {
+                        if (component.GetType() == typeof(LocalizeStringEvent) || component.GetType() == typeof(GameObjectLocalizer))
+                        {
+                            TranslatedWarning.Delete(component);
+                        }
+                    }
+
+                }
+                catch (Exception e) 
+                {
+                    if (e is KeyNotFoundException)
+                    {
+                        Debug.LogError($"TRANSLATION KEY {key} NOT FOUND!!!!!");
+                    }
+                    else
+                    {
+                        Debug.LogError("EPIC FAILL!!!!!!!!!!!!!!!");
+                        Debug.LogError(e.ToString());
+                    }
+
                 }
 
             }
