@@ -161,26 +161,6 @@ namespace TranslatedWarning
                 i++;
             }
 
-            // =============== UPLOAD VIDEO MACHINE ===============
-
-            Transform mcScreen = GameObject.Find("UploadMachine2").transform.GetChild(1); //Cinema dialog also uses McScreen as a gameObject name
-
-            InjectTranslation.TranslateText(mcScreen.GetChild(0).GetChild(0).GetChild(0).GetChild(0).GetChild(0)); //tube
-            InjectTranslation.TranslateText(mcScreen.GetChild(0).GetChild(0).GetChild(0).GetChild(1)); //spook
-
-            Transform content = mcScreen.GetChild(1);
-
-            InjectTranslation.TranslateText(content.GetChild(0).GetChild(0).GetChild(0), "UploadVideo"); //UploadState
-            InjectTranslation.TranslateText(content.GetChild(0).GetChild(0).GetChild(2), "InsertDisc");
-
-            InjectTranslation.TranslateText(content.GetChild(1)); //ClosedState
-
-            InjectTranslation.TranslateText(content.GetChild(2)); //UploadingState
-
-            InjectTranslation.TranslateText(content.GetChild(3).GetChild(1), "ShowVideoState"); //ShowVideoState
-            InjectTranslation.TranslateText(content.GetChild(3).GetChild(0).GetChild(2).GetChild(1), "SaveVideo.text");
-            InjectTranslation.TranslateText(content.GetChild(3).GetChild(0).GetChild(2).GetChild(2));
-            InjectTranslation.TranslateText(content.GetChild(3).GetChild(0).GetChild(2).GetChild(3));
 
             yield break;
         }

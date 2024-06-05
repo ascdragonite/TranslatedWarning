@@ -71,6 +71,13 @@ namespace TranslatedWarning.Patches
 
             On.ExtractVideoMachine.Awake += ExtractVideoMachine_Awake;
 
+            On.UploadVideoStation.Awake += UploadVideoStation_Awake;
+
+            On.EscapeMenuMainPage.Awake += EscapeMenuMainPage_Awake;
+            On.EscapeMenuSettingsPage.Awake += EscapeMenuSettingsPage_Awake;
+
+
+
 
             On.PlayerWearingHatContentEvent.GenerateComment += PlayerWearingHatContentEvent_GenerateComment;
             On.PlayerEmoteContentEvent.GenerateComment += PlayerEmoteContentEvent_GenerateComment;
@@ -82,6 +89,61 @@ namespace TranslatedWarning.Patches
             On.GoodCatchContentEvent.GenerateComment += GoodCatchContentEvent_GenerateComment;
             On.PlayerContentEvent.GenerateComment += PlayerContentEvent_GenerateComment;
 
+        }
+
+
+        // =============== ESCAPE MENU ===============
+        private static void EscapeMenuSettingsPage_Awake(On.EscapeMenuSettingsPage.orig_Awake orig, EscapeMenuSettingsPage self)
+        {
+            orig(self);
+            Transform settings = self.transform.GetChild(0);
+
+            TranslateText(settings.GetChild(0)); //BackButton
+            TranslateText(settings.GetChild(1), settings.gameObject.name); //Settings title
+
+            Transform tabs = settings.GetChild(2).GetChild(0);
+            foreach (Transform tab in tabs)
+            {
+                TranslateText(tab);
+            }
+        }
+
+        private static void EscapeMenuMainPage_Awake(On.EscapeMenuMainPage.orig_Awake orig, EscapeMenuMainPage self)
+        {
+            orig(self);
+            TranslateText(self.gameObject.transform.GetChild(0), "CONTENTWARNING");
+            TranslateText(self.settingsButton.gameObject.transform);
+            TranslateText(self.exitButton.gameObject.transform);
+            TranslateText(self.resumeButton.gameObject.transform);
+            TranslateText(self.inviteButton.gameObject.transform);
+        }
+
+        // =============== TV ===============
+        private static void UploadVideoStation_Awake(On.UploadVideoStation.orig_Awake orig, UploadVideoStation self)
+        {
+
+            Debug.Log("UPLOADVIDEOSTATION ACTIVE!!!!!!!!!!!!!!!!");
+            orig(self);
+            Debug.Log(self.gameObject.name);
+            var mcScreen = self.gameObject.transform.Find("McScreen");
+            if (mcScreen != null)
+            {
+                Debug.Log("FOUND MCSCREEN!!!!!!!!!!!!!!!!");
+                InjectTranslation.TranslateText(mcScreen.GetChild(0).GetChild(0).GetChild(0).GetChild(0).GetChild(0)); //tube
+                InjectTranslation.TranslateText(mcScreen.GetChild(0).GetChild(0).GetChild(0).GetChild(1)); //spook
+                Transform content = mcScreen.GetChild(1);
+                TranslateText(content.GetChild(0).GetChild(0).GetChild(0), "UploadVideo"); //UploadState
+                TranslateText(content.GetChild(0).GetChild(0).GetChild(2), "InsertDisc");
+
+                TranslateText(content.GetChild(1)); //ClosedState
+
+                TranslateText(content.GetChild(2)); //UploadingState
+
+                TranslateText(content.GetChild(3).GetChild(1), "ShowVideoState"); //ShowVideoState
+                TranslateText(content.GetChild(3).GetChild(0).GetChild(2).GetChild(1), "SaveVideo.text");
+                TranslateText(content.GetChild(3).GetChild(0).GetChild(2).GetChild(2));
+                TranslateText(content.GetChild(3).GetChild(0).GetChild(2).GetChild(3));
+            }
         }
 
         // =============== VIDEO EXTRACTOR ===============
