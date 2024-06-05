@@ -17,16 +17,19 @@ using UnityEngine.UIElements;
 using UnityEngine.Localization.Components;
 using UnityEngine.Localization.PropertyVariants;
 
+
 namespace TranslatedWarning
 {
+
     [ContentWarningPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_VERSION, true)]
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
     public class TranslatedWarning : BaseUnityPlugin
     {
+
         public static TranslatedWarning Instance { get; private set; } = null!;
         internal new static ManualLogSource Logger { get; private set; } = null!;
 
-        string plan = $"{Directory.GetCurrentDirectory()}\\plan.png";
+        string plan = $"{InjectTranslation.assemblyPath}\\Resources\\plan.png";
 
         public List<string> commentList = new List<string>();
 

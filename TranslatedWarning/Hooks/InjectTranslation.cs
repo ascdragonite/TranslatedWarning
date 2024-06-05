@@ -18,19 +18,24 @@ using DefaultNamespace.ContentProviders;
 using DefaultNamespace.ContentEvents;
 using UnityEngine.Localization;
 using Photon.Pun;
+using UnityEngine.Localization.SmartFormat.PersistentVariables;
+using System.Reflection;
 
 namespace TranslatedWarning.Patches
 {
     public class InjectTranslation
     {
-        static string path = "D:\\repos\\TranslatedWarning\\TranslatedWarning\\DialogTranslated.txt";
+        
+        
+        public static string assemblyPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+        static string path = assemblyPath + "\\Resources\\DialogTranslated.txt";
 
         public static Dictionary<string, string> translatedDict = new Dictionary<string, string>();
         static int keyAssign;
 
         internal static void Init()
         {
-
+            Debug.Log($"ASSEMBLY IS IN {assemblyPath}");
             //fun things
             string[] lines = File.ReadAllLines(path);
 

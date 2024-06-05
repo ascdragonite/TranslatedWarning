@@ -38,6 +38,10 @@
         -->
         <PathMap>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)'))=./</PathMap>
     </PropertyGroup>
+    <ItemGroup>
+      <None Remove="Resources\DialogTranslated.txt" />
+      <None Remove="Resources\TranslatedWarning Icon.png" />
+    </ItemGroup>
 
     <!-- Primary Package References -->
     <ItemGroup>
@@ -86,5 +90,8 @@
         <Reference Include="Zorro.UI.Runtime">
           <HintPath>..\..\..\SteamLibrary\steamapps\common\Content Warning\Content Warning_Data\Managed\Zorro.UI.Runtime.dll</HintPath>
         </Reference>
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Resources\" />
     </ItemGroup>
 </Project>
