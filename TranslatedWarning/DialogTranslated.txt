@@ -1977,13 +1977,13 @@
 +Not fresh
 
 -StartGameTitle
-+Do you really want to start?
++Forget your bar?
 
 -StartGameBody
-+You cannot invite friends once the game has started.
++Hindi is better
 
 -StartGameConfirm
-+Start playing
++A simulated universe
 
 -Cancel
 +Sad
@@ -3304,8 +3304,6 @@
 -Recording
 +HE WROTE
 
-
-
 -CONTENTWARNING
-+hi rekku
++SEND DAD
 
