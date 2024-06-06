@@ -28,7 +28,7 @@ namespace TranslatedWarning.Patches
         
         
         public static string assemblyPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-        static string path = assemblyPath + "\\Resources\\DialogTranslated.txt";
+        static string path = assemblyPath + "\\DialogTranslated.txt";
 
         public static Dictionary<string, string> translatedDict = new Dictionary<string, string>();
         static int keyAssign;

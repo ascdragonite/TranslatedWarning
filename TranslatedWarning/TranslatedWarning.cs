@@ -30,8 +30,8 @@ namespace TranslatedWarning
         public static TranslatedWarning Instance { get; private set; } = null!;
         internal new static ManualLogSource Logger { get; private set; } = null!;
 
-        string plan = $"{InjectTranslation.assemblyPath}\\Resources\\plan.png";
-        string title = $"{InjectTranslation.assemblyPath}\\Resources\\title.png";
+        string plan = $"{InjectTranslation.assemblyPath}\\plan.png";
+        string title = $"{InjectTranslation.assemblyPath}\\title.png";
 
         public List<string> commentList = new List<string>();
 
