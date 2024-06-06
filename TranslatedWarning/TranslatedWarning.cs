@@ -48,18 +48,18 @@ namespace TranslatedWarning
         {
             translatedPlan = new Texture2D(1024, 512, TextureFormat.ARGB32, false);
             titleTexture = new Texture2D(1024, 348, TextureFormat.ARGB32, false);
-            Logger.LogInfo("TEXTURE CREATED");
+            //Logger.LogInfo("TEXTURE CREATED");
 
             byte[] bytes = File.ReadAllBytes(plan);
             byte[] titleBytes = File.ReadAllBytes(title);
-            Logger.LogInfo("IMAGE BECAME BYTES");
+            //Logger.LogInfo("IMAGE BECAME BYTES");
 
             ImageConversion.LoadImage(translatedPlan, bytes);
             ImageConversion.LoadImage(titleTexture, titleBytes);
 
             titleTranslated = Sprite.Create(titleTexture, new Rect(0.0f, 0.0f, titleTexture.width, titleTexture.height), new Vector2(0.5f, 0.5f), 100.0f);
 
-            Logger.LogInfo("IMAGE LOADED!!!!!!!!!!!!!!!!!!!!!");
+            //Logger.LogInfo("IMAGE LOADED!!!!!!!!!!!!!!!!!!!!!");
 
 
         }
@@ -78,12 +78,12 @@ namespace TranslatedWarning
         public static List<string> seenList = new List<string>();
         internal void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
-            Logger.LogInfo("OnSceneLoaded: " + scene.name);
-            Logger.LogInfo(mode);
+            //Logger.LogInfo("OnSceneLoaded: " + scene.name);
+            //Logger.LogInfo(mode);
 
             if(scene.name == "SurfaceScene")
             {
-                Logger.LogInfo("THIS IS THE SurfaceScene, RUNNING COROUTINE");
+                //Logger.LogInfo("THIS IS THE SurfaceScene, RUNNING COROUTINE");
 
                 // COROUTINE 
                 StartCoroutine(Surface());
