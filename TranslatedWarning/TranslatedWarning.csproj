@@ -69,6 +69,9 @@
     <!-- References - HookGen Assemblies -->
     <ItemGroup>
         <Reference Include="$(MMHOOKManaged)MMHOOK_Assembly-CSharp.dll" />
+        <Reference Include="PhotonRealtime">
+          <HintPath>..\..\..\SteamLibrary\steamapps\common\Content Warning\Content Warning_Data\Managed\PhotonRealtime.dll</HintPath>
+        </Reference>
         <Reference Include="PhotonUnityNetworking">
           <HintPath>..\..\..\SteamLibrary\steamapps\common\Content Warning\Content Warning_Data\Managed\PhotonUnityNetworking.dll</HintPath>
         </Reference>

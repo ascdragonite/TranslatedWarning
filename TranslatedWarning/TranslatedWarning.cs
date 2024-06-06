@@ -16,6 +16,7 @@ using Zorro.Core;
 using UnityEngine.UIElements;
 using UnityEngine.Localization.Components;
 using UnityEngine.Localization.PropertyVariants;
+using static System.Net.Mime.MediaTypeNames;
 
 
 namespace TranslatedWarning
@@ -30,6 +31,7 @@ namespace TranslatedWarning
         internal new static ManualLogSource Logger { get; private set; } = null!;
 
         string plan = $"{InjectTranslation.assemblyPath}\\Resources\\plan.png";
+        string title = $"{InjectTranslation.assemblyPath}\\Resources\\title.png";
 
         public List<string> commentList = new List<string>();
 
@@ -39,17 +41,23 @@ namespace TranslatedWarning
 
 
         public static Texture2D? translatedPlan;
-
+        public static Texture2D? titleTexture;
+        public static Sprite? titleTranslated;
 
         private void Start()
         {
             translatedPlan = new Texture2D(1024, 512, TextureFormat.ARGB32, false);
+            titleTexture = new Texture2D(1024, 348, TextureFormat.ARGB32, false);
             Logger.LogInfo("TEXTURE CREATED");
 
             byte[] bytes = File.ReadAllBytes(plan);
+            byte[] titleBytes = File.ReadAllBytes(title);
             Logger.LogInfo("IMAGE BECAME BYTES");
 
             ImageConversion.LoadImage(translatedPlan, bytes);
+            ImageConversion.LoadImage(titleTexture, titleBytes);
+
+            titleTranslated = Sprite.Create(titleTexture, new Rect(0.0f, 0.0f, titleTexture.width, titleTexture.height), new Vector2(0.5f, 0.5f), 100.0f);
 
             Logger.LogInfo("IMAGE LOADED!!!!!!!!!!!!!!!!!!!!!");
 
@@ -105,7 +113,7 @@ namespace TranslatedWarning
 
             foreach (Transform button in buttonsList)
             {
-                TranslateText(button);
+                InjectTranslation.TranslateText(button);
             }
 
             // =============== SETTINGS ===============
@@ -113,13 +121,13 @@ namespace TranslatedWarning
 
             Transform settings = GameObject.Find("Canvas").transform.GetChild(3).GetChild(2);
 
-            TranslateText(settings.GetChild(0)); //BackButton
-            TranslateText(settings.GetChild(1), key: settings.gameObject.name); //Settings title
+            InjectTranslation.TranslateText(settings.GetChild(0)); //BackButton
+            InjectTranslation.TranslateText(settings.GetChild(1), key: settings.gameObject.name); //Settings title
 
             Transform tabs = settings.GetChild(2).GetChild(0);
             foreach (Transform tab in tabs)
             {
-                TranslateText(tab);
+                InjectTranslation.TranslateText(tab);
             }
 
             yield break;
@@ -181,31 +189,11 @@ namespace TranslatedWarning
             
 
         }
-        public static void TranslateText(Transform textObject, string key = "")
-        {
-            TextMeshProUGUI text = textObject.gameObject.GetComponentInChildren<TextMeshProUGUI>(); //find TextMeshPro
-            if (text != null)
-            {
-                Debug.Log(text.text + "!!!!!!!!!!!!!");
-                if (key.IsNullOrWhiteSpace()) { text.text = InjectTranslation.translatedDict[textObject.gameObject.name]; }
-                else { text.text = InjectTranslation.translatedDict[key]; } //change text
-
-                var componentList = text.gameObject.GetComponents<Component>(); //destroy unecessary components
-                foreach (var component in componentList)
-                {
-                    if (component.GetType() == typeof(LocalizeStringEvent) || component.GetType() == typeof(GameObjectLocalizer))
-                    {
-                        Destroy(component);
-                    }
-                }
-
-            }
-
-        }
+        
 
         public static void Delete(Component component)
         {
-            Debug.Log($"FOUND {component.GetType().ToString()}!!!! DELETEING THIS NIGGER");
+            //Debug.Log($"FOUND {component.GetType().ToString()}!!!!");
             Destroy(component);
         }
         internal static void UnhookAll()

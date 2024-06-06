@@ -32,7 +32,8 @@ namespace TranslatedWarning.Patches
 
         public static Dictionary<string, string> translatedDict = new Dictionary<string, string>();
         static int keyAssign;
-
+        
+        
         internal static void Init()
         {
             Debug.Log($"ASSEMBLY IS IN {assemblyPath}");
@@ -51,8 +52,8 @@ namespace TranslatedWarning.Patches
                 if (line.StartsWith("+"))
                 {
                     translatedDict.Add(lines[keyAssign].Substring(1).Trim(), line.Substring(1).Trim());
-                    Debug.Log($"Key: {lines[keyAssign]}");
-                    Debug.Log($"Value: {line.Substring(1).Trim()}");
+                    //Debug.Log($"Key: {lines[keyAssign]}");
+                    //Debug.Log($"Value: {line.Substring(1).Trim()}");
                 }
 
             }
@@ -81,8 +82,12 @@ namespace TranslatedWarning.Patches
             On.EscapeMenuMainPage.Awake += EscapeMenuMainPage_Awake;
             On.EscapeMenuSettingsPage.Awake += EscapeMenuSettingsPage_Awake;
 
+            On.EscapePlayerCellUI.Setup += EscapePlayerCellUI_Setup;
+            On.EscapePlayerCellUI.KickClicked += EscapePlayerCellUI_KickClicked;
 
+            On.GameHandler.OnKickNotifactionReceived += GameHandler_OnKickNotifactionReceived;
 
+            On.IntroScreenAnimator.Start += IntroScreenAnimator_Start;
 
             On.PlayerWearingHatContentEvent.GenerateComment += PlayerWearingHatContentEvent_GenerateComment;
             On.PlayerEmoteContentEvent.GenerateComment += PlayerEmoteContentEvent_GenerateComment;
@@ -95,9 +100,41 @@ namespace TranslatedWarning.Patches
             On.PlayerContentEvent.GenerateComment += PlayerContentEvent_GenerateComment;
 
         }
+        // =============== INTRO ===============
+        private static void IntroScreenAnimator_Start(On.IntroScreenAnimator.orig_Start orig, IntroScreenAnimator self)
+        {
+            orig(self);
+            Image logo = self.gameObject.transform.GetChild(1).GetComponent<Image>();
+            logo.sprite = TranslatedWarning.titleTranslated;
+            TranslateText(self.gameObject.transform.GetChild(3).GetChild(0), "MadeBy");
+            TranslateText(self.gameObject.transform.GetChild(3).GetChild(1), "People");
+        }
+        // =============== KICK ===============
+        private static void GameHandler_OnKickNotifactionReceived(On.GameHandler.orig_OnKickNotifactionReceived orig, GameHandler self, KickPlayerNotificationPackage obj)
+        {
+            Modal.ShowError(translatedDict["Kicked"], translatedDict["KickBody"]);
+            RetrievableSingleton<ConnectionStateHandler>.Instance.Disconnect();
+            SceneManager.LoadScene("NewMainMenu");
+        }
 
+        
+        private static void EscapePlayerCellUI_KickClicked(On.EscapePlayerCellUI.orig_KickClicked orig, EscapePlayerCellUI self)
+        {
+            Modal.Show($"{translatedDict["Kick"]} " + self.m_player.NickName, translatedDict["AreYouSure"], new ModalOption[2]
+        {
+            new ModalOption(translatedDict["YES"], self.KickPlayer),
+            new ModalOption(translatedDict["CANCEL"])
+        });
+        }
 
         // =============== ESCAPE MENU ===============
+        private static void EscapePlayerCellUI_Setup(On.EscapePlayerCellUI.orig_Setup orig, EscapePlayerCellUI self, Photon.Realtime.Player player)
+        {
+            orig(self, player);
+            TranslateText(self.kickButton.gameObject.transform);
+            TranslateText(self.gameObject.transform.GetChild(3), "VOL");
+        }
+
         private static void EscapeMenuSettingsPage_Awake(On.EscapeMenuSettingsPage.orig_Awake orig, EscapeMenuSettingsPage self)
         {
             orig(self);
@@ -127,13 +164,13 @@ namespace TranslatedWarning.Patches
         private static void UploadVideoStation_Awake(On.UploadVideoStation.orig_Awake orig, UploadVideoStation self)
         {
 
-            Debug.Log("UPLOADVIDEOSTATION ACTIVE!!!!!!!!!!!!!!!!");
+            //Debug.Log("UPLOADVIDEOSTATION ACTIVE!!!!!!!!!!!!!!!!");
             orig(self);
-            Debug.Log(self.gameObject.name);
+            //Debug.Log(self.gameObject.name);
             var mcScreen = self.gameObject.transform.Find("McScreen");
             if (mcScreen != null)
             {
-                Debug.Log("FOUND MCSCREEN!!!!!!!!!!!!!!!!");
+                //Debug.Log("FOUND MCSCREEN!!!!!!!!!!!!!!!!");
                 InjectTranslation.TranslateText(mcScreen.GetChild(0).GetChild(0).GetChild(0).GetChild(0).GetChild(0)); //tube
                 InjectTranslation.TranslateText(mcScreen.GetChild(0).GetChild(0).GetChild(0).GetChild(1)); //spook
                 Transform content = mcScreen.GetChild(1);
@@ -177,12 +214,14 @@ namespace TranslatedWarning.Patches
         // =============== THE SHOP ===============
         private static void ShopHandler_InitShopHandler(On.ShopHandler.orig_InitShopHandler orig, ShopHandler self)
         {
-            Debug.Log("ShopHandler ACTIVATE!!!!!!");
+            
             
             orig(self);
-            Debug.Log(self.gameObject.transform.GetChild(0));
+            //Debug.Log(self.gameObject.transform.GetChild(0));
             TranslateText(self.gameObject.transform, ugui: false);
-            Debug.Log("ShopHandler ACTIVATE!!!!!!");
+            TranslateText(self.gameObject.transform.GetChild(1).GetChild(8).GetChild(2), "Order");
+            TranslateText(self.gameObject.transform.GetChild(1).GetChild(8).GetChild(3), "Clear");
+            //Debug.Log("ShopHandler ACTIVATE!!!!!!");
         }
 
         // =============== THE "REC" TEXT U SEE ON THE CAMERA ===============
@@ -259,7 +298,7 @@ namespace TranslatedWarning.Patches
         private static Comment PlayerEmoteContentEvent_GenerateComment(On.PlayerEmoteContentEvent.orig_GenerateComment orig, PlayerEmoteContentEvent self)
         {
             string comment = FindTranslation(self.item.name);
-            Debug.Log("FINDING COMMENTS FOR: " + self.item.name);
+            //Debug.Log("FINDING COMMENTS FOR: " + self.item.name);
             return new Comment(self.FixPlayerName(comment));
         }
         private static Comment PlayerWearingHatContentEvent_GenerateComment(On.PlayerWearingHatContentEvent.orig_GenerateComment orig, PlayerWearingHatContentEvent self)
@@ -296,7 +335,7 @@ namespace TranslatedWarning.Patches
                 foreach (ContentBuffer.BufferedContent item in self.buffer)
                 {
                     var cEvent = item.frame.contentEvent;
-                    Debug.Log($"FOUND EVENT: {cEvent.GetType().ToString()}");
+                    //Debug.Log($"FOUND EVENT: {cEvent.GetType().ToString()}");
                     Comment comment = cEvent.GenerateComment();
 
                     if (!excludedEvents.Contains(cEvent.GetType()))
@@ -315,8 +354,8 @@ namespace TranslatedWarning.Patches
             }
             catch (Exception e)
             {
-                Debug.Log("EPIC FAIL!!!!!");
-                Debug.LogError(e.ToString());
+                //Debug.Log("EPIC FAIL!!!!!");
+                //Debug.LogError(e.ToString());
                 return orig(self);
             }
 
@@ -330,14 +369,14 @@ namespace TranslatedWarning.Patches
             {
                 PropContentEvent propContent = (PropContentEvent)content;
 
-                Debug.Log("PROP FOUND: " + propContent.content.name);
+                //Debug.Log("PROP FOUND: " + propContent.content.name);
                 pattern = propContent.content.name;
             }
             else if (content.GetType() == typeof(ArtifactContentEvent))
             {
                 ArtifactContentEvent artifactContent = (ArtifactContentEvent)content;
 
-                Debug.Log("ARTIFACT FOUND: " + artifactContent.content.name);
+                //Debug.Log("ARTIFACT FOUND: " + artifactContent.content.name);
                 pattern = artifactContent.content.name;
             }
             else
@@ -353,13 +392,13 @@ namespace TranslatedWarning.Patches
 
             System.Random random = new System.Random();
             int index = random.Next(0, eventCommentArray.Length); //make a random number from 0 to array length
-            Debug.Log($"COMMENT CHOSEN: {pattern}.{index}");
+            //Debug.Log($"COMMENT CHOSEN: {pattern}.{index}");
             string comment = eventCommentArray[index];
             return eventCommentArray[index];
         }
 
 
-
+        
 
         // =============== UI ===============
         // ----- MAIN MENU -----
@@ -367,23 +406,34 @@ namespace TranslatedWarning.Patches
         {
             orig(self, newPage);
             string currentPage = newPage.GetType().ToString();
-            Debug.Log($"InjectTranslation: TRANSITION TO {currentPage}");
+            //Debug.Log($"InjectTranslation: TRANSITION TO {currentPage}");
 
             switch (currentPage)
             {
                 case "MainMenuMainPage":
-                    if (TranslatedWarning.seenList.Contains(currentPage)) { Debug.Log($"InjectTranslation: ALREADY SEEN!!!!!");  break; }
-                    Debug.Log("CASE MAIN MENU!!!!!!!!");
+                    if (TranslatedWarning.seenList.Contains(currentPage)) 
+                    { 
+                        //Debug.Log($"InjectTranslation: ALREADY SEEN!!!!!");                                  
+                        break; 
+                    }
+                    //Debug.Log("CASE MAIN MENU!!!!!!!!");
                     Transform buttonsList = newPage.gameObject.transform.GetChild(3);
                     foreach (Transform button in buttonsList) 
                     {
                         TranslateText(button);
                     }
                     TranslatedWarning.seenList.Add(currentPage);
+                    Transform title = newPage.gameObject.transform.GetChild(2);
+                    Image image = title.GetComponent<Image>();
+                    image.sprite = TranslatedWarning.titleTranslated;
                     break;
 
                 case "MainMenuSettingsPage":
-                    if (TranslatedWarning.seenList.Contains(currentPage)) { Debug.Log($"InjectTranslation: ALREADY SEEN!!!!!"); break; }
+                    if (TranslatedWarning.seenList.Contains(currentPage)) 
+                    { 
+                        //Debug.Log($"InjectTranslation: ALREADY SEEN!!!!!");
+                        break;
+                    }
                     Debug.Log("CASE SETTINGS!!!!!!!!");
                     Transform settings = newPage.transform.GetChild(2);
 
@@ -401,8 +451,12 @@ namespace TranslatedWarning.Patches
 
                 case "MainMenuHostPage":
 
-                    if (TranslatedWarning.seenList.Contains(currentPage)) { Debug.Log($"InjectTranslation: ALREADY SEEN!!!!!"); break; }
-                    Debug.Log("CASE HOST!!!!!!!!");
+                    if (TranslatedWarning.seenList.Contains(currentPage)) 
+                    { 
+                        //Debug.Log($"InjectTranslation: ALREADY SEEN!!!!!"); 
+                        break; 
+                    }
+                    //Debug.Log("CASE HOST!!!!!!!!");
 
                     Transform hostPage = newPage.gameObject.transform;
 
@@ -457,7 +511,7 @@ namespace TranslatedWarning.Patches
 
             if (text != null)
             {
-                Debug.Log(text.text + "!!!!!!!!!!!!!");
+                //Debug.Log(text.text + "!!!!!!!!!!!!!");
                 try
                 {
                     if (key.IsNullOrWhiteSpace())
